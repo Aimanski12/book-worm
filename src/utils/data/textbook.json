@@ -1,0 +1,1397 @@
+[
+  {
+    "name": "Accounting",
+    "link": "accounting",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Auditing",
+        "link": "auditing",
+        "url": "cat"
+      },
+      {
+        "name": "Bookeeping",
+        "link": "bookeeping",
+        "url": "cat"
+      },
+      {
+        "name": "Corporate Accounting",
+        "link": "corporate-accounting",
+        "url": "query"
+      },
+      {
+        "name": "CPA Study Guides",
+        "link": "cpa-study-guides",
+        "url": "query"
+      },
+      {
+        "name": "Financial Accounting",
+        "link": "financial-accounting",
+        "url": "query"
+      },
+      {
+        "name": "General Accounting",
+        "link": "general-accounting",
+        "url": "query"
+      },
+      {
+        "name": "International Accounting",
+        "link": "international-accounting",
+        "url": "query"
+      },
+      {
+        "name": "Managerial Accounting",
+        "link": "manegerial-accounting",
+        "url": "query"
+      },
+      {
+        "name": "Professional Accounting",
+        "link": "professional-accounting",
+        "url": "query"
+      },
+      {
+        "name": "Taxation",
+        "link": "taxation",
+        "url": "cat"
+      }
+    ]
+  },
+  {
+    "name": "Algebra",
+    "link": "algebra",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Abstract Algebra",
+        "link": "abstract-algebra",
+        "url": "query"
+      },
+      {
+        "name": "College Algebra",
+        "link": "college-algebra",
+        "url": "query"
+      },
+      {
+        "name": "Elementary Algebra",
+        "link": "elementary-algebra",
+        "url": "query"
+      },
+      {
+        "name": "Linear Algebra",
+        "link": "linear-algebra",
+        "url": "query"
+      }
+    ]
+  },
+  {
+    "name": "Architecture",
+    "link": "architecture",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Architectural Time Periods & Style",
+        "link": "architectural-time-periods-style",
+        "url": "query"
+      },
+      {
+        "name": "Building Types Architecture",
+        "link": "building-types-architecture",
+        "url": "query"
+      },
+      {
+        "name": "General Architecture",
+        "link": "general-architecture",
+        "url": "query"
+      },
+      {
+        "name": "Geographic Architecture",
+        "link": "geographic-architecture",
+        "url": "query"
+      },
+      {
+        "name": "Urban Architecture",
+        "link": "urban-architecture",
+        "url": "query"
+      }
+    ]
+  },
+  {
+    "name": "Art",
+    "link": "art",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "African Art",
+        "link": "african-art",
+        "url": "query"
+      },
+      {
+        "name": "American Art",
+        "link": "american-art",
+        "url": "query"
+      },
+      {
+        "name": "Ancient Art",
+        "link": "ancient-art",
+        "url": "query"
+      },
+      {
+        "name": "Asian Art",
+        "link": "asian-art",
+        "url": "query"
+      },
+      {
+        "name": "European Art",
+        "link": "european-art",
+        "url": "query"
+      },
+      {
+        "name": "Renaissance Art",
+        "link": "renaissane-art",
+        "url": "query"
+      },
+      {
+        "name": "Sculpture",
+        "link": "sculpture",
+        "url": "cat"
+      },
+      {
+        "name": "Types of Art",
+        "link": "types-of-art",
+        "url": "query"
+      }
+    ]
+  },
+  {
+    "name": "Biology",
+    "link": "biology",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Anatomy",
+        "link": "anatomy",
+        "url": "cat"
+      },
+      {
+        "name": "Biology",
+        "link": "biology",
+        "url": "cat"
+      },
+      {
+        "name": "Biophysics",
+        "link": "biophysics",
+        "url": "cat"
+      },
+      {
+        "name": "Botany",
+        "link": "botany",
+        "url": "cat"
+      },
+      {
+        "name": "Cardiology",
+        "link": "cardiology",
+        "url": "cat"
+      },
+      {
+        "name": "Cystology",
+        "link": "cystology",
+        "url": "cat"
+      },
+      {
+        "name": "Evolution",
+        "link": "evolution",
+        "url": "cat"
+      },
+      {
+        "name": "Genetics",
+        "link": "genetics",
+        "url": "cat"
+      },
+      {
+        "name": "Neurology",
+        "link": "neurology",
+        "url": "cat"
+      },
+      {
+        "name": "Physiology",
+        "link": "physiology",
+        "url": "cat"
+      },
+      {
+        "name": "Zoology",
+        "link": "zoology",
+        "url": "cat"
+      }
+    ]
+  },
+  {
+    "name": "Business",
+    "link": "business",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Accounting",
+        "link": "accounting",
+        "url": "cat"
+      },
+      {
+        "name": "Business History",
+        "link": "business-history",
+        "url": "query"
+      },
+      {
+        "name": "Business Biography",
+        "link": "business-biography",
+        "url": "query"
+      },
+      {
+        "name": "Business Technology",
+        "link": "business-technology",
+        "url": "query"
+      },
+      {
+        "name": "Economics",
+        "link": "economics",
+        "url": "cat"
+      },
+      {
+        "name": "Human Resources",
+        "link": "human-resources",
+        "url": "query"
+      },
+      {
+        "name": "Industries",
+        "link": "industries",
+        "url": "cat"
+      },
+      {
+        "name": "Real Estate",
+        "link": "real-estate",
+        "url": "query"
+      },
+      {
+        "name": "Woman in Business",
+        "link": "woman-in-business",
+        "url": "query"
+      }
+    ]
+  },
+  {
+    "name": "Calculus",
+    "link": "calculus",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Advanced Calculus",
+        "link": "advanced-calculus",
+        "url": "query"
+      },
+      {
+        "name": "Geometry",
+        "link": "geometry",
+        "url": "cat"
+      },
+      {
+        "name": "Modern Calculus",
+        "link": "modern-calculus",
+        "url": "query"
+      },
+      {
+        "name": "Pre-Calculus",
+        "link": "pre-calculus",
+        "url": "query"
+      }
+    ]
+  },
+  {
+    "name": "Chemistry",
+    "link": "chemistry",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Analytical Chemistry",
+        "link": "analytical-chemistry",
+        "url": "query"
+      },
+      {
+        "name": "Atoms",
+        "link": "atoms",
+        "url": "cat"
+      },
+      {
+        "name": "Biochemistry",
+        "link": "biochemistry",
+        "url": "cat"
+      },
+      {
+        "name": "Chemical Elements",
+        "link": "chemical-elements",
+        "url": "query"
+      },
+      {
+        "name": "History of Chemistry",
+        "link": "history-of-chemistry",
+        "url": "query"
+      },
+      {
+        "name": "Ions",
+        "link": "ions",
+        "url": "cat"
+      },
+      {
+        "name": "Molecules",
+        "link": "molecules",
+        "url": "cat"
+      },
+      {
+        "name": "Organic Chemistry",
+        "link": "organic-chemistry",
+        "url": "query"
+      },
+      {
+        "name": "Physical Chemistry",
+        "link": "physical-chemistry",
+        "url": "query"
+      },
+      {
+        "name": "Theoritical Chemistry",
+        "link": "theoritical-chemistry",
+        "url": "query"
+      }
+    ]
+  },
+  {
+    "name": "Computers",
+    "link": "computers",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Artificial Intelligence",
+        "link": "artificial-intelligence",
+        "url": "cat"
+      },
+      {
+        "name": "Computer Graphics",
+        "link": "computer-graphics",
+        "url": "cat"
+      },
+      {
+        "name": "Computer Programming",
+        "link": "computer-programming",
+        "url": "cat"
+      },
+      {
+        "name": "Database Management",
+        "link": "database-management",
+        "url": "cat"
+      },
+      {
+        "name": "Internet",
+        "link": "internet",
+        "url": "cat"
+      },
+      {
+        "name": "Multimedia",
+        "link": "multimedia",
+        "url": "query2"
+      },
+      {
+        "name": "Telecommunications",
+        "link": "telecommunications",
+        "url": "cat"
+      },
+      {
+        "name": "Operating Systems",
+        "link": "operating-systems",
+        "url": "cat"
+      },
+      {
+        "name": "Softwares",
+        "link": "softwares",
+        "url": "cat"
+      }
+    ]
+  },
+  {
+    "name": "Design",
+    "link": "design",
+    "url": "query",
+    "lists": [
+      {
+        "name": "Furniture",
+        "link": "furniture",
+        "url": "cat"
+      },
+      {
+        "name": "General Design",
+        "link": "general-design",
+        "url": "query"
+      },
+      {
+        "name": "Industrial Design",
+        "link": "industrial-design",
+        "url": "query"
+      },
+      {
+        "name": "Jewelry Design",
+        "link": "jewelry-design",
+        "url": "query"
+      },
+      {
+        "name": "Textile Design",
+        "link": "textile-design",
+        "url": "query"
+      }
+    ]
+  },
+  {
+    "name": "Economics",
+    "link": "economics",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Agricultural Economics",
+        "link": "agricultural-economics",
+        "url": "cat"
+      },
+      {
+        "name": "Competition Economics",
+        "link": "competition-economics",
+        "url": "query"
+      },
+      {
+        "name": "Consumption Economics",
+        "link": "consumption-economics",
+        "url": "query"
+      },
+      {
+        "name": "Economic Development",
+        "link": "economic-development",
+        "url": "cat"
+      },
+      {
+        "name": "Economics of Education",
+        "link": "economics-of-education",
+        "url": "query"
+      },
+      {
+        "name": "Economic History",
+        "link": "economic-history",
+        "url": "cat"
+      },
+      {
+        "name": "Economic Systems",
+        "link": "economic-systems",
+        "url": "query"
+      },
+      {
+        "name": "Economic Theory",
+        "link": "economic-theory",
+        "url": "cat"
+      },
+      {
+        "name": "Environmental Economics",
+        "link": "environmental-economics",
+        "url": "cat"
+      },
+      {
+        "name": "International Economics",
+        "link": "international-economics",
+        "url": "query"
+      },
+      {
+        "name": "Labor Economics",
+        "link": "labor-economics",
+        "url": "cat"
+      },
+      {
+        "name": "Macro Economics",
+        "link": "macro-economics",
+        "url": "cat"
+      },
+      {
+        "name": "Micro Economics",
+        "link": "micro-economics",
+        "url": "cat"
+      }
+    ]
+  },
+  {
+    "name": "Education",
+    "link": "education",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Academic Education",
+        "link": "academic-education",
+        "url": "query"
+      },
+      {
+        "name": "Educational Level",
+        "link": "educational-level",
+        "url": "query"
+      },
+      {
+        "name": "General Education",
+        "link": "general-education",
+        "url": "cat"
+      },
+      {
+        "name": "Social Education",
+        "link": "social-education",
+        "url": "query"
+      },
+      {
+        "name": "Special Education",
+        "link": "special-education",
+        "url": "cat"
+      },
+      {
+        "name": "University Education",
+        "link": "university-education",
+        "url": "query"
+      }
+    ]
+  },
+  {
+    "name": "Engineering",
+    "link": "engineering",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Aerospace Engineering",
+        "link": "aerospace-engineering",
+        "url": "cat"
+      },
+      {
+        "name": "Chemical Engineering",
+        "link": "chemical-engineering",
+        "url": "cat"
+      },
+      {
+        "name": "Civil Engineering",
+        "link": "civil-engineering",
+        "url": "cat"
+      },
+      {
+        "name": "Electrical Engineering",
+        "link": "electrical-engineering",
+        "url": "cat"
+      },
+      {
+        "name": "Environmental Engineering",
+        "link": "environmental-engineering",
+        "url": "cat"
+      },
+      {
+        "name": "Hydraulic Engineering",
+        "link": "hydraulic-engineering",
+        "url": "cat"
+      },
+      {
+        "name": "Industrial Engineering",
+        "link": "industrial-engineering",
+        "url": "cat"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "link": "mechanical-engineering",
+        "url": "cat"
+      },
+      {
+        "name": "Microprocessors",
+        "link": "microprocessors",
+        "url": "cat"
+      },
+      {
+        "name": "Power Resources",
+        "link": "power-resources",
+        "url": "cat"
+      },
+      {
+        "name": "Social Engineering",
+        "link": "social-engineering",
+        "url": "cat"
+      },
+      {
+        "name": "Solar Energy",
+        "link": "solar-energy",
+        "url": "cat"
+      },
+      {
+        "name": "Structural Engineering",
+        "link": "structural-engineering",
+        "url": "cat"
+      },
+      {
+        "name": "Telecommunications",
+        "link": "telecommunications",
+        "url": "cat"
+      }
+    ]
+  },
+  {
+    "name": "History",
+    "link": "history",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "African History",
+        "link": "african-history",
+        "url": "query"
+      },
+      {
+        "name": "Ancient History",
+        "link": "ancient-history",
+        "url": "query"
+      },
+      {
+        "name": "Asian History",
+        "link": "asian-history",
+        "url": "query"
+      },
+      {
+        "name": "Australian History",
+        "link": "australian-history",
+        "url": "query"
+      },
+      {
+        "name": "Canadian History",
+        "link": "canadian-history",
+        "url": "query"
+      },
+      {
+        "name": "European History",
+        "link": "european-history",
+        "url": "query"
+      },
+      {
+        "name": "Latin America",
+        "link": "latin-america",
+        "url": "cat"
+      },
+      {
+        "name": "Middle Eastern",
+        "link": "middle-eastern",
+        "url": "cat"
+      },
+      {
+        "name": "Military History",
+        "link": "military-history",
+        "url": "cat"
+      },
+      {
+        "name": "Russian & Soviet History",
+        "link": "russian-soviet-history",
+        "url": "cat"
+      },
+      {
+        "name": "United States History",
+        "link": "united-states-history",
+        "url": "cat"
+      },
+      {
+        "name": "World History",
+        "link": "world-history",
+        "url": "cat"
+      }
+    ]
+  },
+  {
+    "name": "Law",
+    "link": "law",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Business Law",
+        "link": "business-law",
+        "url": "cat"
+      },
+      {
+        "name": "Commercial Law",
+        "link": "commercial-law",
+        "url": "cat"
+      },
+      {
+        "name": "Constitutional Law",
+        "link": "constitutional-law",
+        "url": "cat"
+      },
+      {
+        "name": "Courts & Trial",
+        "link": "courts-trial",
+        "url": "cat"
+      },
+      {
+        "name": "Criminal Law",
+        "link": "criminal-law",
+        "url": "cat"
+      },
+      {
+        "name": "Criminology",
+        "link": "criminology",
+        "url": "cat"
+      },
+      {
+        "name": "Family Law",
+        "link": "family-law",
+        "url": "cat"
+      },
+      {
+        "name": "Environmental Law",
+        "link": "environmental-law",
+        "url": "cat"
+      },
+      {
+        "name": "Ethics",
+        "link": "ethics",
+        "url": "cat"
+      },
+      {
+        "name": "Immigration & Emigration",
+        "link": "immigration-emigration",
+        "url": "cat"
+      },
+      {
+        "name": "International Law",
+        "link": "international-law",
+        "url": "cat"
+      },
+      {
+        "name": "Labor Law",
+        "link": "labor-law",
+        "url": "cat"
+      },
+      {
+        "name": "Liability Law",
+        "link": "liability-law",
+        "url": "cat"
+      },
+      {
+        "name": "Public Health & Safety",
+        "link": "public-health-safety",
+        "url": "query2"
+      }
+    ]
+  },
+  {
+    "name": "Literature",
+    "link": "literature",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "American Fiction",
+        "link": "american-fiction",
+        "url": "cat"
+      },
+      {
+        "name": "Classics",
+        "link": "classics",
+        "url": "cat"
+      },
+      {
+        "name": "Drama",
+        "link": "drama",
+        "url": "cat"
+      },
+      {
+        "name": "Essays",
+        "link": "essays",
+        "url": "cat"
+      },
+      {
+        "name": "Fables",
+        "link": "fables",
+        "url": "cat"
+      },
+      {
+        "name": "Folklore",
+        "link": "folklore",
+        "url": "cat"
+      },
+      {
+        "name": "Humanities",
+        "link": "humanities",
+        "url": "cat"
+      },
+      {
+        "name": "Letters",
+        "link": "letters",
+        "url": "cat"
+      },
+      {
+        "name": "Literary Criticism",
+        "link": "literary-criticism",
+        "url": "cat"
+      },
+      {
+        "name": "Mythology",
+        "link": "mythology",
+        "url": "cat"
+      }
+    ]
+  },
+  {
+    "name": "Mathematics",
+    "link": "mathematics",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Algebra",
+        "link": "algebra",
+        "url": "cat"
+      },
+      {
+        "name": "Calculus",
+        "link": "calculus",
+        "url": "cat"
+      },
+      {
+        "name": "Cryptography",
+        "link": "cryptography",
+        "url": "cat"
+      },
+      {
+        "name": "Geometry",
+        "link": "geometry",
+        "url": "cat"
+      },
+      {
+        "name": "Manifolds",
+        "link": "manifolds",
+        "url": "query2"
+      },
+      {
+        "name": "Trigonometry",
+        "link": "trigonometry",
+        "url": "cat"
+      },
+      {
+        "name": "Statistics",
+        "link": "statistics",
+        "url": "cat"
+      }
+    ]
+  },
+  {
+    "name": "Medicine",
+    "link": "medicine",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Botany",
+        "link": "botany",
+        "url": "cat"
+      },
+      {
+        "name": "Cardiology",
+        "link": "cardiology",
+        "url": "cat"
+      },
+      {
+        "name": "Dentistry",
+        "link": "dentistry",
+        "url": "cat"
+      },
+      {
+        "name": "Family Medicine",
+        "link": "family-medicine",
+        "url": "cat"
+      },
+      {
+        "name": "Hepatology",
+        "link": "hepatology",
+        "url": "cat"
+      },
+      {
+        "name": "Neurology",
+        "link": "neurology",
+        "url": "cat"
+      },
+      {
+        "name": "Obesity",
+        "link": "obesity",
+        "url": "cat"
+      },
+      {
+        "name": "Oncology",
+        "link": "oncology",
+        "url": "cat"
+      },
+      {
+        "name": "Physiology",
+        "link": "physiology",
+        "url": "cat"
+      },
+      {
+        "name": "Veterinary Medicine",
+        "link": "veterinary-medicine",
+        "url": "cat"
+      }
+    ]
+  },
+  {
+    "name": "Music",
+    "link": "music",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Blues Music",
+        "link": "blues-music",
+        "url": "cat"
+      },
+      {
+        "name": "Country Music",
+        "link": "country-music",
+        "url": "cat"
+      },
+      {
+        "name": "Composers",
+        "link": "composers",
+        "url": "cat"
+      },
+      {
+        "name": "Dance Music",
+        "link": "dance-music",
+        "url": "cat"
+      },
+      {
+        "name": "Guitar",
+        "link": "guitar",
+        "url": "cat"
+      },
+      {
+        "name": "Jazz",
+        "link": "Jazz",
+        "url": "cat"
+      },
+      {
+        "name": "Music Instruments",
+        "link": "music-instruments",
+        "url": "cat"
+      },
+      {
+        "name": "Music Theory",
+        "link": "music-theory",
+        "url": "cat"
+      },
+      {
+        "name": "Piano",
+        "link": "piano",
+        "url": "cat"
+      },
+      {
+        "name": "Rock & Roll",
+        "link": "rock-roll",
+        "url": "cat"
+      },
+      {
+        "name": "World Music",
+        "link": "world-music",
+        "url": "cat"
+      }
+    ]
+  },
+  {
+    "name": "Nursing",
+    "link": "nursing",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Emerygency Nursing",
+        "link": "emergency-nursing",
+        "url": "cat"
+      },
+      {
+        "name": "Health Care",
+        "link": "health-care",
+        "url": "query2"
+      },
+      {
+        "name": "Medicine & Nursing",
+        "link": "medicine-nursing",
+        "url": "cat"
+      },
+      {
+        "name": "Nurse & Patient",
+        "link": "nurse-patient",
+        "url": "cat"
+      },
+      {
+        "name": "Oncology Nursing",
+        "link": "oncology-nursing",
+        "url": "query"
+      },
+      {
+        "name": "Psychiatric Nursing",
+        "link": "psychiatric-nursing",
+        "url": "cat"
+      },
+      {
+        "name": "Pediatric Nursing",
+        "link": "pediatric-nursing",
+        "url": "cat"
+      },
+      {
+        "name": "Rehabilitation",
+        "link": "rehabilitation",
+        "url": "cat"
+      }
+    ]
+  },
+  {
+    "name": "Philosophy",
+    "link": "nursing",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "American Philosophy",
+        "link": "american-philosohy",
+        "url": "query"
+      },
+      {
+        "name": "Ancient Philosophy",
+        "link": "ancient-philosophy",
+        "url": "query"
+      },
+      {
+        "name": "Asian Philosophy",
+        "link": "asian-philosophy",
+        "url": "query"
+      },
+      {
+        "name": "Buddhism",
+        "link": "buddhism",
+        "url": "cat"
+      },
+      {
+        "name": "Christian Philosophy",
+        "link": "christian-philosophy",
+        "url": "cat"
+      },
+      {
+        "name": "Epistemology",
+        "link": "epistemology",
+        "url": "cat"
+      },
+      {
+        "name": "Ethics",
+        "link": "ethics",
+        "url": "cat"
+      },
+      {
+        "name": "European Philosophy",
+        "link": "european-philosophy",
+        "url": "query"
+      },
+      {
+        "name": "Hinduism",
+        "link": "hinduism",
+        "url": "cat"
+      },
+      {
+        "name": "Indian Philosophy",
+        "link": "indian-philosophy",
+        "url": "cat"
+      },
+      {
+        "name": "Medieval Philosophy",
+        "link": "medieval-philosophy",
+        "url": "cat"
+      },
+      {
+        "name": "Modern Philosophy",
+        "link": "modern-philosophy",
+        "url": "query"
+      },
+      {
+        "name": "Taoism",
+        "link": "taoism",
+        "url": "cat"
+      },
+      {
+        "name": "Theology",
+        "link": "theology",
+        "url": "cat"
+      },
+      {
+        "name": "Zen & Peace",
+        "link": "zen-peace",
+        "url": "cat"
+      }
+    ]
+  },
+  {
+    "name": "Politics",
+    "link": "politics",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Asian Politics",
+        "link": "asian-politics",
+        "url": "query"
+      },
+      {
+        "name": "Capitalism",
+        "link": "capitalism",
+        "url": "cat"
+      },
+      {
+        "name": "Communism",
+        "link": "communism",
+        "url": "cat"
+      },
+      {
+        "name": "Economics & Politics",
+        "link": "economics-politics",
+        "url": "cat"
+      },
+      {
+        "name": "European Politics",
+        "link": "european-politics",
+        "url": "query"
+      },
+      {
+        "name": "Human Rights",
+        "link": "human-rights",
+        "url": "cat"
+      },
+      {
+        "name": "Immigration & Emigration",
+        "link": "immigration-emigration",
+        "url": "cat"
+      },
+      {
+        "name": "International Relations",
+        "link": "international-relations",
+        "url": "cat"
+      },
+      {
+        "name": "Labor & Politics",
+        "link": "labor-politics",
+        "url": "cat"
+      },
+      {
+        "name": "Middle Eastern Politics",
+        "link": "middle-eastern-politics",
+        "url": "query"
+      },
+      {
+        "name": "Politics & Government",
+        "link": "politics-government",
+        "url": "cat"
+      },
+      {
+        "name": "Public Health & Safety",
+        "link": "public-health-safety",
+        "url": "cat"
+      },
+      {
+        "name": "Social Services",
+        "link": "social-services",
+        "url": "cat"
+      },
+      {
+        "name": "Terrorism",
+        "link": "terrorism",
+        "url": "cat"
+      },
+      {
+        "name": "World Politics",
+        "link": "world-politics",
+        "url": "cat"
+      }
+    ]
+  },
+  {
+    "name": "Psychology",
+    "link": "",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Anxiety",
+        "link": "anxiety",
+        "url": "cat"
+      },
+      {
+        "name": "Brain Damage",
+        "link": "brain-damage",
+        "url": "cat"
+      },
+      {
+        "name": "Clinical Psychology",
+        "link": "clinical-psychology",
+        "url": "cat"
+      },
+      {
+        "name": "Cognitive Science",
+        "link": "cognitive-science",
+        "url": "cat"
+      },
+      {
+        "name": "Counseling Psychology",
+        "link": "counseling-psychology",
+        "url": "cat"
+      },
+      {
+        "name": "Depression",
+        "link": "depression",
+        "url": "cat"
+      },
+      {
+        "name": "Educational Psychology",
+        "link": "educational-psychology",
+        "url": "cat"
+      },
+      {
+        "name": "Forensic Psychology",
+        "link": "forensic-psychology",
+        "url": "cat"
+      },
+      {
+        "name": "Mentoring",
+        "link": "mentoring",
+        "url": "cat"
+      },
+      {
+        "name": "Neuroplasticity",
+        "link": "neuroplasticity",
+        "url": "cat"
+      },
+      {
+        "name": "Psychotherapy",
+        "link": "psychotherapy",
+        "url": "cat"
+      }
+    ]
+  },
+  {
+    "name": "Science",
+    "link": "science",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Astronomy",
+        "link": "astronomy",
+        "url": "cat"
+      },
+      {
+        "name": "Cognitive Science",
+        "link": "cognitive-science",
+        "url": "cat"
+      },
+      {
+        "name": "Ecology",
+        "link": "ecology",
+        "url": "cat"
+      },
+      {
+        "name": "Physical Science",
+        "link": "physical-science",
+        "url": "cat"
+      },
+      {
+        "name": "Physics",
+        "link": "physics",
+        "url": "cat"
+      },
+      {
+        "name": "Pseudoscience",
+        "link": "pseudoscience",
+        "url": "cat"
+      },
+      {
+        "name": "Art & Science",
+        "link": "art-science",
+        "url": "cat"
+      },
+      {
+        "name": "Analysis & Covariance",
+        "link": "analysis-covariance",
+        "url": "cat"
+      },
+      {
+        "name": "Discoveries in Science",
+        "link": "discoveries-in-science",
+        "url": "cat"
+      },
+      {
+        "name": "Inventions",
+        "link": "inventions",
+        "url": "cat"
+      },
+      {
+        "name": "Life Sciences",
+        "link": "life-sciences",
+        "url": "cat"
+      },
+      {
+        "name": "Zoology",
+        "link": "zoology",
+        "url": "cat"
+      }
+    ]
+  },
+  {
+    "name": "Social Science",
+    "link": "social-science",
+    "url": "cat",
+    "lists": [
+      {
+        "name": "Anthropology",
+        "link": "anthropology",
+        "url": "cat"
+      },
+      {
+        "name": "Archaeology",
+        "link": "archaeology",
+        "url": "cat"
+      },
+      {
+        "name": "Criminology",
+        "link": "criminology",
+        "url": "cat"
+      },
+      {
+        "name": "Environmental Sociology",
+        "link": "environmental-sociology",
+        "url": "cat"
+      },
+      {
+        "name": "Forecasting",
+        "link": "forecasting",
+        "url": "cat"
+      },
+      {
+        "name": "Islam",
+        "link": "islam",
+        "url": "cat"
+      },
+      {
+        "name": "Jews",
+        "link": "jews",
+        "url": "cat"
+      },
+      {
+        "name": "Occultism",
+        "link": "occultism",
+        "url": "cat"
+      },
+      {
+        "name": "Religion",
+        "link": "religion",
+        "url": "cat"
+      },
+      {
+        "name": "Rednecks",
+        "link": "rednecks",
+        "url": "cat"
+      },
+      {
+        "name": "Sociology",
+        "link": "sociology",
+        "url": "cat"
+      }
+    ]
+  }
+]
