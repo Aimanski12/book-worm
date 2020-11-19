@@ -415,8 +415,8 @@
         }, {
           "id": "HnaIDwAAQBAJ",
           "title": "Politicizing Sex in Contemporary Africa",
-          "authors": "http://books.google.com/books/content?id=HnaIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-          "thumbnail": ""
+          "authors": ["Ashley Currier"],
+          "thumbnail": "http://books.google.com/books/content?id=HnaIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "xsZmDwAAQBAJ",
           "title": "When Soldiers Rebel",
@@ -485,10 +485,10 @@
           "authors": ["John Muir"],
           "thumbnail": "http://books.google.com/books/content?id=Xf6zDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "_hh5DwAAQBAJ",
-          "title": "How to Give Up Plastic",
-          "authors": ["Will McCallum"],
-          "thumbnail": "http://books.google.com/books/content?id=_hh5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "6UL9DwAAQBAJ",
+          "title": "We Like It Wild",
+          "authors": ["Bradford Angier"],
+          "thumbnail": "http://books.google.com/books/content?id=6UL9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "AenbDwAAQBAJ",
           "title": "Roars from the Mountain",

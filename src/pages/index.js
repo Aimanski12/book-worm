@@ -6,20 +6,20 @@ import Items from '../components/Items'
 
 export default function Home() {
   const [data, setData] = useState({
-    isSet: false,
+    isSet: true,
     books: {}
   })
 
 
   useEffect(() => {
     (async function(){
-      const books = await APIRequest.getData('economics', 1)
-      if(!data.isSet){
-        setData({
-          isSet: true,
-          books: books.items
-        })
-      }
+      const books = await APIRequest.getData('auditing', 1)
+      // books.items.map(i => {
+      //   if (i.id === "5vxNDQAAQBAJ") {
+      //     console.log(i)
+      //   }
+      // })
+      
     })()
   })
 
@@ -32,18 +32,7 @@ export default function Home() {
       </Head>
 
       <main className='container'>
-        {
-          data.isSet ? <Items items={data.books}/> : null
-        }
-
-
-        {/* <div className="book">
-          <img src="http://books.google.com/books/content?id=puVqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api" alt=""/>
-          <span>This is a title</span>
-          <span>by: Aiman ADlawan</span>
-          <span>by: Aiman Adlawan</span>
-          <span>Rating 7.3</span>
-        </div> */}
+        <Items/>
       </main>
 
     </div>

@@ -9,6 +9,10 @@ main {
   background: rgba(230,230,230,0.8);
 }
 
+.top {
+  margin-bottom: 50px;
+  min-height: 300px;
+}
 
 
 .book {
@@ -26,8 +30,7 @@ main {
   background: rgba(130,20,230,0.1);
 }
 
-
-
+  
 
 /* 
 <div className="book">
