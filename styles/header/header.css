@@ -1,4 +1,9 @@
 
+header {
+  width: 100%;
+  min-width: 60px;
+}
+
 .navbar {
   width: 100%;
   height: 60px;
@@ -7,6 +12,7 @@
   justify-content: space-between;
 }
 
+/* navbar left */
 .navbar-left {
   width: 500px;
   flex-direction: row;
@@ -31,19 +37,19 @@
 
 .navbar-input input {
   width: 220px;
-  height: 36px;
+  height: 32px;
   border: none;
   border-radius: 5px 0 0 5px;
   padding-left: 12px;
-  font-family: 'Nunito', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.98em;
-  letter-spacing: -0.01em;
+  font-size: 0.96em;
+  letter-spacing: -0.015em;
   font-weight: 500;
-  color: #4F8982
+  color: #4F8982;
+  background: #EDEDED;
 }
 
 .navbar-input button {
-  height: 36px;
+  height: 32px;
   width: 36px;
   border: none;
   border-radius: 0 5px 5px 0;
@@ -72,32 +78,34 @@
   outline: none;
 } 
 
-/* 
-<header className='content-center navbar'>
-  <div className="content-center navbar-left">
-    <div className='content-center logo'>
-      <a href="/">
-        <img src="/images/navbar-logo.png" alt=""/>
-      </a>
-    </div>
-    <div className="content-center navbar-input">
-      <input type="Enter book title or author"/>
-      <button>
-        <span>
-          <Svg svg='search'/>
-        </span>
-      </button>
-    </div>
-  </div>
-  <div className="content-center navbar-right">
-    <div>
-      <Svg svg='explore'/>
-      <span>Explore Books</span>
-    </div>
-    <div>
-      <Svg svg='my books'/>
-      <span>My Books</span>
-    </div>
-  </div>
-</header>
-*/
+
+/* navbar right */
+.navbar-right {
+  justify-content: space-between;
+  flex-direction: row;
+  margin-right: 30px;
+  width: 270px;
+}
+
+.navbar-right a {
+  text-decoration: none;
+}
+
+.navbar-right div {
+  flex-direction: row;
+  color: #F8F8F8;
+  transition: all 0.2s ease-in;
+}
+
+.navbar-right div span {
+  flex-direction: row;
+  color: #F8F8F8;
+  margin-left: 8px;
+  font-size: 0.92em;
+  letter-spacing: -0.015em;
+}
+
+.navbar-right div:active {
+  transform: scale(0.8);
+  transition: all 0.2s ease-in;
+}
