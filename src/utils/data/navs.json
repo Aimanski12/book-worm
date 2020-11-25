@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Arts",
+    "link": "/non-fiction/arts",
+    "url": "cat"
+  },
+  {
+    "name": "Business",
+    "link": "/non-fiction/business",
+    "url": "query"
+  },
+  {
+    "name": "Classics",
+    "link": "/fiction/classics",
+    "url": "cat"
+  },
+  {
+    "name": "Cookbook", 
+    "link": "/non-fiction/cookbook", 
+    "url": "query"
+  },
+  {
+    "name": "Diet", 
+    "link": "/non-fiction/diet", 
+    "url": "cat"
+  },
+  {
+    "name": "Fables",
+    "link": "/fiction/fables",
+    "url": "cat"
+  },  
+  {
+    "name": "Fantasy",
+    "link": "/fiction/fantasy",
+    "url": "cat"
+  },
+  {
+    "name": "Food",
+    "link": "/non-fiction/food",
+    "url": "cat"
+  },
+  {
+    "name": "Horror",
+    "link": "/fiction/horror",
+    "url": "cat"
+  },
+  {
+    "name": "Humor",
+    "link": "humor",
+    "url": "cat"
+  },
+  {
+    "name": "Pets",
+    "link": "pets",
+    "url": "cat"
+  },
+  {
+    "name": "Politics",
+    "link": "/non-fiction/politics",
+    "url": "cat"
+  },
+  {
+    "name": "Romance",
+    "link": "/fiction/romance",
+    "url": "cat"
+  },
+  {
+    "name": "Sports",
+    "link": "/non-fiction/sports",
+    "url": "cat"
+  },
+  {
+    "name": "Thriller",
+    "link": "/fiction/thriller",
+    "url": "cat"
+  }, 
+  {
+    "name": "Travel",
+    "link": "/non-fiction/travel",
+    "url": "cat"
+  }
+]
+
+

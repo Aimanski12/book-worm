@@ -1,8 +1,10 @@
 import React, {useEffect, useState} from 'react'
 
 import Head from 'next/head'
-import {APIRequest} from '../utils/apis/api'
-import Items from '../components/Items'
+import Header from '../components/Header/Header'
+
+// import {APIRequest} from '../utils/apis/api'
+// import Items from '../components/Items'
 
 export default function Home() {
   const [data, setData] = useState({
@@ -13,7 +15,7 @@ export default function Home() {
 
   useEffect(() => {
     (async function(){
-      const books = await APIRequest.getData('auditing', 1)
+      // const books = await APIRequest.getData('fantasy', 1)
       // books.items.map(i => {
       //   if (i.id === "5vxNDQAAQBAJ") {
       //     console.log(i)
@@ -23,18 +25,18 @@ export default function Home() {
     })()
   })
 
-
   return (
-    <div className='container'>
+    <div className='content-center main-container'>
       <Head>
         <title>Book-Worm | Home</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/book-worm-small-logo.ico" />
       </Head>
 
-      <main className='container'>
-        <Items/>
+      <main className='content-center page-container'>
+       <Header />
       </main>
-
+     
     </div>
   )
 }
+

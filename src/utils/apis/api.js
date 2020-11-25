@@ -1,13 +1,22 @@
-// import fiction from '../data/fiction.json'
+import fiction from '../data/fiction.json'
 import nonfiction from '../data/nonfiction.json'
-// import category from '../data/categories.json'
-// import text from '../data/textbooks.json'
+import category from '../data/categories.json'
+import text from '../data/textbook.json'
+import navs from '../data/navs.json'
 export const APIRequest = (function(){
 
   const _getData = async (book, page) => {
     const data = await fetchData(book, page)
     console.log(data)
-    // console.log(nonfiction)
+
+    // console.log(text)
+
+    data.items.map(d =>{
+      // console.log(d.volumeInfo.title)
+      if (d.id === 'kPTvAwAAQBAJ') {
+        console.log(d)
+      }
+    })
     return data
   }
 
@@ -45,8 +54,7 @@ const fetchData = async (book, page) => {
   // category / genre
   url = `https://www.googleapis.com/books/v1/volumes?q=subject:"${book}"&maxResults=40&orderBy=newest&prettyPrint=true&key=${API_Key}&startIndex=${page}`
 
-  // url = `https://www.googleapis.com/books/v1/volumes?q=${'best life'}&printType=magazines&key=${API_Key}&startIndex=${page}&maxResults=40&startIndex=41&orderBy=newest`
-
+  // url = `https://www.googleapis.com/books/v1/volumes?q=${'best life'}&printType=magazines&key=${API_Key}&startIndex=${page}&maxResults=40&startIndex=41&orderBy=newest`                                  
   // ebook
   // url = `https://www.googleapis.com/books/v1/volumes?q="math"&maxResults=40&orderBy=newest&key=${API_Key}&startIndex=1&filter=ebooks`
 
