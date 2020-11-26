@@ -31,3 +31,8 @@ body, .main-container {
     width: 100%;
   }
 }
+
+
+.samp {
+  height: 50vh;
+}

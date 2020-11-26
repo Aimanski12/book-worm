@@ -2,6 +2,8 @@ import React, {useEffect, useState} from 'react'
 
 import Head from 'next/head'
 import Header from '../components/Header/Header'
+import FeaturedBooks from '../components/FeaturedBooks/FeaturedBooks'
+
 
 // import {APIRequest} from '../utils/apis/api'
 // import Items from '../components/Items'
@@ -33,10 +35,14 @@ export default function Home() {
       </Head>
 
       <main className='content-center page-container'>
-       <Header />
+        <Header />
+        <FeaturedBooks />
       </main>
+
+      <div className="samp"></div>
      
     </div>
   )
 }
 
+ 

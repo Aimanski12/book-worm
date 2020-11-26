@@ -86,5 +86,27 @@
       "name": "Travel",
       "link": "/non-fiction"
     }
+  ],
+  "midmenu": [
+    {
+      "name": "Non-Fiction",
+      "link": "/non-fiction"
+    },
+    {
+      "name": "Fiction",
+      "link": "/fiction"
+    },
+    {
+      "name": "Category",
+      "link": "/category"
+    },
+    {
+      "name": "Text Books",
+      "link": "/textbooks"
+    },
+    {
+      "name": "Discover",
+      "link": "/discover"
+    }
   ]
 }

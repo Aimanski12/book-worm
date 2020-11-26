@@ -2,6 +2,8 @@ import React from 'react'
 import ExploreMenu from './components/Explore-MyBooks'
 import LogoInput from './components/LogoInput'
 import Mininavs from './components/MiniNavs'
+import BookDay from './components/BookDay'
+import MidMenu from './components/MidMenu'
 
 function Header() {
   return (
@@ -11,6 +13,8 @@ function Header() {
         <ExploreMenu />
       </div>
       <Mininavs />
+      <BookDay />
+      <MidMenu />
     </header>
   )
 }
