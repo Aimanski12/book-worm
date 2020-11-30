@@ -14,6 +14,10 @@ import '../../styles/header/midmenu.css'
 // featured books css
 import '../../styles/featuredbooks/featuredbooks.css'
 
+// footer css
+import '../../styles/footer/footer.css'
+import '../../styles/footer/footerlink.css'
+
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
 }

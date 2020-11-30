@@ -1,11 +1,13 @@
 
+import gsap from 'gsap'
+
 export const Helpers = (function (){
 
   // function to sort title string
-  const _sortBookTitle = (text) => {
+  const _sliceText = (text, n) => {
     const length = text.length
-    if(length > 17) {
-      return `${text.substr(0, 17)}...`
+    if(length > n) {
+      return `${text.substr(0, n)}...`
     } else {
       return text
     }
@@ -36,13 +38,38 @@ export const Helpers = (function (){
     return authors
   }
 
+  // gets the day of the week
+  // returns a numeric value
+  const _getDay = () => {
+    return _now().getDay()
+  }
+
+  const _slideBooks = (a, b) => {
+    b.style.display = 'none'
+    b.style.opacity = 0
+    a.style.display = 'block'
+    gsap.to(a, {opacity: 1, duration: .35})
+    
+  }
+
   return {
-    sortBookTitle(text) {
-      return _sortBookTitle(text)
+    sliceText(text, n) {
+      return _sliceText(text, n)
     },
     sortAuthor(lists) {
       return _sortAuthor(lists)
+    }, 
+    getDay() {
+      return _getDay()
+    },
+    slideBooks (a, b) {
+      return _slideBooks(a, b)
     }
   }
 
 })()
+
+
+const _now = () => {
+  return new Date()
+}

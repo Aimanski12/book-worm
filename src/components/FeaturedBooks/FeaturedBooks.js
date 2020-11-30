@@ -1,12 +1,14 @@
 import React from 'react'
 import FeatureTitle from './components/FeatureTitle'
 import Books from './components/Books'
-import fiction from '../../utils/data/nonfictionlists.json'
+import {JSON} from '../../utils/data'
+
 
 function FeaturedBooks() {
-  let f = fiction[0]
 
-  const featurebooks = f.map((book, i) => {
+  const books = JSON.books('ft-daily')
+
+  const featurebooks = books.map((book, i) => {
     return (<Books books={book} key={i}/>)
   })
 

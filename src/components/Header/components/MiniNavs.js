@@ -1,10 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
-import navlist from '../../../utils/data/common.json'
+import {JSON} from '../../../utils/data'
 
 function MiniNavs() {
+  const navlist = JSON.data('mininavs')
 
-  const mininavs = navlist.mininavs.map((list, i) => {
+  const mininavs = navlist.map((list, i) => {
     return (
       <Link href={list.link} key={i}>
         <a className='text-1'>{list.name}</a>

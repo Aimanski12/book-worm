@@ -2,27 +2,29 @@ import React, {useEffect, useState} from 'react'
 
 import Head from 'next/head'
 import Header from '../components/Header/Header'
+import Footer from '../components/Footer/Footer'
 import FeaturedBooks from '../components/FeaturedBooks/FeaturedBooks'
 
 
-// import {APIRequest} from '../utils/apis/api'
-// import Items from '../components/Items'
+import {APIRequest} from '../utils/apis/api'
+import Sample from '../components/sss'
 
 export default function Home() {
   const [data, setData] = useState({
-    isSet: true,
+    isSet: false,
     books: {}
   })
 
 
   useEffect(() => {
     (async function(){
-      // const books = await APIRequest.getData('fantasy', 1)
-      // books.items.map(i => {
-      //   if (i.id === "5vxNDQAAQBAJ") {
-      //     console.log(i)
-      //   }
-      // })
+      const books = await APIRequest.getData('jews', 80)
+      if(!data.isSet) {
+        setData({
+          isSet: true,
+          books: books.items
+        })
+      }
       
     })()
   })
@@ -37,7 +39,17 @@ export default function Home() {
       <main className='content-center page-container'>
         <Header />
         <FeaturedBooks />
+        <Footer />
+
+
+
+
+
+
       </main>
+        {
+          data.isSet ? <Sample books={data.books}/> : null
+        }
 
       <div className="samp"></div>
      

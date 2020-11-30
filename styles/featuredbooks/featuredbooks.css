@@ -2,9 +2,7 @@
 .featured-books {
   width: 100%;
   min-height: 200px;
-
-
-  /* background: rgba(210,210,210,0.2); */
+  padding-bottom: 60px;
 }
 
 .today-featured-books {
@@ -14,10 +12,10 @@
 }
 
 .today-featured-books span {
-  color: #678985;
   letter-spacing: -0.025em;
-  font-size: 1.18em;
-  font-weight: 500;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #4B6C68;
   margin: 0 0 12px 40px;
 } 
 
@@ -26,15 +24,11 @@
   justify-content: space-between;
   align-items: flex-end;
   height: 45px;
-
-
-  
-  /* background: rgba(210,210,210,0.2); */
 }
 
 .collection-title {
   margin-left: 40px;
-  font-size: 1.28em;
+  font-size: 1.2em;
   font-weight: 600;
   color: #4B6C68;
   letter-spacing:  -0.025em;
@@ -45,6 +39,7 @@
   color: #DBA621;
   font-weight: 500;
   text-decoration: none;
+  font-size: 1em;
   transition: all 0.15s ease-in;
 }
 
@@ -66,6 +61,7 @@
   overflow-y: hidden;
 }
 
+
 /* width */
 .featured-books-slider::-webkit-scrollbar {
   height: 4px;
@@ -86,19 +82,11 @@
   background: #D0E7E4;
 }
 
-
-
-
-
-
-
 .featured-books-wrapper {
   width: 920px;
   flex-direction: row;
   justify-content: space-between;
   padding: 0 40px;
-  
-  /* background-color: red; */
 }
 
 .featured-books-indiv {
@@ -134,44 +122,3 @@
 .books-desc .book-author:hover, .books-desc .book-title:hover {
   text-decoration: underline;
 }
-
-
-/* 
-    <div className='featured-books-collection text-2'>
-      <div className="content-center featured-book-title">
-        <span>Drama</span>
-        <Link href='/'>
-          <a>
-            <span>View All</span>
-          </a>
-        </Link>
-      </div>
-
-      <div className="featured-books-slider">
-
-        <div className="content-center featured-books-wrapper">
-          <div className="content-center featured-books-indiv">
-            <Link href='/'>
-              <a>
-                <img src="http://books.google.com/books/content?id=6WbaCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api" alt=""/>
-              </a>
-            </Link>
-            <div className="content-center books-desc">
-              <Link href='/'>
-                <a className='book-title'>
-                  Samples
-                </a>
-              </Link>
-              <Link href='/'>
-                <a className='book-author'>
-                  Scott Hawkins
-                </a>
-              </Link>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-*/

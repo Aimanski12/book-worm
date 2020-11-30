@@ -1,22 +1,12 @@
-import fiction from '../data/fiction.json'
-import nonfiction from '../data/nonfiction.json'
-import category from '../data/categories.json'
-import text from '../data/textbook.json'
-import navs from '../data/navs.json'
+// import fiction from '../data/fiction.json'
+// import nonfiction from '../data/nonfiction.json'
+// import category from '../data/categories.json'
+// import text from '../data/textbook.json'
+// import navs from '../data/navs.json'
 export const APIRequest = (function(){
 
   const _getData = async (book, page) => {
     const data = await fetchData(book, page)
-    console.log(data)
-
-    // console.log(text)
-
-    data.items.map(d =>{
-      // console.log(d.volumeInfo.title)
-      if (d.id === 'kPTvAwAAQBAJ') {
-        console.log(d)
-      }
-    })
     return data
   }
 

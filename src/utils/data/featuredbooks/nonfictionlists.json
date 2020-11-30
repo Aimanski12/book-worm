@@ -327,39 +327,39 @@
       }
     ]
   }, {
-      "name": "History",
-      "link": "history",
+      "name": "Humor",
+      "link": "humor",
       "books": [
         {
-          "id": "f1C9DwAAQBAJ",
-          "title": "The Immortality Key",
-          "authors": ["Brian C. Muraresku"],
-          "thumbnail": "http://books.google.com/books/content?id=f1C9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "OfvgDwAAQBAJ",
+          "title": "What a Flanker",
+          "authors": ["James Haskell"],
+          "thumbnail": "http://books.google.com/books/content?id=OfvgDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "ayXWDwAAQBAJ",
-          "title": "If Then: How the Simulmatics Corporation Invented the Future",
-          "authors": ["Jill Lepore"],
-          "thumbnail": "http://books.google.com/books/content?id=ayXWDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "u7LQDwAAQBAJ",
+          "title": "ArtCurious",
+          "authors": ["Jennifer Dasal"],
+          "thumbnail": "http://books.google.com/books/content?id=u7LQDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "09C7DwAAQBAJ",
-          "title": "It Was All a Lie",
-          "authors": ["Stuart Stevens"],
-          "thumbnail": "http://books.google.com/books/content?id=09C7DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "tRD5DwAAQBAJ",
+          "title": "Dear Joan and Jericha - Why He Turns Away",
+          "authors": ["Joan Damry", "Jericha Domain"],
+          "thumbnail": "http://books.google.com/books/content?id=tRD5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "O19KDwAAQBAJ",
-          "title": "The World as It Is",
-          "authors": ["Ben Rhodes"],
-          "thumbnail": "http://books.google.com/books/content?id=O19KDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "AQLlDwAAQBAJ",
+          "title": "Creativity",
+          "authors": ["John Cleese"],
+          "thumbnail": "http://books.google.com/books/content?id=AQLlDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "58MjDwAAQBAJ",
-          "title": "Energy and Civilization",
-          "authors": ["Vaclav Smil"],
-          "thumbnail": "http://books.google.com/books/content?id=58MjDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "l_S_DwAAQBAJ",
+          "title": "Act Like a Lady",
+          "authors": ["Keltie Knight", "Becca Tobin", "Jac Vanek"],
+          "thumbnail": "http://books.google.com/books/content?id=l_S_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "1jKMDAAAQBAJ",
-          "title": "The Internationalists",
-          "authors": ["Oona A. Hathaway", "Scott J. Shapiro"],
-          "thumbnail": "http://books.google.com/books/content?id=1jKMDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "dbvbDwAAQBAJ",
+          "title": "You're Not Special",
+          "authors": ["Meghan Rienks"],
+          "thumbnail": "http://books.google.com/books/content?id=dbvbDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
     }, {
@@ -545,6 +545,42 @@
         }
       ]
     }, {
+      "name": "History",
+      "link": "history",
+      "books": [
+        {
+          "id": "f1C9DwAAQBAJ",
+          "title": "The Immortality Key",
+          "authors": ["Brian C. Muraresku"],
+          "thumbnail": "http://books.google.com/books/content?id=f1C9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        }, {
+          "id": "ayXWDwAAQBAJ",
+          "title": "If Then: How the Simulmatics Corporation Invented the Future",
+          "authors": ["Jill Lepore"],
+          "thumbnail": "http://books.google.com/books/content?id=ayXWDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        }, {
+          "id": "09C7DwAAQBAJ",
+          "title": "It Was All a Lie",
+          "authors": ["Stuart Stevens"],
+          "thumbnail": "http://books.google.com/books/content?id=09C7DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        }, {
+          "id": "O19KDwAAQBAJ",
+          "title": "The World as It Is",
+          "authors": ["Ben Rhodes"],
+          "thumbnail": "http://books.google.com/books/content?id=O19KDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        }, {
+          "id": "58MjDwAAQBAJ",
+          "title": "Energy and Civilization",
+          "authors": ["Vaclav Smil"],
+          "thumbnail": "http://books.google.com/books/content?id=58MjDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        }, {
+          "id": "1jKMDAAAQBAJ",
+          "title": "The Internationalists",
+          "authors": ["Oona A. Hathaway", "Scott J. Shapiro"],
+          "thumbnail": "http://books.google.com/books/content?id=1jKMDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        }
+      ]
+    }, {
       "name": "True Crime",
       "link": "true-crime",
       "books": [
@@ -686,42 +722,6 @@
           "title": "The Deepest South of All",
           "authors": ["Richard Grant"],
           "thumbnail": "http://books.google.com/books/content?id=webNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        }
-      ]
-    }, {
-      "name": "Humor",
-      "link": "humor",
-      "books": [
-        {
-          "id": "OfvgDwAAQBAJ",
-          "title": "What a Flanker",
-          "authors": ["James Haskell"],
-          "thumbnail": "http://books.google.com/books/content?id=OfvgDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        }, {
-          "id": "u7LQDwAAQBAJ",
-          "title": "ArtCurious",
-          "authors": ["Jennifer Dasal"],
-          "thumbnail": "http://books.google.com/books/content?id=u7LQDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        }, {
-          "id": "tRD5DwAAQBAJ",
-          "title": "Dear Joan and Jericha - Why He Turns Away",
-          "authors": ["Joan Damry", "Jericha Domain"],
-          "thumbnail": "http://books.google.com/books/content?id=tRD5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        }, {
-          "id": "AQLlDwAAQBAJ",
-          "title": "Creativity",
-          "authors": ["John Cleese"],
-          "thumbnail": "http://books.google.com/books/content?id=AQLlDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        }, {
-          "id": "l_S_DwAAQBAJ",
-          "title": "Act Like a Lady",
-          "authors": ["Keltie Knight", "Becca Tobin", "Jac Vanek"],
-          "thumbnail": "http://books.google.com/books/content?id=l_S_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        }, {
-          "id": "dbvbDwAAQBAJ",
-          "title": "You're Not Special",
-          "authors": ["Meghan Rienks"],
-          "thumbnail": "http://books.google.com/books/content?id=dbvbDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
     }, {

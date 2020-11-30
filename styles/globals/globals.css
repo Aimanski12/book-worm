@@ -36,3 +36,13 @@ body, .main-container {
 .samp {
   height: 50vh;
 }
+
+.sample {
+  width: 200px;
+  float: left;
+  height: 250px;
+}
+
+.sample span{
+  display: block;
+}

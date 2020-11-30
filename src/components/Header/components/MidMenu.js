@@ -1,10 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
-import menu from '../../../utils/data/common.json'
+import {JSON} from '../../../utils/data'
 
 function MidMenu() {
-
-  const midmenu = menu.midmenu.map((m, i) => {
+  const menu = JSON.data('midmenu')
+  
+  const midmenu = menu.map((m, i) => {
     return (
       <Link  href={m.link} key={i}>
         <a className='content-center text-1'>
