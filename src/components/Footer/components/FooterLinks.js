@@ -3,7 +3,7 @@ import Link from 'next/link'
 import {JSON} from '../../../utils/data'
 
 function FooterLinks() {
-  const links = JSON.data('ftrlinks')
+  const links = JSON.links('ftrlinks')
 
   const socialIcons = links.map((l, i) => {
     return (
@@ -21,11 +21,9 @@ function FooterLinks() {
       <span className='text-project'>
         A project for fun learning and creativity.
       </span>
-
       <div className="content-center footer-social-links">
         {socialIcons}
       </div>
-
       <span className='text-copyright'>
         © Aiman Adlawan 2020.
       </span>

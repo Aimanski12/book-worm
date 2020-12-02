@@ -19,21 +19,19 @@ function FeaturedType(props) {
     return (
       <div key={i}
         className="content-center featured-books-indiv" >
-
       <Link href={`${props.link}/[id]`} 
         as={`${props.link}/${list.id}`}>
         <a>
           <img src={list.thumbnail} alt={`${list.title} book cover`}/>
         </a>
       </Link>
-
       <div className="content-center books-desc">
         <Link href='/'>
           <a className='book-title'>
             {Helpers.sliceText(list.title, 18)}</a>
         </Link>
         <div className="book-author-wrapper">
-          {authors(Helpers.sortAuthor(list.authors))}
+          {authors(Helpers.sortAuthor(list.authors, 19))}
         </div>
       </div>
     </div>   

@@ -1,31 +1,31 @@
 import React from 'react'
+
 import Head from 'next/head'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
-import FeaturedBooks from '../components/FeaturedBooks/FeaturedBooks'
-import {JSON} from '../utils/data'
+import Link from 'next/link'
 
-export default function Home() {
-  // get book data
-  const books = JSON.getData('daily')
+export default function NotFound() {
 
   return (
     <div className='content-center main-container'>
       <Head>
-        <title>Book-Worm | Home</title>
+        <title>Book-Worm | File Not Found</title>
         <link rel="icon" href="/images/book-worm-small-logo.ico" />
       </Head>
 
       <main className='content-center page-container'>
-        <Header 
-          booksoftheday={true}
-          books={books.daily}/>
-        <FeaturedBooks 
-          books={books.featured}/>
+        <Header booksoftheday={false}/>
+
+        <div className="content-center not-found-wrapper text-2">
+          <span>File not found</span>
+          <Link href='/'>
+            <a>Go back to Home</a>
+          </Link>
+        </div>
+
         <Footer />
       </main>
     </div>
   )
 }
-
- 

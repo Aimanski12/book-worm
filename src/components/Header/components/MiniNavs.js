@@ -3,7 +3,7 @@ import Link from 'next/link'
 import {JSON} from '../../../utils/data'
 
 function MiniNavs() {
-  const navlist = JSON.data('mininavs')
+  const navlist = JSON.links('mininavs')
 
   const mininavs = navlist.map((list, i) => {
     return (

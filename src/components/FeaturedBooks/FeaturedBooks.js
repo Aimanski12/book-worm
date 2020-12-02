@@ -1,14 +1,9 @@
 import React from 'react'
 import FeatureTitle from './components/FeatureTitle'
 import Books from './components/Books'
-import {JSON} from '../../utils/data'
 
-
-function FeaturedBooks() {
-
-  const books = JSON.books('ft-daily')
-
-  const featurebooks = books.map((book, i) => {
+function FeaturedBooks(props) {
+  const featurebooks = props.books.map((book, i) => {
     return (<Books books={book} key={i}/>)
   })
 

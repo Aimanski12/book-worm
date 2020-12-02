@@ -1,5 +1,6 @@
 
 import gsap from 'gsap'
+import {JSON} from '../../utils/data/'
 
 export const Helpers = (function (){
 
@@ -14,27 +15,26 @@ export const Helpers = (function (){
   } 
 
   // function to sort authors lists
-  const _sortAuthor = (lists) => {
+  const _sortAuthor = (lists, n) => {
     let counter = 0
     let authors = []
 
     for (let x = 0; x < lists.length; x++) {
       let l = lists[x].length
-      if (counter < 19) {
-        if ((counter + l) < 19) {
+      if (counter < n) {
+        if ((counter + l) < n) {
           if(lists.length <= 1) {
             authors.push(lists[x])
           } else {
-            authors.push(`${lists[x]},`)
+            authors.push(`${lists[x]}, `)
           }
           counter += l
         } else {
-          authors.push(`${lists[x].substr(0, (19-counter))}..`)
+          authors.push(`${lists[x].substr(0, (n-counter))}..`)
           counter += l
         }
       } 
     }
-
     return authors
   }
 
@@ -44,20 +44,23 @@ export const Helpers = (function (){
     return _now().getDay()
   }
 
+  // small animation function to 'slide animate'
+  // books when arrow is clicked
   const _slideBooks = (a, b) => {
     b.style.display = 'none'
     b.style.opacity = 0
     a.style.display = 'block'
+    // animate the slide
     gsap.to(a, {opacity: 1, duration: .35})
-    
   }
+
 
   return {
     sliceText(text, n) {
       return _sliceText(text, n)
     },
-    sortAuthor(lists) {
-      return _sortAuthor(lists)
+    sortAuthor(lists, n) {
+      return _sortAuthor(lists, n)
     }, 
     getDay() {
       return _getDay()

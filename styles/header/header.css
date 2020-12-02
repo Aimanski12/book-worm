@@ -87,10 +87,6 @@ header {
   width: 270px;
 }
 
-.navbar-right a {
-  text-decoration: none;
-}
-
 .navbar-right div {
   flex-direction: row;
   color: #F8F8F8;

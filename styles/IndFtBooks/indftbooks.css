@@ -1,0 +1,25 @@
+
+.ind-ft-books {
+  width: 100%;
+  min-height: 500px;
+  border-top: 1px solid #DADADA;
+  padding-bottom: 90px
+}
+
+.ind-ft-books-wrapper {
+  width: 100%;
+  min-height: 500px;
+  flex-direction: row;
+  align-items: flex-start;
+
+  /* background: rgba(210,210,210,0.3); */
+}
+
+/* wrapper for the right side of the featured books */
+.indvl-ft-books {
+  width: 77%;
+  min-height: 500px;
+  border-left: 1px solid #DADADA;
+
+  /* background: rgba(180,180,180,0.15); */
+}

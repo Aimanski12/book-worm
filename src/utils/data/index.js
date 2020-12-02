@@ -10,45 +10,120 @@ import textbookmenulists from './menulists/textbook.json'
 import dailylists from './featuredbooks/daily.json'
 import categorylists from './featuredbooks/categorylists.json'
 import fictionlists from './featuredbooks/fictionlists.json'
-import nonfictionlist from './featuredbooks/nonfictionlists.json'
+import nonfictionlists from './featuredbooks/nonfictionlists.json'
 import textbooklists from './featuredbooks/textbooklists.json'
 
 // books of the day
 import dailybooks from './booksoftheday/daily.json'
+import nonfictionbooks from './booksoftheday/non-fiction.json'
+import fictionbooks from './booksoftheday/fiction.json'
+import categorybooks from './booksoftheday/category.json'
+import textbookbooks from './booksoftheday/textbooks.json'
 
 // helper functions
 import {Helpers} from '../common/helpers'
 
+// function to return daily books
+const dbks = (str) => {
+  switch (str) {
+    case 'daily': return dailybooks
+    case 'non-fiction': return nonfictionbooks
+    case 'fiction': return fictionbooks
+    case 'category': return categorybooks
+    case 'textbooks': return textbookbooks
+  }
+}
+
+// function to return featured books
+const ftbks = (str) => {
+  switch (str) {
+    case 'daily': return dailylists;
+    case 'category': return categorylists;
+    case 'fiction': return fictionlists;
+    case 'non-fiction': return nonfictionlists;
+    case 'textbooks': return textbooklists;
+  }
+}
+
+// function to return featured links
+const getlinks = (str) => {
+  switch (str) {
+    case 'ftrlinks': return commonmenulists.footerlinks;
+    case 'ftrnavs': return commonmenulists.footernavs;
+    case 'mininavs': return commonmenulists.mininavs;
+    case 'midmenu': return commonmenulists.midmenu;
+    case 'bkcatmenu': return commonmenulists.bookcatmenu;
+    case 'fiction': return fictionmenulists
+    case 'non-fiction': return nonfictionmenulists
+    case 'category': return categorymenu
+    case 'textbooks': return textbookmenulists
+  }
+}
+
+// function to sort the books by day
+const sortbooks = (books) => {
+  const day = Helpers.getDay()
+  return books[day]
+}
+
+
+
 export const JSON = (function(){
 
-  // function to extract data from the
-  // json lists of books and menu
-  const _data = (str) => {
-    switch (str){
-      case 'ftrlinks': return commonmenulists.footerlinks;
-      case 'ftrnavs': return commonmenulists.footernavs;
-      case 'mininavs': return commonmenulists.mininavs;
-      case 'midmenu': return commonmenulists.midmenu;
-      
-      case 'ft-daily': return dailylists;
+  // function to get the list according
+  // to the provided value
+  const _getlinks = (str) => {
+    return getlinks(str)
+  }
 
-      case 'bk-daily': return dailybooks
+  // function to get the daily books
+  // sorted according to day of the week
+  const _daily = (str) => {
+    return sortbooks(dbks(str))
+  }
+
+  // function to get the daily featured books
+  // sorted according to day of the week
+  const _featured = (str) => {
+    return sortbooks(ftbks(str))
+  }
+
+
+  const _getData = (str) =>{
+    if(str === 'daily') {
+      return {
+        daily: _daily(str),
+        featured: _featured(str)
+      }
+    } else if (str === 'fiction') {
+      return {
+        list: getlinks(str),
+        daily: _daily(str),
+        featured: _featured(str)
+      }
+    } else if (str === 'non-fiction') {
+      return {
+        list: getlinks(str),
+        daily: _daily(str),
+        featured: _featured(str)
+      }
+    } else if (str === 'category') {
+      return {
+        list: getlinks(str),
+        daily: _daily(str),
+        featured: _featured(str)
+      }
     }
   }
 
-  // get books according to the string provided
-  const _books = (str) => {
-    const day = Helpers.getDay()
-    const bks = _data(str)
-    return bks[day] 
-  }
+ 
 
   return {
-    data(str) {
-      return _data(str)
-    }, 
-    books(str) {
-      return _books(str)
+    links (str) {
+      return _getlinks(str)
+    },
+    getData (str) {
+      return _getData(str)
     }
   }
 })()

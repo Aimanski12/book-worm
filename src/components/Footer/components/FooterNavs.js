@@ -3,8 +3,6 @@ import Link from 'next/link'
 
 function FooterNavs(props) {
 
-  
-
   const lists = props.lists.map((list, i) => {
     return (
       <li key={i}>

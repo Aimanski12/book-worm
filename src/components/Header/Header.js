@@ -5,7 +5,7 @@ import Mininavs from './components/MiniNavs'
 import BookDay from './components/BookDay'
 import MidMenu from './components/MidMenu'
 
-function Header() {
+function Header(props) {
   return (
     <header>
       <div className="content-center navbar">
@@ -13,7 +13,8 @@ function Header() {
         <ExploreMenu />
       </div>
       <Mininavs />
-      <BookDay />
+      {props.booksoftheday ? 
+        <BookDay books={props.books}/> : null}
       <MidMenu />
     </header>
   )

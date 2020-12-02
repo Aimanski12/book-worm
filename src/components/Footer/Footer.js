@@ -5,9 +5,7 @@ import FooterLinks from './components/FooterLinks'
 import {JSON} from '../../utils/data'
 
 function Footer() {
-
-  const lists = JSON.data('ftrnavs')
-
+  const lists = JSON.links('ftrnavs')
   const navlists = lists.map((list, i) => {
     return <FooterNavs lists={list} key={i}/>
   })
@@ -15,11 +13,9 @@ function Footer() {
   return (
     <footer className='text-1'>
       <FooterHead />
-
       <div className="footer-menu">
         {navlists}
       </div>
-
       <FooterLinks />
     </footer>
   )

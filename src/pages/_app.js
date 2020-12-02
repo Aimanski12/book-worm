@@ -18,6 +18,16 @@ import '../../styles/featuredbooks/featuredbooks.css'
 import '../../styles/footer/footer.css'
 import '../../styles/footer/footerlink.css'
 
+// not found css
+import '../../styles/notfound/notfound.css'
+
+// indftbooks
+import '../../styles/IndFtBooks/indftbooks.css'
+import '../../styles/IndFtBooks/menu_breadcrumb.css'
+import '../../styles/IndFtBooks/sidenavs.css'
+import '../../styles/IndFtBooks/bookoftheday.css'
+import '../../styles/IndFtBooks/featuredcatbooks.css'
+
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
 }

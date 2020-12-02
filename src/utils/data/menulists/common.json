@@ -21,6 +21,7 @@
       "link": "https://www.linkedin.com/"
     }
   ],
+  "bookcatmenu": ["non-fiction", "fiction", "category", "textbooks"],
   "mininavs": [
     {
       "name": "Arts",

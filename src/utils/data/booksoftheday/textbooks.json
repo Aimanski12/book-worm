@@ -1,0 +1,234 @@
+[
+  [
+     {
+      "id": "5DkezNMhSTYC",
+      "author": ["Ann Moyal"],
+      "rating": 4.5,
+      "title": "Platypus",
+      "image": "http://books.google.com/books/content?id=5DkezNMhSTYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "Eloquent and concise, Platypus uncovers the earliest theories and latest discoveries about this delightfully odd member of the animal kingdom."
+    },
+    {
+      "id": "hO6ZCrNVCmQC",
+      "author": ["Rob Harrison"],
+      "rating": 5,
+      "title": "The Ethical Consumer",
+      "image": "http://books.google.com/books/content?id=hO6ZCrNVCmQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "Focusing on ethical consumers, their behaviour, discourses and narratives as well as the social and political contexts in which they operate, this text provides a summary of the manner and effectiveness of their actions."
+    },
+    {
+      "id": "qqB7nrrna_sC",
+      "author": ["Gregor Hohpe"],
+      "rating": 5,
+      "title": "Enterprise Integration Patterns",
+      "image": "http://books.google.com/books/content?id=qqB7nrrna_sC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "Enterprise Integration Patterns provides an invaluable catalog of sixty-five patterns, with real-world solutions that demonstrate the formidable of messaging and help you to design effective messaging solutions for your enterprise. The authors also include examples covering a variety of different integration technologies, such as JMS, MSMQ, TIBCO ActiveEnterprise, Microsoft BizTalk, SOAP, and XSL. A case study describing a bond trading system illustrates the patterns in practice, and the book offers a look at emerging standards, as well as insights into what the future of enterprise integration might hold. This book provides a consistent vocabulary and visual notation framework to describe large-scale integration solutions across many technologies. It also explores in detail the advantages and limitations of asynchronous messaging architectures."
+    },
+    {
+      "id": "v0eKBAAAQBAJ",
+      "author": ["Francis Fukuyama"],
+      "rating": 4,
+      "title": "Political Order and Political Decay",
+      "image": "http://books.google.com/books/content?id=v0eKBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "A second volume in a landmark chronicle of the modern state examines how societies develop strong, impersonal and accountable political institutions, examining such subjects as the French Revolution, the Arab Spring and contemporary American politics. By the author of The Origins of Political Order."
+    }
+  ], [
+     {
+      "id": "XTQLhgBTBT4C",
+      "author": ["Philip Clayton"],
+      "rating": 5,
+      "title": "Evolution and Ethics",
+      "image": "http://books.google.com/books/content?id=XTQLhgBTBT4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "Certain to engage scholars, students, and general readers alike, Evolution and Ethics offers a balanced, levelheaded, constructive approach to an often divisive debate."
+    },
+    {
+      "id": "0nVIJfhZiV4C",
+      "author": ["Marjorie Kelly"],
+      "rating": 3.5,
+      "title": "The Divine Right of Capital",
+      "image": "http://books.google.com/books/content?id=0nVIJfhZiV4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "The author challenges ascendancy of corporate power and argues for dismantling the current economic system and the economic aristocracy that hoards power and wealth. 30,000 first printing. Original."
+    },
+    {
+      "id": "hg6dBQAAQBAJ",
+      "author": ["Ed E. Jacobs"],
+      "rating": 2,
+      "title": "Group Counseling: Strategies and Skills",
+      "image": "http://books.google.com/books/content?id=hg6dBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "Eighth Edition, provides an in-depth look at group counseling with an emphasis on practical knowledge and techniques for effective group leadership. The authors discuss the many facets of group counseling and provide examples of how each skill can be applied in a wide range of group settings to produce effective and efficient group sessions. The book's active approach focuses on the skills necessary for starting and ending a session, as well as on how to make the middle phase productive and meaningful."
+    },
+    {
+      "id": "lYzZAAAAQBAJ",
+      "author": ["Robert M Gates"],
+      "rating": 4,
+      "title": "Duty",
+      "image": "http://books.google.com/books/content?id=lYzZAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "From the former secretary of defense, a strikingly candid, vivid account of serving Presidents George W. Bush and Barack Obama during the wars in Iraq and Afghanistan. When Robert M. Gates received a call from the White House, he thought he’d long left Washington politics behind: After working for six presidents in both the CIA and the National Security Council, he was happily serving as president of Texas A&M University. But when he was asked to help a nation mired in two wars and to aid the troops doing the fighting, he answered what he felt was the call of duty."
+    }
+  ], [
+     {
+      "id": "xW_T4jV9mFAC",
+      "author": ["James Lovelock"],
+      "rating": 3.5,
+      "title": "The Ages of Gaia",
+      "image": "http://books.google.com/books/content?id=xW_T4jV9mFAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "James Lovelock proposes that all living species are components of that organism, as cells are components of the human body."
+    },
+    {
+      "id": "miwuxaEXvOsC",
+      "author": ["Eberhard Zeidler"],
+      "rating": 3,
+      "title": "Quantum Field Theory III: Gauge Theory",
+      "image": "http://books.google.com/books/content?id=miwuxaEXvOsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "In this third volume of his modern introduction to quantum field theory, Eberhard Zeidler examines the mathematical and physical aspects of gauge theory as a principle tool for describing the four fundamental forces which act in the universe: gravitative, electromagnetic, weak interaction and strong interaction. Volume III concentrates on the classical aspects of gauge theory, describing the four fundamental forces by the curvature of appropriate fiber bundles. This must be supplemented by the crucial, but elusive quantization procedure."
+    },
+    {
+      "id": "Gq5UDwAAQBAJ",
+      "author": ["Jeannie M. Whayne"],
+      "rating": 4,
+      "title": "Arkansas",
+      "image": "http://books.google.com/books/content?id=Gq5UDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "Arkansas: A Narrative History is a comprehensive history of the state that has been invaluable to students and the general public since its original publication. Four distinguished scholars cover prehistoric Arkansas, the colonial period, and the nineteenth and twentieth centuries and incorporate the newest historiography to bring the book up to date for 2012. A new chapter on Arkansas geography, new material on the civil rights movement and the struggle over integration, and an examination of the state's transition from a colonial economic model to participation in the global political economy are included."
+    },
+    {
+      "id": "2p3YPpiA2pEC",
+      "author": ["Daniel James Brown"],
+      "rating": 4.5,
+      "title": "The Boys in the Boat",
+      "image": "http://books.google.com/books/content?id=2p3YPpiA2pEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "The #1 New York Times–bestselling story about American Olympic triumph in Nazi Germany and now the inspiration for the PBS documentary “The Boys of ‘36” For readers of Unbroken, out of the depths of the Depression comes an irresistible story about beating the odds and finding hope in the most desperate of times—the improbable, intimate account of how nine working-class boys from the American West showed the world at the 1936 Olympics in Berlin what true grit really meant. It was an unlikely quest from the start. With a team composed of the sons of loggers, shipyard workers, and farmers, the University of Washington’s eight-oar crew team was never expected to defeat the elite teams of the East Coast and Great Britain, yet they did, going on to shock the world by defeating the German team rowing for Adolf Hitler."
+    }
+  ], [
+     {
+      "id": "gPbYbFt7sYYC",
+      "author": ["John Alexander Moore"],
+      "rating": 4,
+      "title": "Science as a Way of Knowing",
+      "image": "http://books.google.com/books/content?id=gPbYbFt7sYYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "This book makes Moore's wisdom available to students in a lively, richly illustrated account of the history and workings of life. Employing rhetoric strategies including case histories, hypotheses and deductions, and chronological narrative, it provides both a cultural history of biology and an introduction to the procedures and values of science."
+    },
+    {
+      "id": "w-Cg8w7VTsMC",
+      "author": ["N. Claude Cohen"],
+      "rating": 4,
+      "title": "Guidebook on Molecular Modeling in Drug Design",
+      "image": "http://books.google.com/books/content?id=w-Cg8w7VTsMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "The molecular modeling perspective in drug design. (N. Calude Cohen). Molecular graphics and modeling: tools of the trade. (Roderick E. Hubbard). Molecular modeling of small molecules. (Tamara Gund). Computer assisted new lead design. (Akiko Itai, Miho Yamada Mizutani, Yoshihiko Nishibata, and Nubuo Tomioka). Experimental techniques and data banks. (John P. Priestle and C. Gregory Paris). Computer-assisted drug discovery. (Peter Gund, Gerald Maggiora, and James P. Snyder). Modeling drug-receptor interactions. (Konrad F. Koehler, Shashidhar N. Rao, and James P. Snyder). Glossary of terminology. (J. P. Tollenaere)."
+    },
+    {
+      "id": "uAE1DAAAQBAJ",
+      "author": ["Vaibbhav Taraate"],
+      "rating": 5,
+      "title": "Digital Logic Design Using Verilog",
+      "image": "http://books.google.com/books/content?id=uAE1DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "This book is designed to serve as a hands-on professional reference with additional utility as a textbook for upper undergraduate and some graduate courses in digital logic design. This book is organized in such a way that that it can describe a number of RTL design scenarios, from simple to complex. The book constructs the logic design story from the fundamentals of logic design to advanced RTL design concepts. Keeping in view the importance of miniaturization today, the book gives practical information on the issues with ASIC RTL design and how to overcome these concerns. It clearly explains how to write an efficient RTL code and how to improve design performance. The book also describes advanced RTL design concepts such as low-power design, multiple clock-domain design, and SOC-based design."
+    },
+    {
+      "id": "9pQxD3j1MgoC",
+      "author":  ["Michael T. Clanchy"],
+      "rating": 5,
+      "title": "From Memory to Written Record",
+      "image": "http://books.google.com/books/content?id=9pQxD3j1MgoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "This seminal work of scholarship, which traces the development of literacy in medieval England, is now fully updated in a third edition. This book serves as an introduction to medieval books and documents for graduate students throughout the world Features a completely re-written first chapter, ‘Memories and Myths of the Norman Conquest', and a new postscript by the author reflecting on the reception to the original publication and discussing recent scholarship on medieval literacy Includes a revised guide to further reading and a revision of the plates which illustrate medieval manuscripts in detail"
+    }
+  ], [
+     {
+      "id": "Fl_LPoLdGKsC",
+      "author": ["Eric Schmidt", "Jared Cohen"],
+      "rating": 4,
+      "title": "The New Digital Age",
+      "image": "http://books.google.com/books/content?id=Fl_LPoLdGKsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "In an unparalleled collaboration, two leading global thinkers in technology and foreign affairs give us their widely anticipated, transformational vision of the future: a world where everyone is connected—a world full of challenges and benefits that are ours to meet and to harness. Eric Schmidt is one of Silicon Valley’s great leaders, having taken Google from a small startup to one of the world’s most influential companies. Jared Cohen is the director of Google Ideas and a former adviser to secretaries of state Condoleezza Rice and Hillary Clinton. With their combined knowledge and experiences, the authors are uniquely positioned to take on some of the toughest questions about our future: Who will be more powerful in the future, the citizen or the state?"
+    },
+    {
+      "id": "03T_CgAAQBAJ",
+      "author": ["Joachim von zur Gathen"],
+      "rating": 5,
+      "title": "CryptoSchool",
+      "image": "http://books.google.com/books/content?id=03T_CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "This book offers an introduction to cryptology, the science that makes secure communications possible, and addresses its two complementary aspects: cryptography—--the art of making secure building blocks—--and cryptanalysis—--the art of breaking them. The text describes some of the most important systems in detail, including AES, RSA, group-based and lattice-based cryptography, signatures, hash functions, random generation, and more, providing detailed underpinnings for most of them. With regard to cryptanalysis, it presents a number of basic tools such as the differential and linear methods and lattice attacks. This text, based on lecture notes from the author’s many courses on the art of cryptography, consists of two interlinked parts. The first, modern part explains some of the basic systems used today and some attacks on them. However, a text on cryptology would not be complete without describing its rich and fascinating history. As such, the colorfully illustrated historical part interspersed throughout the text highlights selected inventions and episodes, providing a glimpse into the past of cryptology."
+    },
+    {
+      "id": "IHb_CgAAQBAJ",
+      "author": ["B.N. Suresh"],
+      "rating": 5,
+      "title": "Integrated Design for Space Transportation System",
+      "image": "http://books.google.com/books/content?id=IHb_CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "The book addresses the overall integrated design aspects of a space transportation system involving several disciplines like propulsion, vehicle structures, aerodynamics, flight mechanics, navigation, guidance and control systems, stage auxiliary systems, thermal systems etc. and discusses the system approach for design, trade off analysis, system life cycle considerations, important aspects in mission management, the risk assessment, etc. There are several books authored to describe the design aspects of various areas, viz., propulsion, aerodynamics, structures, control, etc., but there is no book which presents space transportation system (STS) design in an integrated manner."
+    },
+    {
+      "id": "2mawpEXm0K8C",
+      "author":  ["Daniel J. Boorstin"],
+      "rating": 3.5,
+      "title": "The Creators",
+      "image": "http://books.google.com/books/content?id=2mawpEXm0K8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "By piecing the lives of selected individuals into a grand mosaic, Pulitzer Prize-winning historian Daniel J. Boorstin explores the development of artistic innovation over 3,000 years. A hugely ambitious chronicle of the arts that Boorstin delivers with the scope that made his Discoverers a national bestseller. Even as he tells the stories of such individual creators as Homer, Joyce, Giotto, Picasso, Handel, Wagner, and Virginia Woolf, Boorstin assembles them into a grand mosaic of aesthetic and intellectual invention. In the process he tells us not only how great art (and great architecture and philosophy) is created, but where it comes from and how it has shaped and mirrored societies from Vedic India to the twentieth-century United States."
+    }
+  ], [
+     {
+      "id": "yLRTDwAAQBAJ",
+      "author": ["Marlis Jahnke"],
+      "rating": 5,
+      "title": "Influencer Marketing",
+      "image": "http://books.google.com/books/content?id=yLRTDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "Dieses Buch erläutert fundiert und pragmatisch alle entscheidenden Erfolgsfaktoren des Influencer Marketings – sowohl für Unternehmen als auch für Influencer.Marketingprofis erfahren, wie sie Influencer Marketing bestmöglich in ihre Kommunikationsstrategie integrieren, wie sie die passenden Influencer finden und nach welchen konkreten Regeln die Zusammenarbeit optimal funktioniert: von der Vertragsgestaltung über das Briefing bis hin zum Monitoring. Zudem werden viele nützliche Plattformen, Netzwerke und Instrumente vorgestellt."
+    },
+    {
+      "id": "KER0dd2oYP8C",
+      "author": ["Karim Yaghmour"],
+      "rating": 5,
+      "title": "Embedded Android",
+      "image": "http://books.google.com/books/content?id=KER0dd2oYP8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "Embedded Android is for Developers wanting to create embedded systems based on Android and for those wanting to port Android to new hardware, or creating a custom development environment. Hackers and moders will also find this an indispensible guide to how Android works."
+    },
+    {
+      "id": "EJe4BAAAQBAJ",
+      "author": ["Robert Bosch GmbH"],
+      "rating": 5,
+      "title": "Bosch Automotive Electrics and Automotive Electronics",
+      "image": "http://books.google.com/books/content?id=EJe4BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "This is a complete reference guide to automotive electrics and electronics. This new edition of the definitive reference for automotive engineers, compiled by one of the world's largest automotive equipment suppliers, includes new and updated material. As in previous editions different topics are covered in a concise but descriptive way backed up by diagrams, graphs, photographs and tables enabling the reader to better comprehend the subject. This fifth edition revises the classical topics of the vehicle electrical systems such as system architecture, control, components and sensors."
+    },
+    {
+      "id": "P07rgiJjsk4C",
+      "author": ["Toby Wilkinson"],
+      "rating": 4,
+      "title": "The Rise and Fall of Ancient Egypt",
+      "image": "http://books.google.com/books/content?id=P07rgiJjsk4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "This is a story studded with extraordinary achievements and historic moments, from the building of the pyramids and the conquest of Nubia, through Akhenaten's religious revolution, the power and beauty of Nefertiti, the glory of Tutankhamun's burial chamber, and the ruthlessness of Ramesses, to Alexander the Great's invasion, and Cleopatra's fatal entanglement with Rome. As the world's first nation-state, the history of Ancient Egypt is above all the story of the attempt to unite a disparate realm and defend it against hostile forces from within and without. Combining grand narrative sweep with detailed knowledge of hieroglyphs and the iconography of power, Toby Wilkinson reveals Ancient Egypt in all its complexity."
+    }
+  ], [
+     {
+      "id": "wBLYtNotoE0C",
+      "author": ["V. Kumar"],
+      "rating": 4,
+      "title": "Customer Relationship Management",
+      "image": "http://books.google.com/books/content?id=wBLYtNotoE0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "Customer relationship management (CRM) as a strategy and as a technology has gone through an amazing evolutionary journey. The initial technological approach was followed by many disappointing initiatives only to see the maturing of the underlying concepts and applications in recent years. Today, CRM represents a strategy, a set of tactics, and a technology that have become indispensible in the modern economy. This book presents an extensive treatment of the strategic and tactical aspects of customer relationship management as we know it today. It stresses developing an understanding of economic customer value as the guiding concept for marketing decisions. The goal of the book is to serve as a comprehensive and up-to-date learning companion for advanced undergraduate students, master's degree students, and executives who want a detailed and conceptually sound insight into the field of CRM."
+    },
+    {
+      "id": "D0b_Xg3UeXEC",
+      "author":  ["Baron Schwartz"],
+      "rating": 5,
+      "title": "High Performance MySQL",
+      "image": "http://books.google.com/books/content?id=D0b_Xg3UeXEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "How can you bring out MySQL’s full power? With High Performance MySQL, you’ll learn advanced techniques for everything from designing schemas, indexes, and queries to tuning your MySQL server, operating system, and hardware to their fullest potential. This guide also teaches you safe and practical ways to scale applications through replication, load balancing, high availability, and failover. Updated to reflect recent advances in MySQL and InnoDB performance, features, and tools, this third edition not only offers specific examples of how MySQL works, it also teaches you why this system works as it does, with illustrative stories and case studies that demonstrate MySQL’s principles in action."
+    },
+    {
+      "id": "KEzjBwAAQBAJ",
+      "author": ["Igor Karassik"],
+      "rating": 4,
+      "title": "Centrifugal Pumps",
+      "image": "http://books.google.com/books/content?id=KEzjBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "This last, the education of pump users, is precisely what this book was intended to do. To what extent we must have achieved our purpose, our readers must decide. My good friend and associate, J. T. (Terry) McGuire, and I have been working very closely together for a long time. Our view of engineering problems and of their solutions coincide to an astonishing degree. When I was asked to prepare a second edition of my book Centrifugal Pumps, it was logical that I turned to Terry and suggested that he be my coauthor on this project. He agreed to do so, and his cooperation has been most valuable, both in improving the resultant work and in easing my burden."
+    },
+    {
+      "id": "ru4LPyMAxxkC",
+      "author": ["Will Durant"],
+      "rating": 4,
+      "title": "Our Oriental Heritage",
+      "image": "http://books.google.com/books/content?id=ru4LPyMAxxkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "The first volume of the expansive Pulitzer Prize-winning series The Story of Civilization. Discover a history of civilization in Egypt and the Near East to the Death of Alexander, and in India, China, and Japan from the beginning; with an introduction on the nature and foundations of civilization."
+    }
+  ]
+]

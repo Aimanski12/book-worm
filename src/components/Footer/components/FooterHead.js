@@ -7,7 +7,6 @@ function FooterHead() {
       <Link href="/">
         <a>
           <img src="/images/navbar-logo.png" alt="book worm logo"/>
-
         </a>
       </Link>
       <Link href="/">
