@@ -9,11 +9,12 @@ function FooterHead() {
           <img src="/images/navbar-logo.png" alt="book worm logo"/>
         </a>
       </Link>
-      <Link href="/">
-        <a>
+      
+        <a href='https://developers.google.com/books' 
+          rel="noopener noreferrer"
+          target='_blank'>
           <img src="/images/google-books.png" alt="google books logo"/>
         </a>
-      </Link>
     </div>
   )
 }

@@ -55,6 +55,21 @@ export const Helpers = (function (){
   }
 
 
+  // function to check if the query value
+  // exists in the listed array 
+  // returns true or false
+  const _checkIfExists = (str, lists) => {
+    const val = lists.filter(list => {
+      return list.link === str
+    })
+
+    if(Object.keys(val).length === 0){
+      return false
+    } else {
+      return val
+    }
+  }
+
   return {
     sliceText(text, n) {
       return _sliceText(text, n)
@@ -67,6 +82,9 @@ export const Helpers = (function (){
     },
     slideBooks (a, b) {
       return _slideBooks(a, b)
+    },
+    checkIfExists(str, lists) {
+      return _checkIfExists(str, lists)
     }
   }
 

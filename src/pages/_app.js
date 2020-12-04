@@ -28,6 +28,12 @@ import '../../styles/IndFtBooks/sidenavs.css'
 import '../../styles/IndFtBooks/bookoftheday.css'
 import '../../styles/IndFtBooks/featuredcatbooks.css'
 
+// explore css
+import '../../styles/explore/explore.css'
+
+// indbksel
+import '../../styles/indbksel/indbksel.css'
+
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
 }

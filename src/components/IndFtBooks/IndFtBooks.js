@@ -37,7 +37,7 @@ export default function IndFtBooks(props) {
       <div className="content-center ind-ft-books-wrapper">
         <SideNav 
           menus={props.menus}
-          title={`${props.book} Books`}/>
+          title={`${props.book}`}/>
 
         <div className='indvl-ft-books'>
           <BookoftheDay 

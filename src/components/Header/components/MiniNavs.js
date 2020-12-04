@@ -7,7 +7,9 @@ function MiniNavs() {
 
   const mininavs = navlist.map((list, i) => {
     return (
-      <Link href={list.link} key={i}>
+      <Link key={i}
+        href={`${list.link}/[slug]`} 
+        as={`${list.link}/${list.name.toLowerCase()}`} >
         <a className='text-1'>{list.name}</a>
       </Link>
     )

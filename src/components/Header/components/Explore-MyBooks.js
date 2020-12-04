@@ -5,7 +5,7 @@ import Svg from '../../Svg/index'
 function ExploreMyBooks() {
   return (
     <div className="content-center navbar-right text-1">
-      <Link href='/'>
+      <Link href='/explore'>
         <a>
           <div className='content-center'>
             <Svg svg='explore'/>
@@ -13,7 +13,7 @@ function ExploreMyBooks() {
           </div>
         </a>
       </Link>
-      <Link href='/'>
+      <Link href='/my-books'>
         <a>
           <div className='content-center'>
             <Svg svg='my books'/>

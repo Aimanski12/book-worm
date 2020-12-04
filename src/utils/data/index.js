@@ -53,10 +53,11 @@ const getlinks = (str) => {
     case 'mininavs': return commonmenulists.mininavs;
     case 'midmenu': return commonmenulists.midmenu;
     case 'bkcatmenu': return commonmenulists.bookcatmenu;
-    case 'fiction': return fictionmenulists
-    case 'non-fiction': return nonfictionmenulists
-    case 'category': return categorymenu
-    case 'textbooks': return textbookmenulists
+    case 'fiction': return fictionmenulists;
+    case 'non-fiction': return nonfictionmenulists;
+    case 'category': return categorymenu;
+    case 'textbooks': return textbookmenulists;
+    case 'daily': return ""
   }
 }
 
@@ -66,7 +67,27 @@ const sortbooks = (books) => {
   return books[day]
 }
 
+// function to get the daily books
+// sorted according to day of the week
+const _daily = (str) => {
+  return sortbooks(dbks(str))
+}
 
+// function to get the daily featured books
+// sorted according to day of the week
+const _featured = (str) => {
+  return sortbooks(ftbks(str))
+}
+
+// this function will return the links, daily books,
+// featured books in one object
+const data = (str) => {
+  return {
+    list: getlinks(str),
+    daily: _daily(str),
+    featured: _featured(str)
+  } 
+}
 
 export const JSON = (function(){
 
@@ -76,47 +97,41 @@ export const JSON = (function(){
     return getlinks(str)
   }
 
-  // function to get the daily books
-  // sorted according to day of the week
-  const _daily = (str) => {
-    return sortbooks(dbks(str))
-  }
-
-  // function to get the daily featured books
-  // sorted according to day of the week
-  const _featured = (str) => {
-    return sortbooks(ftbks(str))
-  }
-
-
+  // function to get the list of menu, daily books
+  // and featured books needed for the page
   const _getData = (str) =>{
-    if(str === 'daily') {
-      return {
-        daily: _daily(str),
-        featured: _featured(str)
-      }
-    } else if (str === 'fiction') {
+    if(str === 'textbooks') {
       return {
         list: getlinks(str),
         daily: _daily(str),
         featured: _featured(str)
-      }
-    } else if (str === 'non-fiction') {
-      return {
-        list: getlinks(str),
-        daily: _daily(str),
-        featured: _featured(str)
-      }
-    } else if (str === 'category') {
-      return {
-        list: getlinks(str),
-        daily: _daily(str),
-        featured: _featured(str)
-      }
+      } 
+    } else {
+      return data(str)
     }
   }
 
- 
+  // function to get all the featured
+  // book of the day
+  const _getAllBooks = () => {
+    const a = _featured('daily')
+    const b = _featured('fiction')
+    const c = _featured('non-fiction')
+    const d = _featured('category')
+    const e = _featured('textbooks')
+    return [...b, ...d, ...a, ...c, ...e ]
+  }
+
+  // function to get all the list of menus
+  const _getAllLists = () => {
+    const books = [
+      {name: 'Fiction', lists: getlinks('fiction')}, 
+      {name: 'Non-Fiction', lists: getlinks('non-fiction')}, 
+      {name: 'Category', lists: getlinks('category')}, 
+    ]
+    const textbooks = {name: 'Textbooks', lists: getlinks('textbooks')}
+    return {books, textbooks}
+  }
 
   return {
     links (str) {
@@ -124,8 +139,15 @@ export const JSON = (function(){
     },
     getData (str) {
       return _getData(str)
+    },
+    getAllBooks () {
+      return _getAllBooks()
+    }, 
+    getAllLists () {
+      return _getAllLists()
     }
   }
 })()
+
 
 

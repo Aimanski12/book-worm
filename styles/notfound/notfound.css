@@ -19,6 +19,12 @@
   border-radius: 6px;
   background: #FFD130;
   color: #6D6D6D;
+  transition: all 0.2s ease-in;
+}
+
+.not-found-wrapper a:hover {
+  background: #FFD954;
+  transition: all 0.2s ease-in;
 }
 
 .not-found-wrapper a:active {

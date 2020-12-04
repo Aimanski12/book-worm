@@ -17,12 +17,11 @@ export default function NonFiction() {
 
       <main className='content-center page-container'>
         <Header booksoftheday={false}/>
-        {data !== false ?
           <IndFtBooks
-            book='Fiction'
+            book='Non-Fiction'
             menus={data.list}
             ftcatbook={data.featured}
-            bookofday={data.daily}/> : null }
+            bookofday={data.daily}/> 
         <Footer />
       </main>
     </div>

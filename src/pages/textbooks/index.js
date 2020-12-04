@@ -5,23 +5,23 @@ import Footer from '../../components/Footer/Footer'
 import IndFtBooks from '../../components/IndFtBooks/IndFtBooks'
 import {JSON} from '../../utils/data'
 
-export default function NonFiction() {
-  const data = JSON.getData('category')
+export default function Textbooks() {
+  const data = JSON.getData('textbooks')
 
   return (
     <div className='content-center main-container'>
       <Head>
-        <title>Book-Worm | Category</title>
+        <title>Book-Worm | Text Books</title>
         <link rel="icon" href="/images/book-worm-small-logo.ico" />
       </Head>
 
       <main className='content-center page-container'>
         <Header booksoftheday={false}/>
           <IndFtBooks
-            book='Category'
+            book='Textbooks'
             menus={data.list}
             ftcatbook={data.featured}
-            bookofday={data.daily}/>
+            bookofday={data.daily}/> 
         <Footer />
       </main>
     </div>
