@@ -124,13 +124,14 @@ export const JSON = (function(){
 
   // function to get all the list of menus
   const _getAllLists = () => {
+
     const books = [
       {name: 'Fiction', lists: getlinks('fiction')}, 
       {name: 'Non-Fiction', lists: getlinks('non-fiction')}, 
       {name: 'Category', lists: getlinks('category')}, 
+      {name: 'Textbooks', lists: getlinks('textbooks')}
     ]
-    const textbooks = {name: 'Textbooks', lists: getlinks('textbooks')}
-    return {books, textbooks}
+    return {books}
   }
 
   return {

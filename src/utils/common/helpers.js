@@ -70,6 +70,27 @@ export const Helpers = (function (){
     }
   }
 
+  // function to arrage the whole array into an
+  // order of by 4 array in array
+  const _arrangeArray = (array) => {
+    let num = 0
+    let arr = []
+    let subarr = []
+    // loop to the array and arrange them by 4s
+    for (let x = 0; x < array.length; x++){
+      if(num === 3) {
+        subarr.push(array[x])
+        arr.push(subarr)
+        subarr = []
+        num = 0
+      } else {
+        subarr.push(array[x])
+        num += 1
+      }
+    }
+    return arr
+  }
+
   return {
     sliceText(text, n) {
       return _sliceText(text, n)
@@ -85,6 +106,9 @@ export const Helpers = (function (){
     },
     checkIfExists(str, lists) {
       return _checkIfExists(str, lists)
+    },
+    arrangeArray (array) {
+      return _arrangeArray(array)
     }
   }
 

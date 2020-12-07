@@ -8,9 +8,11 @@ import {JSON} from '../../../utils/data'
 import {Helpers} from '../../../utils/common/helpers'
 import {APIRequest} from '../../../utils/apis/api'
 
-export default function Fiction({data}) {
+export default function NonFiction({data}) {
   const router = useRouter()
-  const [books, setBooks] = useState({ isSet: false })
+  const [books, setBooks] = useState({
+    isSet: false
+  })
 
   useEffect(() => {
     if(!data) {
@@ -24,7 +26,7 @@ export default function Fiction({data}) {
           ...data
         })
       } else if (router.query.slug != books.name.link) {
-        const menulists = JSON.links('fiction')
+        const menulists = JSON.links('non-fiction')
         const linkdata = Helpers.checkIfExists(router.query.slug, menulists);
         (async function(){
           const newdata = await APIRequest.addBooks(linkdata[0], 1);
@@ -48,17 +50,18 @@ export default function Fiction({data}) {
     })()
   }
 
+
   return (
     <div className='content-center main-container'>
       <Head>
-        <title>Book-Worm | Fiction | {data.name.name}</title>
+        <title>Book-Worm | Non-Fiction | {data.name.name}</title>
         <link rel="icon" href="/images/book-worm-small-logo.ico" />
       </Head>
       <main className='content-center page-container'>
-        {books.isSet ? <>
+         {books.isSet ? <>
           <Header booksoftheday={false}/>
           <IndBkSel
-            book='Fiction'
+            book='Non-Fiction'
             cattitle={books.name}
             menus={books.menulists}
             books={books.books}
@@ -71,10 +74,10 @@ export default function Fiction({data}) {
   )
 }
 
-Fiction.getInitialProps = async (ctx) => {
+NonFiction.getInitialProps = async (ctx) => {
   const {query} = ctx
   let data;
-  const menulists = JSON.links('fiction')
+  const menulists = JSON.links('non-fiction')
   const linkdata = Helpers.checkIfExists(query.slug, menulists)
 
   if (!linkdata) {

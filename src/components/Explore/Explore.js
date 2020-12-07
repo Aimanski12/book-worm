@@ -21,36 +21,9 @@ function Explore(props) {
   })
   
 
-  const textbooklist = props.menulists.textbooks.lists.map((list, i) => {
-    return (
-      <div className="explore-textbook-indvl" key={i}>
-        <span>
-          <Link 
-            href='/textbooks/[slug]'
-            as={`/textbooks/${list.link}`}>
-            <a>{list.name}</a>
-          </Link>
-        </span>
-        <ul>
-          <Lists 
-            name={props.menulists.textbooks.name}
-            lists={list.lists}/>
-        </ul>
-      </div>
-    )
-  })
-
   return (
     <div className="content-center explore-container">
       {menulists}      
-      <div className="explore-textbook-wrapper text-1">
-        <span className='textbooks'>
-          <Link href='/textbooks'>
-            <a>Textbooks</a>
-          </Link>
-        </span>
-        {textbooklist}
-      </div>
     </div>
   )
 }

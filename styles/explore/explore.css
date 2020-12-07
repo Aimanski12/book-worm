@@ -14,14 +14,14 @@
   min-height: 50px;
 }
 
-.explore-menu-wrapper span a, .explore-textbook-wrapper span a{
+.explore-menu-wrapper span a {
   color: #7B7B7B;
   font-weight: 600;
   font-size: 1em;
   letter-spacing: -0.035em;
 }
 
-.explore-menu-wrapper ul, .explore-textbook-indvl ul {
+.explore-menu-wrapper ul {
   list-style: none;
   width: 100%;
   min-height: 10px;
@@ -33,7 +33,7 @@
   float: left;
 }
 
-.explore-menu-wrapper a, .explore-textbook-indvl a {
+.explore-menu-wrapper a {
   color: #6F9590;
   font-size: 0.82em;
   letter-spacing: -0.035em;
@@ -41,25 +41,7 @@
   width: 100%;
 }
 
-.explore-menu-wrapper a:hover, .explore-textbook-wrapper a:hover {
+.explore-menu-wrapper a:hover {
   color: #F3BD36;
   transition: all 0.15s ease-in;
-}
-
-.explore-textbook-wrapper .textbooks {
-  margin-top: 5px;
-  display: block;
-}
-
-.explore-textbook-indvl {
-  margin-top: 30px;
-  width: 100%;
-  float: left;
-  min-height: 50px;
-}
-
-.explore-textbook-indvl li{
-  width: 20%;
-  float: left;
-  margin-top: 8px;
 }

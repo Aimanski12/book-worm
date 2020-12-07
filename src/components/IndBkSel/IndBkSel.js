@@ -1,10 +1,15 @@
-import React from 'react'
+import React, {useState} from 'react'
 import MenuBreadCrumb from './components/MenuBreadCrumb'
 import SideNav from './components/SideNavs'
-
+import BookHeader from './components/BookHeader'
+import GridBook from '../Books/GridBook'
+import ListBook from '../Books/ListBook'
+import Pagination from '../../components/Pagination/Pagination'
 
 export default function IndBkSel(props) {
+  const [islist, setList] = useState('grid')
   
+
   return (
     <div className="ind-ft-books">
       <MenuBreadCrumb 
@@ -16,33 +21,24 @@ export default function IndBkSel(props) {
           title={`${props.book}`}/>
 
         <div className='indvl-book-sel'>
+          <BookHeader
+            click={(val)=>setList(val)}
+            style={islist}
+            cattitle={props.cattitle.name}
+            total={props.total}/>
 
-          <div className="indvl-book-sel-wrapper text-2">
-            <span className='title'>{`${props.cattitle.name} Books`}</span>
-
-
-            <div className="content-center indvl-book-sel-desc">
-              <p class='total-books'>{props.total} <span>Books</span></p>
-              <div className='content-center grid-btn'>
-                <div className="content-center btn-grid">
-                  <span>
-                    <img src="/images/grid-g.svg" alt="grid icon"/>
-                    Grid
-                  </span>
-                </div>
-                <div className="content-center btn-list">
-                  <span>
-                    <img src="/images/list-y.svg" alt="list icon"/>
-                    List
-                  </span>
-                </div>
-              </div>
+          <div className="indvl-book-list-wrapper">
+            {/* if the islist state is grid */}
+            { islist === 'grid' ?
+              <GridBook books={props.books}/> : 
+              // else set to list
+                <ListBook books={props.books}/> }
+            <div className="indvl-pagination-wrapper">
+              <Pagination 
+                total={props.total}
+                click={(val)=>props.click(val)}/>
             </div>
-
-
           </div>
-
-
 
         </div>
       </div>

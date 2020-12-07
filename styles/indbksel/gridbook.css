@@ -1,0 +1,114 @@
+
+.indvl-book-list-wrapper {
+  width: 710px;
+  margin: 0 auto;
+  padding-top: 20px;
+  min-height: 500px;
+}
+
+
+.indvl-book-wrapper {
+  min-height: 300px;
+  width: 130px;
+  float: left;
+  margin-right: 63.33px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 45px;
+  transition: all 0.2s ease-in;
+  
+  /* background: rgba(190,190,190,0.1); */
+}
+
+.indvl-book-wrapper img:hover {
+  opacity: 0.8;
+  transition: all 0.2s ease-in;
+}
+
+.indvl-book-wrapper:nth-child(4),
+.indvl-book-wrapper:nth-child(8),
+.indvl-book-wrapper:nth-child(12),
+.indvl-book-wrapper:nth-child(16),
+.indvl-book-wrapper:nth-child(20),
+.indvl-book-wrapper:nth-child(24),
+.indvl-book-wrapper:nth-child(28) {
+  margin-right: 0;
+}
+
+.indvl-book-list-desc {
+  align-items: flex-start;
+}
+
+.indvl-book-list-desc .title {
+  color: #4B6C68;
+  margin-bottom: 5px;
+  letter-spacing: -0.025em;
+  font-size: 0.93em;
+}
+
+.indvl-book-list-desc .author{
+  letter-spacing: -0.025em;
+  font-size: .8em;
+}
+
+.indvl-book-list-desc .author a {
+  color: #DBA621;
+}
+
+.indvl-book-list-desc .rating {
+  width: 130px;
+  flex-direction: row;
+  height: 25px;
+  justify-content: space-between;
+  /* background: red; */
+}
+
+.indvl-book-list-desc .rating span {
+  display: block;
+  letter-spacing: -0.025em;
+  font-size: .8em;
+  color: #4B6C68;
+  
+}
+
+.indvl-book-list-desc .rating svg {
+  margin-left: 2px;
+  width: 12px;
+  height: 12px;
+}
+
+.indvl-book-list-desc .title:hover, .indvl-book-list-desc .author a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* 
+<div 
+  key={i}
+  className="content-center indvl-book-wrapper text-2">
+  <Link href='/'>
+    <a>
+      <img src={book.volumeInfo.imageLinks ? 
+        book.volumeInfo.imageLinks.thumbnail : 
+        '/images/google-book.png'} alt=""/>
+    </a>
+  </Link>
+
+  <div className="content-center indvl-book-list-desc">
+    <span className='title'>Title</span>
+    <div className="author">
+      <Link href='/'>
+        <a>Author, </a>
+      </Link>
+      <Link href='/'>
+        <a>Author</a>
+      </Link>
+    </div>
+    <div className="content-center rating">
+      <span className=''>Rating</span>
+      <span>3.5 <Svg svg='star'/></span>
+    </div>
+  </div>
+</div>
+*/

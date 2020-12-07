@@ -28,10 +28,29 @@ export const APIRequest = (function(){
     }
   }
 
+  // function to add more books from the 
+  // pagination when the buttons are clicked
+  const _addBooks = async (obj, page) => {
+    // get the parameters according to query or category
+    const params = getparams(obj)
+    // fetch data from the function
+    const data = await fetchData(params, page)
+    // sort and return
+    return {
+      total: data.totalItems,
+      books: data.items
+    }
+  }
+
+
+
   return {
     getBooks(obj, page){
       return _getBooks(obj, page)
-    }
+    }, 
+    addBooks(obj, page) {
+      return _addBooks(obj, page)
+    },
   }
 })()
 
@@ -45,7 +64,7 @@ const fetchData = async (params, page) => {
   // google books api url
   const googleapi = 'https://www.googleapis.com/books/v1/volumes?'
   // additional parameters
-  const addparams = '&maxResults=40&orderBy=newest&prettyPrint=true'
+  const addparams = '&maxResults=24&orderBy=newest&prettyPrint=true'
 
   // combine the url
   const url = `${googleapi}${params}${addparams}&startIndex=${page}${API_Key}`

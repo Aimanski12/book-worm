@@ -33,6 +33,9 @@ import '../../styles/explore/explore.css'
 
 // indbksel
 import '../../styles/indbksel/indbksel.css'
+import '../../styles/indbksel/gridbook.css'
+import '../../styles/indbksel/listbook.css'
+import '../../styles/indbksel/pagination.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

@@ -1,23 +1,23 @@
 
 .indvl-book-sel {
   width: 77%;
-  min-height: 500px;
+  min-height: 100px;
   border-left: 1px solid #DADADA;
+  padding-bottom: 50px;
 }
 
-.indvl-book-sel-wrapper {
+.indvl-book-sel-header-wrapper {
   width: 710px;
-  min-height: 500px;
+  min-height: 30px;
   margin: 0 auto;
-
-
-  background: rgba(210,210,210,0.3);
 }
 
-.indvl-book-sel-wrapper .title {
+.indvl-book-sel-header-wrapper .title {
   letter-spacing: -0.05em;
   font-size: 1.2em;
-  font-weight:500;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
   color: #7C928F;
 }
 
@@ -37,7 +37,7 @@
   font-style: italic;
 }
 
-.indvl-book-sel-desc p span{
+.indvl-book-sel-desc p span {
   color: #7C928F;
 }
 
@@ -46,7 +46,6 @@
   justify-content: space-between;
   width: 120px;
   height: 100%;
-  background: rgba(210,210,210,0.3);
 }
 
 .btn-grid, .btn-list {
@@ -58,31 +57,16 @@
   display: block;
   height: 30px;
   line-height: 30px;
-  color: #757575
+  color: #757575;
 }
 
-/* 
-<div className='indvl-book-sel'>
+.btn-grid span svg, .btn-list span svg{
+  margin-left: 5px;
+  width: 14px;
+  height: 14px;
+}
 
-  <div className="indvl-book-sel-wrapper text-2">
-    <span className='title'>{`${props.cattitle.name} Books`}</span>
-
-
-    <div className="content-center indvl-book-sel-desc">
-      <p class='total-books'>{props.total} <span>books</span></p>
-
-      <div className='content-center grid-btn'>
-        <div className="content-center btn-grid">
-          <img src="/images/grid-g.svg" alt="grid icon"/>
-          <span>Grid</span>
-        </div>
-        <div className="content-center btn-list">
-          <img src="/images/list-y.svg" alt="list icon"/>
-          <span>List</span>
-        </div>
-      </div>
-    </div>
-
-
-  </div>
-*/
+.btn-grid span:hover, .btn-list span:hover{
+  cursor: pointer;
+  
+}

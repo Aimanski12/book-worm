@@ -228,33 +228,33 @@
       }
     ], [
       {
-        "name": "Text Books",
-        "link": "/text-books",
+        "name": "Textbooks",
+        "link": "/textbooks",
         "head": true
       },
       {
         "name": "Accounting",
-        "link": "/text-books/accounting"
+        "link": "/textbooks/accounting"
       },
       {
         "name": "Algebra",
-        "link": "/text-books/algebra"
+        "link": "/textbooks/algebra"
       },
       {
         "name": "Architecture",
-        "link": "/text-books/architecture"
+        "link": "/textbooks/architecture"
       },
       {
         "name": "Art",
-        "link": "/text-books/art"
+        "link": "/textbooks/art"
       },
       {
         "name": "Biology",
-        "link": "/text-books/biology"
+        "link": "/textbooks/biology"
       },
       {
         "name": "More...",
-        "link": "/text-books"
+        "link": "/textbooks"
       }
     ]
   ]
