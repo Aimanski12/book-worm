@@ -16,8 +16,6 @@
   align-items: flex-start;
   margin-bottom: 45px;
   transition: all 0.2s ease-in;
-  
-  /* background: rgba(190,190,190,0.1); */
 }
 
 .indvl-book-wrapper img:hover {
@@ -30,8 +28,7 @@
 .indvl-book-wrapper:nth-child(12),
 .indvl-book-wrapper:nth-child(16),
 .indvl-book-wrapper:nth-child(20),
-.indvl-book-wrapper:nth-child(24),
-.indvl-book-wrapper:nth-child(28) {
+.indvl-book-wrapper:nth-child(24) {
   margin-right: 0;
 }
 
@@ -60,7 +57,6 @@
   flex-direction: row;
   height: 25px;
   justify-content: space-between;
-  /* background: red; */
 }
 
 .indvl-book-list-desc .rating span {
@@ -80,35 +76,3 @@
 .indvl-book-list-desc .title:hover, .indvl-book-list-desc .author a:hover {
   text-decoration: underline;
 }
-
-
-
-/* 
-<div 
-  key={i}
-  className="content-center indvl-book-wrapper text-2">
-  <Link href='/'>
-    <a>
-      <img src={book.volumeInfo.imageLinks ? 
-        book.volumeInfo.imageLinks.thumbnail : 
-        '/images/google-book.png'} alt=""/>
-    </a>
-  </Link>
-
-  <div className="content-center indvl-book-list-desc">
-    <span className='title'>Title</span>
-    <div className="author">
-      <Link href='/'>
-        <a>Author, </a>
-      </Link>
-      <Link href='/'>
-        <a>Author</a>
-      </Link>
-    </div>
-    <div className="content-center rating">
-      <span className=''>Rating</span>
-      <span>3.5 <Svg svg='star'/></span>
-    </div>
-  </div>
-</div>
-*/

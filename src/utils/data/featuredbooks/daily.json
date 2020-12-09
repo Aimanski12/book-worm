@@ -111,7 +111,7 @@
       ]
     }, {
       "name": "Religion",
-      "link": "/nonfiction/religion",
+      "link": "/non-fiction/religion",
       "books": [
         {
           "id": "f1C9DwAAQBAJ",
@@ -183,7 +183,7 @@
       ]
     }, {
       "name": "Cryptography",
-      "link": "/text-books/cryptography",
+      "link": "/textbooks/cryptography",
       "books": [
         {
           "id": "JWgqDAAAQBAJ",
@@ -401,7 +401,7 @@
       ]
     }, {
       "name": "Anthropology",
-      "link": "/text--books/anthropology",
+      "link": "/textbooks/anthropology",
       "books": [
         {
           "id": "bGS6CwAAQBAJ",
@@ -619,7 +619,7 @@
       ]
     }, {
       "name": "World History",
-      "link": "/text-books/world-history",
+      "link": "/textbooks/world-history",
       "books": [
         {
           "id": "_J2SDwAAQBAJ",
@@ -837,7 +837,7 @@
       ]
     }, {
       "name": "Zoology",
-      "link": "/text-books/zoology",
+      "link": "/textbooks/zoology",
       "books": [
         {
           "id": "Q57WCwAAQBAJ",
@@ -1061,7 +1061,7 @@
       ]
     },  {
       "name": "Inventors",
-      "link": "/text-books/inventors",
+      "link": "/textbooks/inventors",
       "books": [
         {
           "id": "KYx8DwAAQBAJ",
@@ -1279,7 +1279,7 @@
       ]
     }, {
       "name": "Capitalism",
-      "link": "/text-books/capitalism",
+      "link": "/textbooks/capitalism",
       "books": [
         {
           "id": "I8QjDwAAQBAJ",
@@ -1497,7 +1497,7 @@
       ]
     },  {
       "name": "Cognitive Science",
-      "link": "/text-books/cognitive-science",
+      "link": "/textbooks/cognitive-science",
       "books": [
         {
           "id": "o33HDwAAQBAJ",

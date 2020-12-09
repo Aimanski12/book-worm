@@ -33,7 +33,7 @@
 }
 
 .indvl-book-list-desc-wrapper .title:hover, 
-.indvl-book-list-desc-wrapper .author:hover {
+.indvl-book-list-desc-wrapper .author a:hover {
   text-decoration: underline;
 }
 

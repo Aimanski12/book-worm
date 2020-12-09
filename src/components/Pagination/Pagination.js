@@ -4,6 +4,7 @@ import ReactPaginate from "react-paginate";
 function PageNum(props) {
 
   function handlePageClick (e) {
+    
     const selectedPage = e.selected;
     props.click(selectedPage + 1)
   }
@@ -11,7 +12,7 @@ function PageNum(props) {
   return (
     <div className='pagination-display text-1'>
       <ReactPaginate
-        pageCount={Math.ceil(props.total/28)}
+        pageCount={Math.ceil(props.total/24)}
         previousLabel={"prev"}
         nextLabel={"next"}
         breakLabel={"..."}

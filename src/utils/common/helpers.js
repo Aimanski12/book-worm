@@ -24,13 +24,22 @@ export const Helpers = (function (){
       if (counter < n) {
         if ((counter + l) < n) {
           if(lists.length <= 1) {
-            authors.push(lists[x])
+            authors.push({
+              name: lists[x],
+              str: lists[x]
+            })
           } else {
-            authors.push(`${lists[x]}, `)
+            authors.push({
+              name: lists[x],
+              str: `${lists[x]}, `
+            })
           }
           counter += l
         } else {
-          authors.push(`${lists[x].substr(0, (n-counter))}..`)
+          authors.push({
+            name: lists[x],
+            str : `${lists[x].substr(0, (n-counter))}..`
+          })
           counter += l
         }
       } 
@@ -91,6 +100,29 @@ export const Helpers = (function (){
     return arr
   }
 
+  // this function will generate a text
+  // separeted with a hyphen
+  const _setTextToUrl = (str) => {
+    const text = str.split(' ').join('-').toLowerCase()
+    return text
+  }
+
+  const _selectedLink = (isbn, title) => {
+    if(isbn) {
+      return {
+        href: '/books/search/selected/[slug]',
+        as: `/books/search/selected/${Helpers.setTextToUrl(title)}-${isbn[0].identifier}`
+      }
+    } else {
+      // if the book has no isbn, generate
+      // links with title
+      return {
+        href: '/books/search/selected/[slug]',
+        as: `/books/search/selected/${Helpers.setTextToUrl(title)}`
+      }
+    }
+  }
+
   return {
     sliceText(text, n) {
       return _sliceText(text, n)
@@ -109,7 +141,13 @@ export const Helpers = (function (){
     },
     arrangeArray (array) {
       return _arrangeArray(array)
-    }
+    },
+    setTextToUrl (str){
+      return _setTextToUrl(str)
+    },
+    selectedLink(isbn, title){
+      return _selectedLink(isbn, title)
+    }, 
   }
 
 })()

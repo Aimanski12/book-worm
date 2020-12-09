@@ -1,39 +1,34 @@
 import React, {useContext} from 'react'
 import Link from 'next/link'
 import Svg from '../Svg'
-import Fade from 'react-reveal/Fade'
 import Authors from './Authors'
 import {BookAppData} from '../../utils/contextapi/context'
 import {Helpers} from '../../utils/common/helpers'
+import Pagination from '../Pagination/Pagination'
 
-function GridBook(props) {
+function RecommendedBook(props) {
   const {setbookdata} = useContext(BookAppData)
-
-  const a = (b) => {
-    setbookdata(b)
-  }
 
   const books = props.books.map((book, i) => {
     const links = Helpers.selectedLink(book.volumeInfo.industryIdentifiers, 
       book.volumeInfo.title)
-    return (
-      <Fade key={i}>
-        <div className="content-center indvl-book-wrapper text-2">
-          <Link href={links.href}
-            as={links.as}>
-            <a onClick={()=>setbookdata(book)}>
-              <img src={book.volumeInfo.imageLinks ? 
-                book.volumeInfo.imageLinks.thumbnail : 
-                '/images/book-worm.svg'} 
-                alt={book.volumeInfo.imageLinks ? 
-                  `${book.volumeInfo.title} book cover` : 'book worm cover'}/>
-            </a>
-          </Link>
 
-        <div className="content-center indvl-book-list-desc">
+    return (
+      <div key={i}
+        className="content-center recommended-book">
+
+        <Link href={links.href} as={links.as}>
+          <a onClick={()=>setbookdata(book)}>
+            <img src={book.volumeInfo.imageLinks ? 
+              book.volumeInfo.imageLinks.thumbnail : '/images/book-worm.svg'} 
+              alt={`${book.volumeInfo.title} book cover`}/>
+          </a>
+        </Link>
+
+        <div className="content-center recommended-book-desc">
           <Link href={links.href}
             as={links.as}>
-              <a onClick={()=>setbookdata(book)}
+            <a onClick={()=>setbookdata(book)}
               className='title'>{Helpers.sliceText(book.volumeInfo.title, 17)}</a>
             </Link>
             <div className="author">
@@ -49,13 +44,22 @@ function GridBook(props) {
                   book.volumeInfo.averageRating: 0 } <Svg svg='star'/></span>
             </div>
           </div>
-        </div>
-      </Fade>
+      </div>
     )
   })
+  
   return (
-    <>{books}</>
+    <div className='recommended-books text-2'>
+      <span className='recommended-book-title'>{props.title}</span>
+      <div className="recommended-books-wrapper">
+        {books}
+      </div>
+      {props.total > 25 ? 
+        <Pagination 
+        total={props.total}
+        click={(val)=> props.click(val)} /> : null }
+    </div>
   )
 }
 
-export default GridBook
+export default RecommendedBook

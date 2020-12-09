@@ -37,8 +37,19 @@ import '../../styles/indbksel/gridbook.css'
 import '../../styles/indbksel/listbook.css'
 import '../../styles/indbksel/pagination.css'
 
+// book details
+import '../../styles/books/bookdetails.css'
+import '../../styles/books/recommendedbooks.css'
+
+import {BookDataContext} from '../utils/contextapi/context'
+
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+
+  return (
+    <BookDataContext>
+      <Component {...pageProps} />
+    </BookDataContext>
+  )
 }
 
 export default MyApp

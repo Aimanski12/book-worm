@@ -8,7 +8,7 @@ function CatBooksoftheDay(props) {
   const authors = (lists) => {
     return lists.map((name, i) => {
       return <span className='author'
-        key={i}>{name }</span>
+        key={i}>{name.str }</span>
     })
   }
 
@@ -22,7 +22,7 @@ function CatBooksoftheDay(props) {
           style={{'background': `url('${book.image}') no-repeat center`,'backgroundSize': 'cover'}}></div>
 
         <div className="content-center indvl-ft-book-of-the-day-wrapper">
-          <img src={book.image} alt=""/>
+          <img src={book.image} alt={`${book.title} book cover`}/>
           <div className="indvl-ft-book-of-the-day-desc-wrapper">
             <h2>{Helpers.sliceText(book.title, 19)}</h2>
             <div className="ratings">
@@ -33,7 +33,8 @@ function CatBooksoftheDay(props) {
               {authors(Helpers.sortAuthor(book.author, 35))}
             </div>
             <p>{Helpers.sliceText(book.desc, 132)}</p>
-            <Link href='/'>
+            <Link href='/books/search/isbn/[slug]'
+              as={`/books/search/isbn/${'CATBOOKOFTHEDAY'}`}>
               <a className='content-center'>View Details</a>
             </Link>
           </div>

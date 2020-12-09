@@ -1,0 +1,91 @@
+
+.recommended-books {
+  width: 850px;
+  min-height: 100px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.recommended-book-title {
+  font-size: 1.2em;
+  letter-spacing: -0.05em;
+  font-weight: 500;
+  color: #53736F;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.recommended-books-wrapper {
+  width: 100%;
+  min-height: 100px;
+}
+
+.recommended-book:nth-child(5),
+.recommended-book:nth-child(10),
+.recommended-book:nth-child(15),
+.recommended-book:nth-child(20),
+.recommended-book:nth-child(25) {
+  margin-right: 0;
+}
+
+.recommended-book {
+  width: 130px;
+  min-height: 300px;
+  margin-right: 50px;
+  float: left;
+  margin-bottom: 45px;
+  justify-content: space-between;
+}
+
+.recommended-book img { 
+  width: 100%;
+  height: auto;
+}
+
+.recommended-book-desc {
+  align-items: flex-start;
+}
+
+.recommended-book-desc .title {
+  color: #4B6C68;
+  margin-bottom: 5px;
+  letter-spacing: -0.025em;
+  font-size: 0.93em;
+}
+
+.recommended-book-desc .author {
+  letter-spacing: -0.025em;
+  font-size: .8em;
+}
+
+.recommended-book-desc .author a {
+  color: #DBA621;
+}
+
+.recommended-book-desc .rating {
+  width: 130px;
+  flex-direction: row;
+  height: 25px;
+  justify-content: space-between;
+}
+
+.recommended-book-desc .rating span {
+  display: block;
+  letter-spacing: -0.025em;
+  font-size: .8em;
+  color: #4B6C68;
+  
+}
+
+.recommended-book-desc .rating svg {
+  margin-left: 2px;
+  width: 12px;
+  height: 12px;
+}
+
+.recommended-book-desc .title:hover, .recommended-book-desc .author a:hover {
+  text-decoration: underline;
+}
+

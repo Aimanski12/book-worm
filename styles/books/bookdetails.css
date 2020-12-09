@@ -1,0 +1,104 @@
+
+.book-details {
+  width: 850px;
+  min-height: 250px;
+  border-top: 1px solid #DADADA;
+  border-bottom: 1px solid #DADADA;
+  margin-bottom: 10px;
+}
+  
+.book-details-title {
+  font-size: 1.2em;
+  letter-spacing: -0.05em;
+  font-weight: 500;
+  color: #53736F;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+}
+
+.book-details-wrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 200px;
+}
+
+.book-selected-details-wrapper {
+  margin-left: 20px;
+  width: 500px;
+  margin-bottom: 40px;
+  align-items: flex-start;
+  min-height: 250px;
+} 
+
+.book-title {
+  font-size: 1.45em;
+  display: block;
+  color: #53736F;
+  letter-spacing: -0.035em;
+  margin-bottom: 8px;
+}
+
+.book-selected-details-authors {
+  margin-bottom: 7px;
+}
+
+.book-selected-details-authors span{
+  font-size: 0.95em;
+  color: #7B7B7B;
+  display: block;
+  margin-bottom: 7px;
+  letter-spacing: -0.025em;
+}
+
+.book-selected-details-authors ul {
+  list-style: none;
+}
+
+.book-selected-details-authors li {
+  padding-left: 15px;
+  font-size: 0.95em;
+  margin-bottom: 5px;
+  letter-spacing: -0.025em;
+  color: #DBA621;
+}
+
+.book-selected-ratings, .book-total-page, .book-released-date, .book-publisher,
+.book-isbn, .book-idnum {
+  flex-direction: row;
+  margin-bottom: 7px;
+  letter-spacing: -0.035em;
+  font-size: 0.95em;
+}
+
+.book-selected-ratings span:first-child, .book-total-page span:first-child,
+.book-released-date span:first-child, .book-publisher span:first-child, .book-isbn span:first-child, .book-idnum span:first-child{
+  color: #7B7B7B;
+  margin-right: 5px;
+}
+
+.book-selected-ratings span:nth-child(2) {
+  color: #53736F;
+}
+
+.book-total-page span:nth-child(2), .book-released-date span:nth-child(2), 
+.book-publisher span:nth-child(2), .book-isbn span:nth-child(2), .book-idnum span:nth-child(2) {
+  color: #DBA621;
+}
+
+.book-selected-ratings svg {
+  margin-left: 5px;
+  height: 13px;
+  width: 13px;
+}
+
+.book-selected-details-wrapper p {
+  margin-bottom: 7px;
+  letter-spacing: -0.035em;
+  font-size: 0.95em;
+  color: #53736F;
+  text-align: justify;
+  line-height: 26px;
+}
+

@@ -8,7 +8,7 @@ function MainBookoftheDay(props) {
   const authors = (lists) => {
     return lists.map((name, i) => {
       return <span className='author'
-        key={i}>{name }</span>
+        key={i}>{name.name }</span>
     })
   }
 
@@ -33,7 +33,8 @@ function MainBookoftheDay(props) {
               </div>
               <p>{Helpers.sliceText(book.desc, 140)}</p>
               
-              <Link href='/'>
+              <Link href='/books/search/isbn/[slug]'
+                as={`/books/search/isbn/${'MAINBOOKOFTHEDAY'}`}>
                 <a className='text-1 content-center'>View Details</a>
               </Link>
             </div>
