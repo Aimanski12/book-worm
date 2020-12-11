@@ -81,10 +81,10 @@ header {
 
 /* navbar right */
 .navbar-right {
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-direction: row;
   margin-right: 30px;
-  width: 270px;
+  width: 170px;
 }
 
 .navbar-right div {

@@ -4,6 +4,7 @@ const getparams = (obj) => {
     case 'query': return `q="${obj.name.toLowerCase()}"`
     case 'cat': return `q=subject:"${obj.name.toLowerCase()}"`
     case 'author': return `q=inauthor:"${obj.name.toLowerCase()}"`
+    case 'isbn': return `q=${obj.str}+isbn:${obj.isbn}`
   }
 }
 
@@ -50,12 +51,49 @@ export const APIRequest = (function(){
   }
 
   // function to get books by authors name
-  const _getAuthor = async (obj) => {
+  const _getAuthor = async (obj, page) => {
     const params = getparams(obj)
-    const data = await fetchData(params, 1, 25)
-    return {
-      books: data.items,
-      total: data.totalItems
+    const data = await fetchData(params, page, 25)
+    // if results are found return all the items
+    if(data.items) {
+      return {
+        books: data.items,
+        total: data.totalItems
+      }
+    } else {
+      // return false if no data found
+      return false
+    }
+  }
+
+  // this function will query book data from the api 
+  // by isbn number. only returns the first found book
+  const _getISBN = async (query) => {
+    let str = query.split('-')
+    const isbn = str.pop()
+    // filter params for the query
+    const bkparams = getparams({
+      url: 'isbn',
+      isbn: isbn,
+      str: str.join(' ')
+    })
+    
+    const data = await fetchData(bkparams)
+
+    // return onlhe first book
+    if(data.items) {
+      const recparams = getparams({
+        url: 'query',
+        name: str.join(' ')
+      })
+      const rec = await fetchData(recparams, 1, 15)
+      
+      return {
+        book : data.items[0],
+        recom: rec.items ? rec.items : false
+      }
+    } else {
+      return false
     }
   }
 
@@ -69,8 +107,11 @@ export const APIRequest = (function(){
     getRecommended(obj) {  
       return _getRecommended(obj)
     },
-    getAuthor(obj){
-      return _getAuthor(obj)
+    getAuthor(obj, page){
+      return _getAuthor(obj, page)
+    },
+    getISBN(query) {
+      return _getISBN(query)
     }
   }
 })()
@@ -78,14 +119,24 @@ export const APIRequest = (function(){
 
 const fetchData = async (params, page, limit) => {
   // api key needed for the external api
-  const API_Key = `&key=AIzaSyCX1kIt4dHXByRj7Zw3PlElWq2SZJvrg4A`
+  // const API_Key = `&key=AIzaSyCX1kIt4dHXByRj7Zw3PlElWq2SZJvrg4A`
+  // const API_Key = `&key=AIzaSyDJKC1rdk4cCMfEzR0PIao0ftFas__0zo4`
+  const API_Key = `&key=AIzaSyDJSQrDm_X_c-xiU49fKPrnY3Kn5bjqDBM`
+  
   // google books api url
   const googleapi = 'https://www.googleapis.com/books/v1/volumes?'
   // additional parameters
   const addparams = `&maxResults=${limit}&orderBy=newest&prettyPrint=true`
 
   // combine the url 
-  let url = `${googleapi}${params}${addparams}&startIndex=${page}${API_Key}`
+  let url;
+
+  if(page) {
+    url = `${googleapi}${params}${addparams}&startIndex=${page}${API_Key}`
+  } else {
+    url = `${googleapi}${params}${API_Key}`
+  }
+  
   
   // fetch data using the GET method
   const result = await fetch(url, {

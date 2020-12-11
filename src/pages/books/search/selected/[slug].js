@@ -6,7 +6,6 @@ import Footer from '../../../../components/Footer/Footer'
 import {BookAppData} from '../../../../utils/contextapi/context'
 import BookDetails from '../../../../components/Books/BookDetails'
 import RecommendedBook from '../../../../components/Books/RecommendedBook'
-
 import {APIRequest} from '../../../../utils/apis/api'
 
 export default function Selected() {

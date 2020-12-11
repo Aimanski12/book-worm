@@ -4,6 +4,7 @@
   min-height: 100px;
   padding-bottom: 50px;
   margin-bottom: 50px;
+  border-top: 1px solid #DADADA;
 }
 
 .recommended-book-title {
@@ -89,3 +90,46 @@
   text-decoration: underline;
 }
 
+/* empty wrapper */
+.empty, .empty-wrapper {
+  min-height: 90px;
+}
+
+.empty-wrapper p, .empty-wrapper span {
+  color: #4B6C68;
+  letter-spacing: -0.035em;
+  font-size: 0.98em;
+}
+
+.empty-wrapper span {
+  margin-top: 10px;
+  color: #DBA621;
+  font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.found-wrapper {
+  width: 180px;
+  min-height: 300px;
+  margin-right: 8px;
+  float: left;
+}

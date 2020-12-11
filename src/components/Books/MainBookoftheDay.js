@@ -12,7 +12,9 @@ function MainBookoftheDay(props) {
     })
   }
 
-   const books = props.books.map((book, i) => {
+  const books = props.books.map((book, i) => {
+  const a = `${book.title} ${book.isbn}`
+  
     return (
       <div 
         key={i}
@@ -32,9 +34,8 @@ function MainBookoftheDay(props) {
                 {authors(Helpers.sortAuthor(book.author, 35))}
               </div>
               <p>{Helpers.sliceText(book.desc, 140)}</p>
-              
-              <Link href='/books/search/isbn/[slug]'
-                as={`/books/search/isbn/${'MAINBOOKOFTHEDAY'}`}>
+              <Link href='/books/search/featured/[slug]'
+                as={`/books/search/featured/${Helpers.setTextToUrl(a)}`}>
                 <a className='text-1 content-center'>View Details</a>
               </Link>
             </div>

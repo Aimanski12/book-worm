@@ -123,6 +123,18 @@ export const Helpers = (function (){
     }
   }
 
+  // this function is for capitalizing text whenever 
+  const _capitalizeText = (str) => {
+    const txt = str.split(' ')
+    let newTxt = []
+    for (let x = 0; x < txt.length; x++) {
+      let a = txt[x].split('')
+      a[0] = a[0].toUpperCase()
+      newTxt.push(a.join(''))
+    }
+    return newTxt.join(' ')
+  }
+
   return {
     sliceText(text, n) {
       return _sliceText(text, n)
@@ -148,6 +160,9 @@ export const Helpers = (function (){
     selectedLink(isbn, title){
       return _selectedLink(isbn, title)
     }, 
+    capitalizeText (str) {
+      return _capitalizeText(str)
+    }
   }
 
 })()

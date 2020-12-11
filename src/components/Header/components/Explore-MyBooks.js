@@ -13,14 +13,14 @@ function ExploreMyBooks() {
           </div>
         </a>
       </Link>
-      <Link href='/my-books'>
+      {/* <Link href='/my-books'>
         <a>
           <div className='content-center'>
             <Svg svg='my books'/>
             <span>My Books</span>
           </div>
         </a>
-      </Link>
+      </Link> */}
     </div>
   )
 }

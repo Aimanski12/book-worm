@@ -13,6 +13,7 @@ function CatBooksoftheDay(props) {
   }
 
   const books = props.books.map((book, i) => {
+    const a = `${book.title} ${book.isbn}`
     return(
       <div 
         key={i}
@@ -33,8 +34,12 @@ function CatBooksoftheDay(props) {
               {authors(Helpers.sortAuthor(book.author, 35))}
             </div>
             <p>{Helpers.sliceText(book.desc, 132)}</p>
-            <Link href='/books/search/isbn/[slug]'
-              as={`/books/search/isbn/${'CATBOOKOFTHEDAY'}`}>
+            {/* <Link href='/books/[samp]/[author]'
+              as={`/books/${Helpers.setTextToUrl(book.title)}/${Helpers.setTextToUrl(book.author[0])}`}>
+              <a className='content-center'>View Details</a>
+            </Link> */}
+            <Link href='/books/search/featured/[slug]'
+              as={`/books/search/featured/${Helpers.setTextToUrl(a)}`}>
               <a className='content-center'>View Details</a>
             </Link>
           </div>
