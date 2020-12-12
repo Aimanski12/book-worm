@@ -8,31 +8,32 @@
           "id": "d_RdCwAAQBAJ",
           "title": "The Stolen Chapters",
           "authors":  ["James Riley"],
+          "isbn": "9781481409223",
           "thumbnail": "http://books.google.com/books/content?id=d_RdCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "0TnaCwAAQBAJ",
           "title": "Bloodwitch",
           "authors": ["Amelia Atwater-Rhodes"],
+          "isbn": "9780385743044",
           "thumbnail": "http://books.google.com/books/content?id=0TnaCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "BbO2CAAAQBAJ",
           "title": "City of Heavenly Fire",
           "authors": ["Cassandra Clare"],
-          "thumbnail": "http://books.google.com/books/content?id=BbO2CAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "isbn": "9781442416895",
+          "thumbnail": "http://books.google.com/books/content?id=a8giBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "kPTvAwAAQBAJ",
           "title": "Island of Fire",
           "authors": ["Lisa McMann"],
+          "isbn": "9781442458468",
           "thumbnail": "http://books.google.com/books/content?id=kPTvAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "tz7XAwAAQBAJ",
           "title": "Ruin and Rising",
           "authors": ["Leigh Bardugo"],
+          "isbn": "9780805094619",
           "thumbnail": "http://books.google.com/books/content?id=tz7XAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "JcsBDAAAQBAJ",
           "title": "Emperor of Thorns",
           "authors": ["Mark Lawrence"],
+          "isbn": "9780425256541",
           "thumbnail": "http://books.google.com/books/content?id=JcsBDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
@@ -41,34 +42,34 @@
       "link": "/fiction/drama",
       "books": [
         {
-          "id": "9VAAEAAAQBAJ",
           "title": "Dancing Women",
           "authors": ["Usha Iyer"],
+          "isbn": "9780190938758",
           "thumbnail": "http://books.google.com/books/content?id=9VAAEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "YGvqDwAAQBAJ",
           "title": "Lady Romeo",
           "authors": ["Tana Wojczuk"],
+          "isbn": "9781501199523",
           "thumbnail": "http://books.google.com/books/content?id=YGvqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "FqLODwAAQBAJ",
           "title": "Broken Feelings - Gefunden",
           "authors": ["Any Cherubim"],
+          "isbn": "9783967140576",
           "thumbnail": "http://books.google.com/books/content?id=FqLODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "bDeZDwAAQBAJ",
           "title": "A Revelação Krinar",
           "authors": ["Anna Zaires", "Hettie Ivers"],
+          "isbn": "9781631424656",
           "thumbnail": "http://books.google.com/books/content?id=bDeZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "3TY2DwAAQBAJ",
           "title": "Room",
           "authors": ["Emma Donoghue"],
+          "isbn": "9781786821775",
           "thumbnail": "http://books.google.com/books/content?id=3TY2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "3iFfDwAAQBAJ",
           "title": "The Secret Lives of Baba Segi’s Wives",
           "authors": ["Lola Shoneyin", "Rotimi Babatunde"],
+          "isbn": "9781786825520",
           "thumbnail": "http://books.google.com/books/content?id=3iFfDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
         
@@ -78,34 +79,34 @@
       "link": "/non-fiction/humor",
       "books": [
         {
-          "id": "OfvgDwAAQBAJ",
           "title": "What a Flanker",
           "authors": ["James Haskell"],
-          "thumbnail": "http://books.google.com/books/content?id=OfvgDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "isbn": "0008403686",
+          "thumbnail": "http://books.google.com/books/content?id=206EzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }, {
-          "id": "u7LQDwAAQBAJ",
           "title": "ArtCurious",
           "authors": ["Jennifer Dasal"],
+          "isbn": "9780525506409",
           "thumbnail": "http://books.google.com/books/content?id=u7LQDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "tRD5DwAAQBAJ",
           "title": "Dear Joan and Jericha - Why He Turns Away",
           "authors": ["Joan Damry", "Jericha Domain"],
+          "isbn": "9781398700611",
           "thumbnail": "http://books.google.com/books/content?id=tRD5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "AQLlDwAAQBAJ",
           "title": "Creativity",
           "authors": ["John Cleese"],
+          "isbn": "9780385348287",
           "thumbnail": "http://books.google.com/books/content?id=AQLlDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "l_S_DwAAQBAJ",
           "title": "Act Like a Lady",
           "authors": ["Keltie Knight", "Becca Tobin", "Jac Vanek"],
+          "isbn": "9780593136447",
           "thumbnail": "http://books.google.com/books/content?id=l_S_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "dbvbDwAAQBAJ",
           "title": "You're Not Special",
           "authors": ["Meghan Rienks"],
+          "isbn": "9781982110109",
           "thumbnail": "http://books.google.com/books/content?id=dbvbDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
@@ -114,35 +115,35 @@
       "link": "/non-fiction/religion",
       "books": [
         {
-          "id": "f1C9DwAAQBAJ",
           "title": "The Immortality Key",
           "authors": ["Brian C. Muraresku"],
+          "isbn": "9781250270917",
           "thumbnail": "http://books.google.com/books/content?id=f1C9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "5zbhDwAAQBAJ",
           "title": "When Women Pray",
           "authors": ["T. D. Jakes"],
+          "isbn": "9781546015574",
           "thumbnail": "http://books.google.com/books/content?id=5zbhDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "Ofj1DwAAQBAJ",
           "title": "Your Second Act",
           "authors": ["Patricia Heaton"],
+          "isbn": "9781982141608",
           "thumbnail": "http://books.google.com/books/content?id=Ofj1DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "qOT8DwAAQBAJ",
           "title": "The Letters of John",
           "authors": ["Colin G. Kruse"],
+          "isbn": "9781467458528",
           "thumbnail": "http://books.google.com/books/content?id=qOT8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "RVi5DwAAQBAJ",
           "title": "Yes to Life",
           "authors": ["Viktor E. Frankl"],
+          "isbn": "9780807005569",
           "thumbnail": "http://books.google.com/books/content?id=RVi5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "NAjYDwAAQBAJ",
-          "title": "Catholicism & Christianity",
-          "authors": ["Jimmy Swaggart"],
-          "thumbnail": "http://books.google.com/books/content?id=NAjYDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "title": "Evangelical Catholicism",
+          "authors": ["George Weigel"],
+          "isbn": "9780465038916",
+          "thumbnail": "http://books.google.com/books/content?id=RQljAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
     }, {
@@ -150,34 +151,34 @@
       "link": "/category/sports",
       "books": [
         {
-          "id": "4cPw2qOk6J8C",
           "title": "Fundamentals of Sport Management",
           "authors": ["Robert E. Baker", "Craig Esherick"],
+          "isbn": "9780736091084",
           "thumbnail": "http://books.google.com/books/content?id=4cPw2qOk6J8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "A_CRtJFQv_IC",
           "title": "Arete",
           "authors": ["Stephen G. Miller"],
+          "isbn": "9780520274334",
           "thumbnail": "http://books.google.com/books/content?id=A_CRtJFQv_IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "296_No7yQw4C",
           "title": "Managing Sport Organizations",
           "authors": ["Daniel Covell", "Sharianne Walker"],
+          "isbn": "9780415626798",
           "thumbnail": "http://books.google.com/books/content?id=296_No7yQw4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "igsyEoejUAQC",
           "title": "Sports Publicity",
           "authors": ["Joseph Favorito"],
+          "isbn": "9780415635004",
           "thumbnail": "http://books.google.com/books/content?id=igsyEoejUAQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "lVbmST8hFz4C",
-          "title": "The Best American Sports Writing 2012",
-          "authors": ["Michael Wilbon", "Glenn Stout"],
-          "thumbnail": "http://books.google.com/books/content?id=lVbmST8hFz4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "title": "Brand NFL",
+          "authors": ["Michael Oriard"],
+          "isbn": "9780807885642",
+          "thumbnail": "http://books.google.com/books/content?id=jWCo55YrBtIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "rnitmUDTgwMC",
           "title": "Team Psychology in Sports",
           "authors": ["Stewart Cotterill"],
+          "isbn": "9780415670579",
           "thumbnail": "http://books.google.com/books/content?id=rnitmUDTgwMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
@@ -186,35 +187,35 @@
       "link": "/textbooks/cryptography",
       "books": [
         {
-          "id": "JWgqDAAAQBAJ",
           "title": "Code Warriors",
           "authors": ["Stephen Budiansky"],
+          "isbn": "9780385352666",
           "thumbnail": "http://books.google.com/books/content?id=JWgqDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "fvywDAAAQBAJ",
           "title": "Decentralized Applications",
           "authors": ["Siraj Raval"],
+          "isbn": "9781491924525",
           "thumbnail": "http://books.google.com/books/content?id=fvywDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "h12cCwAAQBAJ",
-          "title": "The Once and Future Turing",
-          "authors": ["S. Barry Cooper", "Andrew Hodges"],
-          "thumbnail": "http://books.google.com/books/content?id=h12cCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "title": "Computability in Context",
+          "authors": ["Barry Cooper"],
+          "isbn": "9781848162457",
+          "thumbnail": "http://books.google.com/books/content?id=48rfPEiv9eIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "y9uyDwAAQBAJ",
           "title": "A Course in Cryptography",
-          "authors": [" Heiko Knospe"],
+          "authors": ["Heiko Knospe"],
+          "isbn": "9781470450557",
           "thumbnail": "http://books.google.com/books/content?id=y9uyDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "4TRKAAAAQBAJ",
           "title": "Mortal Crimes",
           "authors": ["Nigel West"],
+          "isbn": "9781929631292",
           "thumbnail": "http://books.google.com/books/content?id=4TRKAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "f6WxGObhZmEC",
           "title": "Algebraic Geometry Modeling in Information Theory",
-          "authors": ["Edgar Martínez-Moro"],
-          "thumbnail": "http://books.google.com/books/content?id=f6WxGObhZmEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "authors": ["Edgar Martínez Moro"],
+          "isbn": "9789814335768",
+          "thumbnail": "http://books.google.com/books/content?id=MkG6CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
     }

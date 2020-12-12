@@ -255,6 +255,11 @@
     "url": "cat"
   },
   {
+    "name":"Health Care",
+    "link":"health-care",
+    "url": "cat"
+  },
+  {
     "name":"Hepatology",
     "link":"hepatology",
     "url":"cat"
@@ -275,6 +280,11 @@
     "url":"cat"
   },
   {
+    "name":"Inventors",
+    "link":"inventors",
+    "url": "cat"
+  },
+  {
     "name":"Ions",
     "link":"ions",
     "url":"cat"
@@ -285,14 +295,34 @@
     "url":"cat"
   },
   {
+    "name":"Labor Economics",
+    "link":"labor-economics",
+    "url": "cat"
+  },
+  {
+    "name":"Latin America",
+    "link":"latin-america",
+    "url": "cat"
+  },
+  {
     "name":"Law",
     "link":"law",
     "url":"cat"
   },
   {
+    "name":"Letters",
+    "link":"letters",
+    "url": "cat"
+  },
+  {
     "name":"Literature",
     "link":"literature",
     "url":"cat"
+  },
+  {
+    "name":"Manifolds",
+    "link":"manifolds",
+    "url": "cat"
   },
   {
     "name":"Mathematics",
@@ -315,9 +345,19 @@
     "url":"cat"
   },
   {
+    "name":"Multimedia",
+    "link":"multimedia",
+    "url": "cat"
+  },
+  {
     "name":"Music",
     "link":"music",
     "url":"cat"
+  },
+  {
+    "name":"Music Theory",
+    "link":"music-theory",
+    "url": "cat"
   },
   {
     "name":"Neurology",
@@ -345,6 +385,11 @@
     "url":"cat"
   },
   {
+    "name":"Public Health & Safety",
+    "link":"public-health-safety",
+    "url": "cat"
+  },
+  {
     "name":"Physics",
     "link":"physics",
     "url":"cat"
@@ -368,6 +413,11 @@
     "name":"Psychology",
     "link":"psychology",
     "url":"cat"
+  },
+  {
+    "name":"Religion",
+    "link":"religion",
+    "url": "cat"
   },
   {
     "name":"Renaissance Art",
@@ -397,6 +447,11 @@
     "name":"Solar Energy",
     "link":"solar-energy",
     "url":"cat"
+  },
+  {
+    "name":"Taoism",
+    "link":"taoism",
+    "url": "cat"
   },
   {
     "name":"Taxation",

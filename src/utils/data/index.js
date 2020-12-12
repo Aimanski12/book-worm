@@ -64,7 +64,7 @@ const getlinks = (str) => {
 // function to sort the books by day
 const sortbooks = (books) => {
   const day = Helpers.getDay()
-  return books[day]
+  return books[0]
 }
 
 // function to get the daily books

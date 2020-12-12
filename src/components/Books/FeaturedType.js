@@ -23,8 +23,8 @@ function FeaturedType(props) {
       <Fade key={i}>
         <div 
           className="content-center featured-books-indiv" >
-          <Link href='/books/search/isbn/[slug]' 
-            as={`/books/search/isbn/${'FEATUREDTYPE'}`}>
+          <Link href='/books/[title]/[slug]' 
+            as={`/books/${Helpers.setTextToUrl(list.title)}/${Helpers.setTextToUrl(list.authors[0])}`}>
             <a>
               <img src={list.thumbnail} alt={`${list.title} book cover`}/>
             </a>

@@ -5,34 +5,34 @@
       "link": "tools",
       "books": [
         {
-          "id": "ZGLazQEACAAJ",
           "title": "Woodworking Tools and Accessories",
           "authors": ["Karl Winkler"],
+          "isbn": "9798682222735",
           "thumbnail": "http://books.google.com/books/content?id=ZGLazQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }, {
-          "id": "Rycv9XGk218C",
           "title": "Vehicle Extrication: Levels I & II: Principles and Practice",
           "authors": ["Iafc", "David Sweet"],
+          "isbn": "9781449652555",
           "thumbnail": "http://books.google.com/books/content?id=Rycv9XGk218C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "HyyCDwAAQBAJ",
           "title": "Working with Hand Tools",
           "authors": ["Paul N. Hasluck"],
+          "isbn": "9781632201973",
           "thumbnail": "http://books.google.com/books/content?id=HyyCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "DcRIDwAAQBAJ",
           "title": "The Tool Book",
           "authors": ["Phil Davy", "Jo Behari", "Matthew Jackson", "Luke Edwardes-Evans"],
+          "isbn": "9781465477675",
           "thumbnail": "http://books.google.com/books/content?id=DcRIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "QAc2HD4dOkgC",
           "title": "Woodworking For Dummies",
           "authors": ["Jeff Strong"],
+          "isbn": "9781118053294",
           "thumbnail": "http://books.google.com/books/content?id=QAc2HD4dOkgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "Cc2oN_Gb31EC",
           "title": "Estimating for Residential Construction",
           "authors": ["David Pratt"],
+          "isbn": "9781111308872",
           "thumbnail": "http://books.google.com/books/content?id=Cc2oN_Gb31EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
@@ -41,34 +41,34 @@
       "link": "literary-criticism",
       "books": [
         {
-          "id": "yDfPDwAAQBAJ",
           "title": "The Bright Book of Life",
           "authors": ["Harold Bloom"],
+          "isbn": "9780525657279",
           "thumbnail": "http://books.google.com/books/content?id=yDfPDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }, {
-          "id": "Y_fwDwAAQBAJ",
           "title": "The Gulag Archipelago 1918-1956",
           "authors": ["Aleksandr I. Solzhenitsyn"],
+          "isbn": "9780062941602",
           "thumbnail": "http://books.google.com/books/content?id=Y_fwDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "y1cEEAAAQBAJ",
           "title": "Biography",
           "authors": ["Catherine N. Parke"],
+          "isbn": "9781000143515",
           "thumbnail": "http://books.google.com/books/content?id=y1cEEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "7I7CDwAAQBAJ",
           "title": "The Writer's Library",
           "authors": ["Nancy Pearl", "Jeff Schwager"],
+          "isbn": "9780062968517",
           "thumbnail": "http://books.google.com/books/content?id=7I7CDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "81AAEAAAQBAJ",
           "title": "The Last Word",
           "authors": ["Justin Gautreau"],
+          "isbn": "9780190944551",
           "thumbnail": "http://books.google.com/books/content?id=81AAEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "5GiCDwAAQBAJ",
           "title": "Bearing Witness",
           "authors": ["John R. Carpenter"],
+          "isbn": "9781510736542",
           "thumbnail": "http://books.google.com/books/content?id=5GiCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
@@ -77,35 +77,37 @@
       "link": "finance",
       "books": [
         {
-          "id": "Q9LMDwAAQBAJ",
           "title": "The Wealthy Gardener",
           "authors": ["John Soforic"],
+          "isbn": "9780593189740",
           "thumbnail": "http://books.google.com/books/content?id=Q9LMDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "3c3SDwAAQBAJ",
           "title": "The Practice of Lending",
           "authors": ["Terence M. Yhip", "Bijan M. D. Alagheband"],
+          "isbn": "9783030321970",
           "thumbnail": "http://books.google.com/books/content?id=3c3SDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "wUfODwAAQBAJ",
           "title": "Multinational Banks and Foreign Expansion Decisions",
           "authors": ["Cansu Eray"],
+          "isbn": "9783030368791",
           "thumbnail": "http://books.google.com/books/content?id=wUfODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "hMHADwAAQBAJ",
           "title": "Divested",
           "authors": ["Ken-Hou Lin", "Megan Tobias Neely"],
+          "isbn": "9780190638313",
           "thumbnail": "http://books.google.com/books/content?id=hMHADwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "0pruDwAAQBAJ",
           "title": "Machine Learning in Finance",
           "authors": ["Paul A. Bilokon", "Matthew F. Dixon"],
+          "isbn": "9783030410681",
           "thumbnail": "http://books.google.com/books/content?id=0pruDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "yZnBDwAAQBAJ",
-          "title": "Blockchain Economics and Financial Market Innovation",
-          "authors": ["Umit Hacioglu"],
-          "thumbnail": "http://books.google.com/books/content?id=yZnBDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "title": "Blockchain",
+          "authors": ["James C. Anderson"],
+          "isbn": "1984147099",
+          "thumbnail": "http://books.google.com/books/content?id=F4GmtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }
       ]
     }, {
@@ -113,34 +115,34 @@
       "link": "astrology",
       "books": [
         {
-          "id": "YfdvDwAAQBAJ",
           "title": "Enchantments",
           "authors": ["Mya Spalter"],
+          "isbn": "9780525509653",
           "thumbnail": "http://books.google.com/books/content?id=YfdvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "WT6lDwAAQBAJ",
           "title": "The Old Farmer's Almanac 2020",
           "authors": ["Old Farmer's Almanac"],
-          "thumbnail": "http://books.google.com/books/content?id=WT6lDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "isbn": "9781571988515",
+          "thumbnail": "http://books.google.com/books/content?id=t-_RDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "k2P6DwAAQBAJ",
           "title": "Astrology Made Easy",
           "authors": ["Yasmin Boland"],
+          "isbn": "9781788172486",
           "thumbnail": "http://books.google.com/books/content?id=k2P6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "8gdNDwAAQBAJ",
           "title": "The Lunar Gospel",
           "authors": ["Cal Garrison"],
+          "isbn": "9781578636266",
           "thumbnail": "http://books.google.com/books/content?id=8gdNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "b7hwCgAAQBAJ",
           "title": "Astrology and Reformation",
           "authors": ["Robin Bruce Barnes"],
+          "isbn": "9780199736058",
           "thumbnail": "http://books.google.com/books/content?id=b7hwCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "T1ZOBwAAQBAJ",
           "title": "Practical Astrology for Witches and Pagans",
           "authors": ["Ivo Dominguez Jr."],
+          "isbn": "9781578635757",
           "thumbnail": "http://books.google.com/books/content?id=T1ZOBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
@@ -149,34 +151,34 @@
       "link": "jews",
       "books": [
         {
-          "id": "0eYwBQAAQBAJ",
           "title": "Judaism",
           "authors": ["Norman Solomon"],
-          "thumbnail": "http://books.google.com/books/content?id=0eYwBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "isbn": "9780191511080",
+          "thumbnail": "http://books.google.com/books/content?id=MRMNBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "KbpvDwAAQBAJ",
           "title": "How I Stopped Being a Jew",
           "authors": ["Shlomo Sand"],
+          "isbn": "9781781686140",
           "thumbnail": "http://books.google.com/books/content?id=KbpvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "dbGwXcAAfBcC",
           "title": "The Imposter Bride",
           "authors": ["Nancy Richler"],
+          "isbn": "9781250010063",
           "thumbnail": "http://books.google.com/books/content?id=dbGwXcAAfBcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "TXntAQAAQBAJ",
           "title": "The Midwife of Venice",
           "authors": ["Roberta Rich"],
+          "isbn": "9781451657470",
           "thumbnail": "http://books.google.com/books/content?id=TXntAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "mtGFZbJut0gC",
           "title": "Judaism as a Civilization",
           "authors": ["Mordecai M. Kaplan"],
+          "isbn": "9780827610507",
           "thumbnail": "http://books.google.com/books/content?id=mtGFZbJut0gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "InLqZMPkr84C",
           "title": "On Jews and Judaism in Crisis",
           "authors": ["Gershom Scholem"],
+          "isbn": "9781589880740",
           "thumbnail": "http://books.google.com/books/content?id=InLqZMPkr84C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
@@ -185,34 +187,34 @@
       "link": "design",
       "books": [
         {
-          "id": "ODauZhO5QQIC",
           "title": "Becoming an Interior Designer",
           "authors": ["Christine M. Piotrowski"],
-          "thumbnail": "http://books.google.com/books/content?id=ODauZhO5QQIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "isbn": "9781118174227",
+          "thumbnail": "http://books.google.com/books/content?id=ACr9LUKfKk0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "YfFP2ejTujoC",
-          "title": "Design Applications of Raft Foundations",
+          "title": "Elastic Analysis of Raft Foundations",
           "authors": ["J. A. Hemsley"],
-          "thumbnail": "http://books.google.com/books/content?id=YfFP2ejTujoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "isbn": "0727725947",
+          "thumbnail": "http://books.google.com/books/content?id=Hiw_MirhFFwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "OB5pPtGQuZgC",
-          "title": "Design Discourse",
+          "title": "The Struggle for Utopia",
           "authors": ["Victor Margolin"],
-          "thumbnail": "http://books.google.com/books/content?id=OB5pPtGQuZgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "isbn": "0226505162",
+          "thumbnail": "http://books.google.com/books/content?id=q93LHoimzjcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "Lg2iyehYXroC",
           "title": "Design of Experiments for Engineers and Scientists",
           "authors": ["Jiju Antony"],
+          "isbn": "9780080469959",
           "thumbnail": "http://books.google.com/books/content?id=Lg2iyehYXroC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "cy6QlOBsyb8C",
           "title": "Interior Design for Libraries",
           "authors": ["Carol R. Brown"],
+          "isbn": "0838908292",
           "thumbnail": "http://books.google.com/books/content?id=cy6QlOBsyb8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "crdyG1QCchMC",
           "title": "Asphalt Concrete Mix Design",
           "authors": ["William Gartner"],
+          "isbn": "0803112688",
           "thumbnail": "http://books.google.com/books/content?id=crdyG1QCchMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]

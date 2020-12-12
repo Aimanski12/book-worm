@@ -23,12 +23,13 @@ function FeatCatBook(props) {
     })
 
     return newlist.map((list, i) => {
+      console.log(list)
       return (
         <Fade key={i}>
           <div 
             className="content-center featured-cat-books-indiv" >
-            <Link href='/books/search/isbn/[slug]' 
-              as={`/books/search/isbn/${'FEATCATBOOK'}`}>
+            <Link href='/books/[title]/[slug]' 
+              as={`/books/${Helpers.setTextToUrl(list.title)}/${Helpers.setTextToUrl(list.authors[0])}`}>
               <a>
                 <img src={list.thumbnail} 
                   alt={`${list.title} book cover`}/>

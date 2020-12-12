@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react'
+import {Helpers} from '../../../utils/common/helpers'
 import {useRouter} from 'next/router'
 
 function Samp() {
@@ -30,10 +31,14 @@ function Samp() {
   const showbooks = () => {
     if(Object.keys(books.book).length != 0) {
     return books.book.map((l, i) => {
-      console.log(l)
-      return (<div className='content-center found-wrapper'>
+      console.log({
+        id: l.id, 
+        isbn: l.volumeInfo.industryIdentifiers ? l.volumeInfo.industryIdentifiers[0].identifier : 'wala man',
+        image: l.volumeInfo.imageLinks ? l.volumeInfo.imageLinks.thumbnail : 'no retrato'
+      })
+      return (<div className='content-center found-wrapper' key={i}>
         <img src={l.volumeInfo.imageLinks ? l.volumeInfo.imageLinks.thumbnail : ''} alt=""/>
-          <span>{l.volumeInfo.title}</span>
+          <span>{Helpers.sliceText(l.volumeInfo.title, 25)}</span>
           <span>{l.volumeInfo.authors ? l.volumeInfo.authors[0] : ''}</span>
         </div> )
     })

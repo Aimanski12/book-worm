@@ -6,40 +6,40 @@
       "link": "classics",
       "books": [
         {
-          "id": "u9O5BAAAQBAJ",
           "title" : "Ruth's Journey",
           "authors": ["Donald McCaig"],
+          "isbn": "9781451643534",
           "thumbnail": "http://books.google.com/books/content?id=u9O5BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         },
         {
-          "id": "O5F9a-NotOAC",
           "title": "David Copperfield",
           "authors": ["Charles Dickens"],
-          "thumbnail": "http://books.google.com/books/content?id=O5F9a-NotOAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "isbn": "1649651066",
+          "thumbnail": "http://books.google.com/books/content?id=4xL8zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         },
         {
-          "id": "A2DG7mclawoC",
-          "title": "Martin Chuzzlewit",
-          "authors": ["Charles Dickens"],
-          "thumbnail": "http://books.google.com/books/content?id=A2DG7mclawoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "title": "The Ambassadors",
+          "authors": ["James Graham"],
+          "isbn": "9780191605765",
+          "thumbnail": "http://books.google.com/books/content?id=iRDDQ35z_-UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         },
         {
-          "id": "gu78JKzMB2cC",
           "title": "David Balfour",
           "authors": ["Robert Louis Stevenson"],
-          "thumbnail": "http://books.google.com/books/content?id=gu78JKzMB2cC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "isbn": "9798696884066",
+          "thumbnail": "http://books.google.com/books/content?id=jUEGzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         },
         {
-          "id": "vp--U7m0g-AC",
           "title": "The Three Musketeers",
           "authors": ["Alexandre Dumas"],
-          "thumbnail": "http://books.google.com/books/content?id=vp--U7m0g-AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "isbn": "9798642803875",
+          "thumbnail": "http://books.google.com/books/content?id=M8R_zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         },
         {
-          "id": "htCI8i-THTcC",
           "title": "Ivanhoe",
           "authors": ["Sir Walter Scott"],
-          "thumbnail": "http://books.google.com/books/content?id=htCI8i-THTcC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          "isbn": "1689934212",
+          "thumbnail": "http://books.google.com/books/content?id=S38cyQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }
       ]
     }, {
@@ -47,34 +47,34 @@
       "link": "historical-fiction",
       "books": [
         {
-          "id": "iLRKDwAAQBAJ",
           "title": "The Hollywood Daughter",
           "authors":  ["Kate Alcott"],
+          "isbn": "9781101912249",
           "thumbnail": "http://books.google.com/books/content?id=iLRKDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "mJOxDgAAQBAJ",
           "title": "Feast of Sorrow",
           "authors": ["Crystal King"],
+          "isbn": "9781501145131",
           "thumbnail": "http://books.google.com/books/content?id=mJOxDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "SBkaDgAAQBAJ",
           "title": "Last Night with the Duke",
           "authors": ["Amelia Grey"],
-          "thumbnail": "http://books.google.com/books/content?id=SBkaDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "isbn": "9781250102508",
+          "thumbnail": "http://books.google.com/books/content?id=YGrZDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "8H7fDQAAQBAJ",
           "title": "The Life and Times of Persimmon Wilson",
           "authors": ["Nancy Peacock"],
+          "isbn": "9781501116353",
           "thumbnail": "http://books.google.com/books/content?id=8H7fDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "HAcdDgAAQBAJ",
           "title": "The Lost Book of the Grail",
           "authors": ["Charlie Lovett"],
+          "isbn": "9780399562518",
           "thumbnail": "http://books.google.com/books/content?id=HAcdDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "xRVHDwAAQBAJ",
           "title": "Lincoln in the Bardo",
           "authors": ["George Saunders"],
+          "isbn": "9780812985405",
           "thumbnail": "http://books.google.com/books/content?id=xRVHDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
@@ -83,35 +83,35 @@
       "link": "poetry",
       "books": [
         {
-          "id": "O3oBEAAAQBAJ",
           "title": "Negotiations",
           "authors": ["Destiny O. Birdsong"],
+          "isbn": "9781951142148",
           "thumbnail": "http://books.google.com/books/content?id=O3oBEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "C_b_DwAAQBAJ",
-          "title": "What If?",
+          "title": "What If",
           "authors": ["Peter Ian Webster"],
+          "isbn": "9781839752704",
           "thumbnail": "http://books.google.com/books/content?id=C_b_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "PTcEEAAAQBAJ",
           "title": "New Poems",
           "authors":  ["Thomas Trzyna"],
+          "isbn": "9781725279926",
           "thumbnail": "http://books.google.com/books/content?id=PTcEEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "fhPxDwAAQBAJ",
           "title": "An Inconvenient Journey",
           "authors": ["Bethny Ricks"],
+          "isbn": "9781662901652",
           "thumbnail": "http://books.google.com/books/content?id=fhPxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "eCb4DwAAQBAJ",
           "title": "Bonafide Scribbler",
           "authors":  ["Manjusha Joshi"],
+          "isbn": "9781649516947",
           "thumbnail": "http://books.google.com/books/content?id=eCb4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "GqboDwAAQBAJ",
           "title": "The Prophet",
           "authors": ["Kahlil Gibran"],
-          "thumbnail": "http://books.google.com/books/content?id=GqboDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "isbn": "9798558145335",
+          "thumbnail": "http://books.google.com/books/content?id=RW8IzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }
       ]
     }, {
@@ -119,34 +119,34 @@
       "link": "fables",
       "books": [
         {
-          "id": "HvJ4736_xlgC",
           "title": "Monkey Business",
           "authors": ["Shirley Climo"],
+          "isbn": "0805063927",
           "thumbnail": "http://books.google.com/books/content?id=HvJ4736_xlgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "G1Is4lNnUsUC",
           "title": "Children's Classic Stories",
-          "authors": ["Belinda (editor) Gallagher", "Miles Kelly Publishing"],
+          "authors": ["Miles Kelly Publishing"],
+          "isbn": "9781842363843",
           "thumbnail": "http://books.google.com/books/content?id=G1Is4lNnUsUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "gMZMBtWHaHUC",
           "title": "The Donkey in the Lion's Skin",
           "authors": ["Eric Blair", "Aesop"],
+          "isbn": "1404803203",
           "thumbnail": "http://books.google.com/books/content?id=gMZMBtWHaHUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "uxQtgljSvioC",
           "title": "The Boy Who Cried Wolf",
           "authors": ["Eric Blair", "Aesop"],
+          "isbn": "140480319X",
           "thumbnail": "http://books.google.com/books/content?id=uxQtgljSvioC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "nlPM8Pm7pJUC",
           "title": "The Fox and the Stork",
           "authors": ["Gerald McDermott"],
+          "isbn": "0152048375",
           "thumbnail": "http://books.google.com/books/content?id=nlPM8Pm7pJUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "Z9fGwOodOjAC",
           "title": "Ella Minnow Pea",
           "authors": ["Mark Dunn"],
+          "isbn": "0967370167",
           "thumbnail": "http://books.google.com/books/content?id=Z9fGwOodOjAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
@@ -155,35 +155,35 @@
       "link": "literary-fiction",
       "books": [
         {
-          "id": "m7aWzQEACAAJ",
-          "title": "The Mona Lisa Sisters",
-          "authors": ["George Cramer"],
-          "thumbnail": "http://books.google.com/books/content?id=m7aWzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          "title": "The Louvre",
+          "authors": ["James Gardner"],
+          "isbn": "9781611854763",
+          "thumbnail": "http://books.google.com/books/content?id=oMfEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }, {
-          "id": "uO6ozQEACAAJ",
           "title": "The Age of Innocence",
           "authors": ["Edith Wharton"],
-          "thumbnail": "http://books.google.com/books/content?id=uO6ozQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          "isbn": "9798567903650",
+          "thumbnail": "http://books.google.com/books/content?id=XA8OzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }, {
-          "id": "gHmWzQEACAAJ",
           "title": "The Adventures of Sherlock Holmes",
           "authors": ["Sir Arthur Conan Doyle"],
-          "thumbnail": "http://books.google.com/books/content?id=gHmWzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          "isbn": "9798567190449",
+          "thumbnail": "http://books.google.com/books/content?id=L-wNzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }, {
-          "id": "Dph-zQEACAAJ",
           "title": "The Time Machine",
           "authors":  ["Herbert George Wells"],
-          "thumbnail": "http://books.google.com/books/content?id=Dph-zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          "isbn": "9798685510174",
+          "thumbnail": "http://books.google.com/books/content?id=-cHlzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }, {
-          "id": "-XWBzQEACAAJ",
           "title": "Frankenstein",
           "authors": ["Mary Shelley"],
-          "thumbnail": "http://books.google.com/books/content?id=-XWBzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          "isbn": "9798669948528",
+          "thumbnail": "http://books.google.com/books/content?id=RFLAzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }, {
-          "id": "PGR_zQEACAAJ",
           "title": "The Three Clerks",
           "authors": ["Anthony Trollope"],
-          "thumbnail": "http://books.google.com/books/content?id=PGR_zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          "isbn": "9798568894520",
+          "thumbnail": "http://books.google.com/books/content?id=IHAMzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }
       ]
     }, {
@@ -191,34 +191,34 @@
       "link": "science-fiction",
       "books": [
         {
-          "id": "llmpBAAAQBAJ",
           "title": "A Vision of Fire",
           "authors": ["Gillian Anderson", "Jeff Rovin"],
+          "isbn": "9781476776521",
           "thumbnail": "http://books.google.com/books/content?id=llmpBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "oniQBQAAQBAJ",
           "title": "The Just City",
           "authors": ["Jo Walton"],
+          "isbn": "9780765332660",
           "thumbnail": "http://books.google.com/books/content?id=oniQBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "O60eCAAAQBAJ",
           "title": "The Remedy",
           "authors": ["Suzanne Young"],
+          "isbn": "9781481437653",
           "thumbnail": "http://books.google.com/books/content?id=O60eCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "DUwRCgAAQBAJ",
           "title": "The Defiant",
           "authors": ["Lisa M. Stasse"],
+          "isbn": "9781442432727",
           "thumbnail": "http://books.google.com/books/content?id=DUwRCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "UFXZCwAAQBAJ",
           "title": "Earth Flight",
           "authors": ["Janet Edwards"],
+          "isbn": "9781633880924",
           "thumbnail": "http://books.google.com/books/content?id=UFXZCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "PCeJDAAAQBAJ",
           "title": "Supernova",
           "authors": ["C. A. Higgins"],
+          "isbn": "9780553394450",
           "thumbnail": "http://books.google.com/books/content?id=PCeJDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
