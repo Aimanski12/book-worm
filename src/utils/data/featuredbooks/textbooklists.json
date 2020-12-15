@@ -2,14 +2,13 @@
   [
     {
       "name": "Auditing",
-      "link": "auditing",
+      "link": "/textbooks/auditing",
       "books": [
         {
-          "id": "5vxNDQAAQBAJ",
-          "title": "Audit Guide: Audit Sampling",
+          "id": "DHv1DwAAQBAJ",
+          "title": "Audit and Accounting Manual",
           "authors": ["AICPA"],
-          
-          "thumbnail": "http://books.google.com/books/content?id=5vxNDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "thumbnail": "http://books.google.com/books/content?id=DHv1DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "HS6gV_qvGQwC",
           "title": "Auditing Essentials",
@@ -39,7 +38,7 @@
       ]
     }, {
       "name": "Cognitive Science",
-      "link": "cognitive-science",
+      "link": "/textbooks/cognitive-science",
       "books": [
         {
           "id": "o33HDwAAQBAJ",
@@ -57,133 +56,133 @@
           "authors": ["Arlindo Oliveira"],
           "thumbnail": "http://books.google.com/books/content?id=AFaZDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "NTsoDwAAQBAJ",
-          "title": "The Oxford Handbook of Cognitive Science",
-          "authors": ["Susan E. F. Chipman"],
-          "thumbnail": "http://books.google.com/books/content?id=NTsoDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "Mm0BEAAAQBAJ",
+          "title": "Coming to Our Senses",
+          "authors": ["Susan Barry"],
+          "thumbnail": "http://books.google.com/books/content?id=Mm0BEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }, {
           "id": "HVqvCwAAQBAJ",
           "authors": ["Patrick Jagoda"],
           "title": "Network Aesthetics",
           "thumbnail": "http://books.google.com/books/content?id=HVqvCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "uwI_AwAAQBAJ",
-          "title": "The Architecture of Cognition",
-          "authors": ["Paco Calvo", "John Symons"],
-          "thumbnail": "http://books.google.com/books/content?id=uwI_AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "OfkFEAAAQBAJ",
+          "title": "The Adaptable Mind",
+          "authors": ["John Zerilli"],
+          "thumbnail": "http://books.google.com/books/content?id=OfkFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
     }, {
       "name": "Multimedia",
-      "link": "multimedia",
+      "link": "/textbooks/multimedia",
       "books": [
         {
-          "id": "22OSBgAAQBAJ",
+          "id": "_FJm5qpyajoC",
           "title": "Multimedia Cartography",
           "authors": ["William Cartwright", "Michael P Peterson", "Georg Gartner"],
           "thumbnail": "http://books.google.com/books/content?id=22OSBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "Ipk5x-c_xNIC",
-          "title": "Encyclopedia of Multimedia",
+          "id": "Mn0jNqzVsDgC",
+          "title": "Handbook of Multimedia Computing",
           "authors": ["Borko Furht"],
-          "thumbnail": "http://books.google.com/books/content?id=Ipk5x-c_xNIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "thumbnail": "http://books.google.com/books/content?id=Mn0jNqzVsDgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "LKEECCdHLqQC",
-          "title": "Multimedia",
-          "authors": ["Randall Packer", "Ken Jordan"],
-          "thumbnail": "http://books.google.com/books/content?id=LKEECCdHLqQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "c3gexQkURnEC",
+          "title": "HTML 5 Multimedia Developer's Guide",
+          "authors": ["Ken Bluttman"],
+          "thumbnail": "http://books.google.com/books/content?id=c3gexQkURnEC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }, {
-          "id": "ymJ9o-w_6WEC",
+          "id": "kIFVzQEACAAJ",
           "title": "Multimedia Learning",
           "authors": ["Richard E Mayer", "Richard E. Mayer"],
-          "thumbnail": "http://books.google.com/books/content?id=ymJ9o-w_6WEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "thumbnail": "http://books.google.com/books/content?id=kIFVzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }, {
-          "id": "nCnSy5XXdygC",
-          "title": "Multimedia Retrieval",
-          "authors": ["Henk M. Blanken", "Arjen P. de Vries", "Henk Ernst Blok", "Ling Feng"],
-          "thumbnail": "http://books.google.com/books/content?id=nCnSy5XXdygC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "OORZJ3Fmr_8C",
+          "title": "Multimedia Multiprocessor Systems",
+          "authors": ["Akash Kumar"],
+          "thumbnail": "http://books.google.com/books/content?id=OORZJ3Fmr_8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "ykaRc_L9wYQC",
-          "title": "Computer Graphics and Multimedia",
+          "id": "doOoc3cKyB8C",
+          "title": "Digital Design for Print and Web",
           "authors": ["John DiMarco"],
-          "thumbnail": "http://books.google.com/books/content?id=ykaRc_L9wYQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "thumbnail": "http://books.google.com/books/content?id=doOoc3cKyB8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
     }, {
       "name": "Cardiology",
-      "link": "cardiology",
+      "link": "/textbooks/cardiology",
       "books": [
         {
-          "id": "y2WRDwAAQBAJ",
-          "title": "Congenital Heart Diseases in Adults",
-          "authors": ["Sebastian Ley", "Julia Ley-Zaporozhan"],
-          "thumbnail": "http://books.google.com/books/content?id=y2WRDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "PwFnyAEACAAJ",
+          "title": "Blood Pressure",
+          "authors": ["John Carter"],
+          "thumbnail": "http://books.google.com/books/content?id=PwFnyAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }, {
-          "id": "oymsDwAAQBAJ",
-          "title": "Cardiac Repolarization",
-          "authors": ["Nabil El-Sherif"],
-          "thumbnail": "http://books.google.com/books/content?id=oymsDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        }, {
-          "id": "JJnqDwAAQBAJ",
-          "title": "Cardiac Considerations in Chronic Lung Disease",
-          "authors": ["Surya P. Bhatt"],
-          "thumbnail": "http://books.google.com/books/content?id=JJnqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "vrc7DwAAQBAJ",
+          "title": "Cardiac Regeneration",
+          "authors": ["Masaki Ieda"],
+          "thumbnail": "http://books.google.com/books/content?id=vrc7DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "GYtHDwAAQBAJ",
           "title": "Cardiovascular Genetics and Genomics",
           "authors": ["Dhavendra Kumar", "Perry Elliott"],
           "thumbnail": "http://books.google.com/books/content?id=GYtHDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "ZbtaDwAAQBAJ",
-          "title": "Heart Failure: From Research to Clinical Practice",
-          "authors": ["Md. Shahidul Islam"],
-          "thumbnail": "http://books.google.com/books/content?id=ZbtaDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "HcJdzQEACAAJ",
+          "title": "Cardiac Diet",
+          "authors": ["Dr John Tyler"],
+          "thumbnail": "http://books.google.com/books/content?id=HcJdzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }, {
-          "id": "w5swDwAAQBAJ",
-          "title": "Pharmacology of Mitochondria",
-          "authors": ["Harpreet Singh", "Shey-Shing Sheu"],
-          "thumbnail": "http://books.google.com/books/content?id=w5swDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "uLAm3RrvKr0C",
+          "title": "Vital Signs",
+          "authors": ["Ken Hillman"],
+          "thumbnail": "http://books.google.com/books/content?id=uLAm3RrvKr0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        }, {
+          "id": "yiFuQVldGCAC",
+          "title": "The Greater Goal",
+          "authors": ["Ken Jennings"],
+          "thumbnail": "http://books.google.com/books/content?id=yiFuQVldGCAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
     },  {
       "name": "Artificial Intelligence",
-      "link": "artificial-intelligence",
+      "link": "/textbooks/artificial-intelligence",
       "books": [
         {
-          "id": "T53SDwAAQBAJ",
-          "title": "AI Narratives",
-          "authors": ["Stephen Cave", "Kanta Dihal", "Sarah Dillon"],
-          "thumbnail": "http://books.google.com/books/content?id=T53SDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        }, {
-          "id": "jSzPDwAAQBAJ",
-          "title": "Smart Village Technology",
-          "authors": ["Srikanta Patnaik", "Siddhartha Sen", "Magdi S. Mahmoud"],
-          "thumbnail": "http://books.google.com/books/content?id=jSzPDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        }, {
-          "id": "6EbCDwAAQBAJ",
-          "title": "Computer Vision in Advanced Control Systems-5",
-          "authors": ["Margarita N. Favorskaya", "Lakhmi C. Jain"],
-          "thumbnail": "http://books.google.com/books/content?id=6EbCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        }, {
-          "id": "qpm2DwAAQBAJ",
-          "title": "Artificial intelligence - When do machines take over?",
-          "authors": ["Klaus Mainzer"],
-          "thumbnail": "http://books.google.com/books/content?id=qpm2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        }, {
-          "id": "2ZSfDwAAQBAJ",
-          "title": "Aerial Robotic Manipulation",
-          "authors": ["Anibal Ollero", "Bruno Siciliano"],
-          "thumbnail": "http://books.google.com/books/content?id=2ZSfDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        }, {
           "id": "arT4DwAAQBAJ",
           "title": "The AI Advantage",
           "authors": ["Thomas H. Davenport"],
           "thumbnail": "http://books.google.com/books/content?id=arT4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        }, {
+          "id": "ugiiDwAAQBAJ",
+          "title": "AI and Human Thought",
+          "authors": ["Sam Freed"],
+          "thumbnail": "http://books.google.com/books/content?id=ugiiDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        }, {
+          "id": "5vy_DgAAQBAJ",
+          "title": "Engineering Applications of Soft Computing",
+          "authors": ["Margarita Arimatea"],
+          "thumbnail": "http://books.google.com/books/content?id=5vy_DgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        }, {
+          "id": "qpm2DwAAQBAJ",
+          "title": "Artificial intelligence",
+          "authors": ["Klaus Mainzer"],
+          "thumbnail": "http://books.google.com/books/content?id=qpm2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        }, {
+          "id": "wZ59DwAAQBAJ",
+          "title": "Naming Game",
+          "authors": ["Guanrong Chen", "Yang Lou"],
+          "thumbnail": "http://books.google.com/books/content?id=wZ59DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        }, {
+          "id": "8zP5uQEACAAJ",
+          "title": "Hands On Chatbot Development",
+          "authors": ["Sam Williams"],
+          "thumbnail": "http://books.google.com/books/content?id=8zP5uQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }
       ]
     },  {
       "name": "Essays",
-      "link": "essays",
+      "link": "/textbooks/essays",
       "books": [
         {
           "id": "qT87DwAAQBAJ",
@@ -191,10 +190,10 @@
           "authors": ["Umberto Eco"],
           "thumbnail": "http://books.google.com/books/content?id=qT87DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "ZQFbDwAAQBAJ",
-          "title": "The Broadview Anthology of Expository Prose - Third Edition",
-          "authors": ["Laura Buzzard", "Don LePan", "Nora Ruddock", "Alexandria Stuart"],
-          "thumbnail": "http://books.google.com/books/content?id=ZQFbDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "aOgGEAAAQBAJ",
+          "title": "Idiot",
+          "authors": ["Laura Clery"],
+          "thumbnail": "http://books.google.com/books/content?id=aOgGEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "3aVBDwAAQBAJ",
           "title": "A Woman Looking at Men Looking at Women",
@@ -206,10 +205,10 @@
           "authors": ["Sarah Ruhl"],
           "thumbnail": "http://books.google.com/books/content?id=VnMtBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "KwfxAwAAQBAJ",
-          "title": "We Shall Bear Witness",
-          "authors": ["Meg Jensen", "Margaretta Jolly"],
-          "thumbnail": "http://books.google.com/books/content?id=KwfxAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "D9EzDwAAQBAJ",
+          "title": "Bear Witness to Murder",
+          "authors": ["Meg Macy"],
+          "thumbnail": "http://books.google.com/books/content?id=D9EzDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "VUk9AwAAQBAJ",
           "title": "The Opposite of Loneliness",
@@ -222,7 +221,7 @@
   [
     {
       "name": "Labor Economics",
-      "link": "labor-economics",
+      "link": "/textbooks/labor-economics",
       "books": [
         {
           "id": "BQ3BDwAAQBAJ",
@@ -230,20 +229,20 @@
           "authors": ["José Luis Iparraguirre"],
           "thumbnail": "http://books.google.com/books/content?id=BQ3BDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "h67QDwAAQBAJ",
-          "title": "Workers, Managers, Productivity",
-          "authors": ["Akio Hosono"],
-          "thumbnail": "http://books.google.com/books/content?id=h67QDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "sl27hPUYJhoC",
+          "title": "Getting to Scale",
+          "authors": ["Laurence Chandy"],
+          "thumbnail": "http://books.google.com/books/content?id=sl27hPUYJhoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "R2vLDwAAQBAJ",
           "title": "Conspicuous Employment",
           "authors": ["Benjamin Berghaus"],
           "thumbnail": "http://books.google.com/books/content?id=R2vLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "sJyyDwAAQBAJ",
-          "title": "Opportunities and Challenges in Development",
-          "authors": ["Simanti Bandyopadhyay", "Mousumi Dutta"],
-          "thumbnail": "http://books.google.com/books/content?id=sJyyDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "MjmWAwAAQBAJ",
+          "title": "Capitalism and Classical Social Theory",
+          "authors": ["John Bratton"],
+          "thumbnail": "http://books.google.com/books/content?id=MjmWAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "atGuDwAAQBAJ",
           "title": "Women and Labour Market Dynamics",
@@ -258,7 +257,7 @@
       ]
     }, {
       "name": "Algebra",
-      "link": "algebra",
+      "link": "/textbooks/algebra",
       "books": [
         {
           "id": "Gda8DwAAQBAJ",
@@ -286,15 +285,15 @@
           "authors": ["Jeremy Gray"],
           "thumbnail": "http://books.google.com/books/content?id=gl1oDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "TlsqDwAAQBAJ",
-          "title": "Simplicity: Ideals of Practice in Mathematics and the Arts",
-          "authors": ["Roman Kossak", "Philip Ording"],
-          "thumbnail": "http://books.google.com/books/content?id=TlsqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "f6WxGObhZmEC",
+          "title": "Algebraic Geometry Modeling in Information Theory",
+          "authors": ["Edgar Martínez Moro"],
+          "thumbnail": "http://books.google.com/books/content?id=MkG6CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
     }, {
       "name": "Astronomy",
-      "link": "astronomy",
+      "link": "/textbooks/astronomy",
       "books": [
         {
           "id": "sozODwAAQBAJ",
@@ -304,7 +303,7 @@
         }, {
           "id": "oTCdDwAAQBAJ",
           "title": "Planetary Geoscience",
-          "authors": ["Harry Y. McSween, Jr", "Jeffrey E. Moersch", "Devon M. Burr", "William M. Dunne", "Joshua P. Emery", "Linda C. Kah", "Molly C. McCanta"],
+          "authors": ["Harry Y McSween Jr"],
           "thumbnail": "http://books.google.com/books/content?id=oTCdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "GHJdDwAAQBAJ",
@@ -330,7 +329,7 @@
       ]
     }, {
       "name": "Furniture",
-      "link": "furniture",
+      "link": "/textbooks/furniture",
       "books": [
         {
           "id": "kVRJAQAAIAAJ",
@@ -343,20 +342,20 @@
           "authors": ["Oscar P. Fitzgerald"],
           "thumbnail": "http://books.google.com/books/content?id=XFOOjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }, {
-          "id": "nT5QAAAAMAAJ",
-          "title": "Young European Designers",
-          "authors": ["Joachim Fischer"],
-          "thumbnail": "http://books.google.com/books/content?id=nT5QAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          "id": "BbPhk4Hoy3UC",
+          "title": "Made in America",
+          "authors": ["Claude Fisher"],
+          "thumbnail": "http://books.google.com/books/content?id=BbPhk4Hoy3UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "FeIqswEACAAJ",
-          "title": "Vintage",
-          "authors": ["Francisco Segarra"],
-          "thumbnail": "http://books.google.com/books/content?id=FeIqswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          "id": "w1YMAwAAQBAJ",
+          "title": "Reading Seattle",
+          "authors": ["Peter Donahue"],
+          "thumbnail": "http://books.google.com/books/content?id=w1YMAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "mv_qAAAAMAAJ",
-          "title": "English Country Furniture",
-          "authors": ["David Knell"],
-          "thumbnail": "http://books.google.com/books/content?id=mv_qAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          "id": "lXS9Nl0Ei7EC",
+          "title": "Extravagant Inventions",
+          "authors": ["Wolfram Koeppe"],
+          "thumbnail": "http://books.google.com/books/content?id=lXS9Nl0Ei7EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "eFEM_QsmZeoC",
           "title": "The Story of Western Furniture",
@@ -366,7 +365,7 @@
       ]
     }, {
       "name": "Cryptography",
-      "link": "cryptography",
+      "link": "/textbooks/cryptography",
       "books": [
         {
           "id": "JWgqDAAAQBAJ",
@@ -379,14 +378,14 @@
           "authors": ["Siraj Raval"],
           "thumbnail": "http://books.google.com/books/content?id=fvywDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "h12cCwAAQBAJ",
-          "title": "The Once and Future Turing",
-          "authors": ["S. Barry Cooper", "Andrew Hodges"],
-          "thumbnail": "http://books.google.com/books/content?id=h12cCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "48rfPEiv9eIC",
+          "title": "Computability in Context",
+          "authors": ["Barry Cooper"],
+          "thumbnail": "http://books.google.com/books/content?id=48rfPEiv9eIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "y9uyDwAAQBAJ",
           "title": "A Course in Cryptography",
-          "authors": [" Heiko Knospe"],
+          "authors": ["Heiko Knospe"],
           "thumbnail": "http://books.google.com/books/content?id=y9uyDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "4TRKAAAAQBAJ",
@@ -396,13 +395,13 @@
         }, {
           "id": "f6WxGObhZmEC",
           "title": "Algebraic Geometry Modeling in Information Theory",
-          "authors": ["Edgar Martínez-Moro"],
-          "thumbnail": "http://books.google.com/books/content?id=f6WxGObhZmEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "authors": ["Edgar Martínez Moro"],
+          "thumbnail": "http://books.google.com/books/content?id=MkG6CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
     }, {
       "name": "Music Theory",
-      "link": "music-theory",
+      "link": "/textbooks/music-theory",
       "books": [
         {
           "id": "EQovDwAAQBAJ",
@@ -425,10 +424,10 @@
           "authors": ["Thomas Robinson"],
           "thumbnail": "http://books.google.com/books/content?id=MiIlDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "purVCgAAQBAJ",
-          "title": "The 'Musica' of Hermannus Contractus",
-          "authors": ["Hermannus"],
-          "thumbnail": "http://books.google.com/books/content?id=purVCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "WFlOBwAAQBAJ",
+          "title": "Music Theory For Beginners",
+          "authors": ["R. Ryan Endris"],
+          "thumbnail": "http://books.google.com/books/content?id=WFlOBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "vmsVBinC8IkC",
           "title": "Music Fundamentals for Dance",
@@ -441,7 +440,7 @@
   [
     {
       "name": "Sculpture",
-      "link": "sculpture",
+      "link": "/textbooks/sculpture",
       "books": [
         {
           "id": "O5n7vsgE6nUC",
@@ -477,7 +476,7 @@
       ]
     }, {
       "name": "Taoism",
-      "link": "taoism",
+      "link": "/textbooks/taoism",
       "books": [
         {
           "id": "PTvqDAAAQBAJ",
@@ -513,7 +512,7 @@
       ]
     }, {
       "name": "Agricultural Economics",
-      "link": "agricultural-economics",
+      "link": "/textbooks/agricultural-economics",
       "books": [
         {
           "id": "e53aDwAAQBAJ",
@@ -549,7 +548,7 @@
       ]
     }, {
       "name": "Power Resources",
-      "link": "power-resources",
+      "link": "/textbooks/power-resources",
       "books": [
         {
           "id": "Uys0DwAAQBAJ",
@@ -585,7 +584,7 @@
       ]
     }, {
       "name": "Anthropology",
-      "link": "anthropology",
+      "link": "/textbooks/anthropology",
       "books": [
         {
           "id": "bGS6CwAAQBAJ",
@@ -621,7 +620,7 @@
       ]
     }, {
       "name": "Botany",
-      "link": "botany",
+      "link": "/textbooks/botany",
       "books": [
         {
           "id": "9ug7DwAAQBAJ",
@@ -660,7 +659,7 @@
   [
     {
       "name": "Biology",
-      "link": "biology",
+      "link": "/textbooks/biology",
       "books": [
         {
           "id": "V2pNDwAAQBAJ",
@@ -696,7 +695,7 @@
       ]
     }, {
       "name": "Taxation",
-      "link": "taxation",
+      "link": "/textbooks/taxation",
       "books": [
         {
           "id": "XtGoDwAAQBAJ",
@@ -732,7 +731,7 @@
       ]
     }, {
       "name": "Composers",
-      "link": "composers",
+      "link": "/textbooks/composers",
       "books": [
         {
           "id": "8TfpDwAAQBAJ",
@@ -768,7 +767,7 @@
       ]
     }, {
       "name": "World History",
-      "link": "world-history",
+      "link": "/textbooks/world-history",
       "books": [
         {
           "id": "_J2SDwAAQBAJ",
@@ -804,7 +803,7 @@
       ]
     }, {
       "name": "General Education",
-      "link": "general-education",
+      "link": "/textbooks/general-education",
       "books": [
         {
           "id": "bZnqDwAAQBAJ",
@@ -840,7 +839,7 @@
       ]
     }, {
       "name": "Public Health & Safety",
-      "link": "public-health-safety",
+      "link": "/textbooks/public-health-safety",
       "books": [
         {
           "id": "uUSfDwAAQBAJ",
@@ -879,7 +878,7 @@
   [
     {
       "name": "Physics",
-      "link": "physics",
+      "link": "/textbooks/physics",
       "books": [
         {
           "id": "ppCuDwAAQBAJ",
@@ -915,7 +914,7 @@
       ]
     }, {
       "name": "Accounting",
-      "link": "accounting",
+      "link": "/textbooks/accounting",
       "books": [
         {
           "id": "qi1wDwAAQBAJ",
@@ -951,7 +950,7 @@
       ]
     }, {
       "name": "Health Care",
-      "link": "health-care",
+      "link": "/textbooks/health-care",
       "books": [
         {
           "id": "zVBjKdBo2ioC",
@@ -987,7 +986,7 @@
       ]
     }, {
       "name": "Aerospace Engineering",
-      "link": "aerospace-engineering",
+      "link": "/textbooks/aerospace-engineering",
       "books": [
         {
           "id": "RdTkDwAAQBAJ",
@@ -1023,7 +1022,7 @@
       ]
     }, {
       "name": "Zoology",
-      "link": "zoology",
+      "link": "/textbooks/zoology",
       "books": [
         {
           "id": "Q57WCwAAQBAJ",
@@ -1059,7 +1058,7 @@
       ]
     }, {
       "name": "Criminal Law",
-      "link": "criminal-law",
+      "link": "/textbooks/criminal-law",
       "books": [
         {
           "id": "vWBODwAAQBAJ",
@@ -1098,7 +1097,7 @@
   [
     {
       "name": "Ions",
-      "link": "ions",
+      "link": "/textbooks/ions",
       "books": [
         {
           "id": "TwDcQCKrIy0C",
@@ -1134,7 +1133,7 @@
       ]
     }, {
       "name": "Letters",
-      "link": "letters",
+      "link": "/textbooks/letters",
       "books": [
         {
           "id": "__9FDwAAQBAJ",
@@ -1170,7 +1169,7 @@
       ]
     }, {
       "name": "Inventors",
-      "link": "inventors",
+      "link": "/textbooks/inventors",
       "books": [
         {
           "id": "KYx8DwAAQBAJ",
@@ -1206,7 +1205,7 @@
       ]
     }, {
       "name": "Geometry",
-      "link": "geometry",
+      "link": "/textbooks/geometry",
       "books": [
         {
           "id": "KxegDwAAQBAJ",
@@ -1242,7 +1241,7 @@
       ]
     }, {
       "name": "Latin America",
-      "link": "latin-america",
+      "link": "/textbooks/latin-america",
       "books": [
         {
           "id": "gHI9DwAAQBAJ",
@@ -1278,7 +1277,7 @@
       ]
     }, {
       "name": "Buddhism",
-      "link": "buddhism",
+      "link": "/textbooks/buddhism",
       "books": [
         {
           "id": "4u_GDwAAQBAJ",
@@ -1317,7 +1316,7 @@
   [
     {
       "name": "Business Law",
-      "link": "business-law",
+      "link": "/textbooks/business-law",
       "books": [
         {
           "id": "QoJ6z11LYtwC",
@@ -1353,7 +1352,7 @@
       ]
     }, {
       "name": "Atoms",
-      "link": "atoms",
+      "link": "/textbooks/atoms",
       "books": [
         {
           "id": "9A7ZDgAAQBAJ",
@@ -1389,7 +1388,7 @@
       ]
     }, {
       "name": "Religion",
-      "link": "religion",
+      "link": "/textbooks/religion",
       "books": [
         {
           "id": "m_zsDwAAQBAJ",
@@ -1425,7 +1424,7 @@
       ]
     }, {
       "name": "Capitalism",
-      "link": "capitalism",
+      "link": "/textbooks/capitalism",
       "books": [
         {
           "id": "I8QjDwAAQBAJ",
@@ -1461,7 +1460,7 @@
       ]
     }, {
       "name": "Manifolds",
-      "link": "manifolds",
+      "link": "/textbooks/manifolds",
       "books": [
         {
           "id": "ePFIAwAAQBAJ",
@@ -1497,7 +1496,7 @@
       ]
     }, {
       "name": "Economics",
-      "link": "economics",
+      "link": "/textbooks/economics",
       "books": [
         {
           "id": "1cMYDAAAQBAJ",

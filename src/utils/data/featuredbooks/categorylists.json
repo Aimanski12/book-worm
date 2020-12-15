@@ -2,219 +2,217 @@
   [
     {
       "name": "Tools",
-      "link": "tools",
+      "link": "/category/tools",
       "books": [
         {
+          "id": "ZGLazQEACAAJ",
           "title": "Woodworking Tools and Accessories",
           "authors": ["Karl Winkler"],
-          "isbn": "9798682222735",
           "thumbnail": "http://books.google.com/books/content?id=ZGLazQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }, {
+          "id": "d4biaQyT0JgC",
           "title": "Vehicle Extrication: Levels I & II: Principles and Practice",
           "authors": ["Iafc", "David Sweet"],
-          "isbn": "9781449652555",
           "thumbnail": "http://books.google.com/books/content?id=Rycv9XGk218C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "HyyCDwAAQBAJ",
           "title": "Working with Hand Tools",
           "authors": ["Paul N. Hasluck"],
-          "isbn": "9781632201973",
           "thumbnail": "http://books.google.com/books/content?id=HyyCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "DcRIDwAAQBAJ",
           "title": "The Tool Book",
           "authors": ["Phil Davy", "Jo Behari", "Matthew Jackson", "Luke Edwardes-Evans"],
-          "isbn": "9781465477675",
           "thumbnail": "http://books.google.com/books/content?id=DcRIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "QAc2HD4dOkgC",
           "title": "Woodworking For Dummies",
           "authors": ["Jeff Strong"],
-          "isbn": "9781118053294",
           "thumbnail": "http://books.google.com/books/content?id=QAc2HD4dOkgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "Cc2oN_Gb31EC",
           "title": "Estimating for Residential Construction",
           "authors": ["David Pratt"],
-          "isbn": "9781111308872",
           "thumbnail": "http://books.google.com/books/content?id=Cc2oN_Gb31EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
     }, {
       "name": "Literary Criticism",
-      "link": "literary-criticism",
+      "link": "/category/literary-criticism",
       "books": [
         {
+          "id": "yDfPDwAAQBAJ",
           "title": "The Bright Book of Life",
           "authors": ["Harold Bloom"],
-          "isbn": "9780525657279",
           "thumbnail": "http://books.google.com/books/content?id=yDfPDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }, {
+          "id": "Y_fwDwAAQBAJ",
           "title": "The Gulag Archipelago 1918-1956",
           "authors": ["Aleksandr I. Solzhenitsyn"],
-          "isbn": "9780062941602",
           "thumbnail": "http://books.google.com/books/content?id=Y_fwDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "y1cEEAAAQBAJ",
           "title": "Biography",
           "authors": ["Catherine N. Parke"],
-          "isbn": "9781000143515",
           "thumbnail": "http://books.google.com/books/content?id=y1cEEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "7I7CDwAAQBAJ",
           "title": "The Writer's Library",
           "authors": ["Nancy Pearl", "Jeff Schwager"],
-          "isbn": "9780062968517",
           "thumbnail": "http://books.google.com/books/content?id=7I7CDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "81AAEAAAQBAJ",
           "title": "The Last Word",
           "authors": ["Justin Gautreau"],
-          "isbn": "9780190944551",
           "thumbnail": "http://books.google.com/books/content?id=81AAEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "5GiCDwAAQBAJ",
           "title": "Bearing Witness",
           "authors": ["John R. Carpenter"],
-          "isbn": "9781510736542",
           "thumbnail": "http://books.google.com/books/content?id=5GiCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
     }, {
       "name": "Finance",
-      "link": "finance",
+      "link": "/category/finance",
       "books": [
         {
+          "id": "Q9LMDwAAQBAJ",
           "title": "The Wealthy Gardener",
           "authors": ["John Soforic"],
-          "isbn": "9780593189740",
           "thumbnail": "http://books.google.com/books/content?id=Q9LMDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "3c3SDwAAQBAJ",
           "title": "The Practice of Lending",
           "authors": ["Terence M. Yhip", "Bijan M. D. Alagheband"],
-          "isbn": "9783030321970",
           "thumbnail": "http://books.google.com/books/content?id=3c3SDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "wUfODwAAQBAJ",
           "title": "Multinational Banks and Foreign Expansion Decisions",
           "authors": ["Cansu Eray"],
-          "isbn": "9783030368791",
           "thumbnail": "http://books.google.com/books/content?id=wUfODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "hMHADwAAQBAJ",
           "title": "Divested",
           "authors": ["Ken-Hou Lin", "Megan Tobias Neely"],
-          "isbn": "9780190638313",
           "thumbnail": "http://books.google.com/books/content?id=hMHADwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "0pruDwAAQBAJ",
           "title": "Machine Learning in Finance",
           "authors": ["Paul A. Bilokon", "Matthew F. Dixon"],
-          "isbn": "9783030410681",
           "thumbnail": "http://books.google.com/books/content?id=0pruDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "F4GmtAEACAAJ",
           "title": "Blockchain",
           "authors": ["James C. Anderson"],
-          "isbn": "1984147099",
           "thumbnail": "http://books.google.com/books/content?id=F4GmtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }
       ]
     }, {
       "name": "Astrology",
-      "link": "astrology",
+      "link": "/category/astrology",
       "books": [
         {
+          "id": "YfdvDwAAQBAJ",
           "title": "Enchantments",
           "authors": ["Mya Spalter"],
-          "isbn": "9780525509653",
           "thumbnail": "http://books.google.com/books/content?id=YfdvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "55tUzQEACAAJ",
           "title": "The Old Farmer's Almanac 2020",
           "authors": ["Old Farmer's Almanac"],
-          "isbn": "9781571988515",
           "thumbnail": "http://books.google.com/books/content?id=t-_RDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "k2P6DwAAQBAJ",
           "title": "Astrology Made Easy",
           "authors": ["Yasmin Boland"],
-          "isbn": "9781788172486",
           "thumbnail": "http://books.google.com/books/content?id=k2P6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "8gdNDwAAQBAJ",
           "title": "The Lunar Gospel",
           "authors": ["Cal Garrison"],
-          "isbn": "9781578636266",
           "thumbnail": "http://books.google.com/books/content?id=8gdNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "b7hwCgAAQBAJ",
           "title": "Astrology and Reformation",
           "authors": ["Robin Bruce Barnes"],
-          "isbn": "9780199736058",
           "thumbnail": "http://books.google.com/books/content?id=b7hwCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "T1ZOBwAAQBAJ",
           "title": "Practical Astrology for Witches and Pagans",
           "authors": ["Ivo Dominguez Jr."],
-          "isbn": "9781578635757",
           "thumbnail": "http://books.google.com/books/content?id=T1ZOBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
     }, {
       "name": "Jews",
-      "link": "jews",
+      "link": "/category/jews",
       "books": [
         {
+          "id": "MRMNBAAAQBAJ",
           "title": "Judaism",
           "authors": ["Norman Solomon"],
-          "isbn": "9780191511080",
           "thumbnail": "http://books.google.com/books/content?id=MRMNBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "KbpvDwAAQBAJ",
           "title": "How I Stopped Being a Jew",
           "authors": ["Shlomo Sand"],
-          "isbn": "9781781686140",
           "thumbnail": "http://books.google.com/books/content?id=KbpvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "dbGwXcAAfBcC",
           "title": "The Imposter Bride",
           "authors": ["Nancy Richler"],
-          "isbn": "9781250010063",
           "thumbnail": "http://books.google.com/books/content?id=dbGwXcAAfBcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "TXntAQAAQBAJ",
           "title": "The Midwife of Venice",
           "authors": ["Roberta Rich"],
-          "isbn": "9781451657470",
           "thumbnail": "http://books.google.com/books/content?id=TXntAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "mtGFZbJut0gC",
           "title": "Judaism as a Civilization",
           "authors": ["Mordecai M. Kaplan"],
-          "isbn": "9780827610507",
           "thumbnail": "http://books.google.com/books/content?id=mtGFZbJut0gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "InLqZMPkr84C",
           "title": "On Jews and Judaism in Crisis",
           "authors": ["Gershom Scholem"],
-          "isbn": "9781589880740",
           "thumbnail": "http://books.google.com/books/content?id=InLqZMPkr84C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
     }, {
       "name": "Design",
-      "link": "design",
+      "link": "/category/design",
       "books": [
         {
+          "id": "ACr9LUKfKk0C",
           "title": "Becoming an Interior Designer",
           "authors": ["Christine M. Piotrowski"],
-          "isbn": "9781118174227",
           "thumbnail": "http://books.google.com/books/content?id=ACr9LUKfKk0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "Hiw_MirhFFwC",
           "title": "Elastic Analysis of Raft Foundations",
           "authors": ["J. A. Hemsley"],
-          "isbn": "0727725947",
           "thumbnail": "http://books.google.com/books/content?id=Hiw_MirhFFwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "q93LHoimzjcC",
           "title": "The Struggle for Utopia",
           "authors": ["Victor Margolin"],
-          "isbn": "0226505162",
           "thumbnail": "http://books.google.com/books/content?id=q93LHoimzjcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "Lg2iyehYXroC",
           "title": "Design of Experiments for Engineers and Scientists",
           "authors": ["Jiju Antony"],
-          "isbn": "9780080469959",
           "thumbnail": "http://books.google.com/books/content?id=Lg2iyehYXroC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "cy6QlOBsyb8C",
           "title": "Interior Design for Libraries",
           "authors": ["Carol R. Brown"],
-          "isbn": "0838908292",
           "thumbnail": "http://books.google.com/books/content?id=cy6QlOBsyb8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
+          "id": "cy6QlOBsyb8C",
           "title": "Asphalt Concrete Mix Design",
           "authors": ["William Gartner"],
-          "isbn": "0803112688",
           "thumbnail": "http://books.google.com/books/content?id=crdyG1QCchMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
@@ -223,7 +221,7 @@
   [
     {
       "name": "Adulthood",
-      "link": "adulthood",
+      "link": "/category/adulthood",
       "books": [
         {
           "id": "WlDUDwAAQBAJ",
@@ -251,15 +249,15 @@
           "authors": ["Jenny Mollen"],
           "thumbnail": "http://books.google.com/books/content?id=b8KGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "w_dKDgAAQBAJ",
-          "title": "Flourishing in Emerging Adulthood",
-          "authors": ["Laura M. Padilla-Walker", "Larry J. Nelson"],
-          "thumbnail": "http://books.google.com/books/content?id=w_dKDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "IOOgDwAAQBAJ",
+          "title": "Identity in Adolescence",
+          "authors": ["Laura Ferrer Wreder"],
+          "thumbnail": "http://books.google.com/books/content?id=IOOgDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
     }, {
       "name": "History",
-      "link": "history",
+      "link": "/category/history",
       "books": [
         {
           "id": "f1C9DwAAQBAJ",
@@ -295,7 +293,7 @@
       ]
     }, {
       "name": "Construction",
-      "link": "construction",
+      "link": "/category/construction",
       "books": [
         {
           "id": "qvQCEAAAQBAJ",
@@ -323,7 +321,7 @@
           "authors": ["Jackie Portman"],
           "thumbnail": "http://books.google.com/books/content?id=fH32CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "iAK5vgEACAAJ",
+          "id": "59yLDwAAQBAJ",
           "title": "Concrete Construction",
           "authors": ["Akhtar Surahyo"],
           "thumbnail": "http://books.google.com/books/content?id=iAK5vgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
@@ -331,7 +329,7 @@
       ]
     }, {
       "name": "Regionalism",
-      "link": "regionalism",
+      "link": "/category/regionalism",
       "books": [
         {
           "id": "m9XkDwAAQBAJ",
@@ -344,10 +342,10 @@
           "authors": ["Massaab Al-Aloosy"],
           "thumbnail": "http://books.google.com/books/content?id=nivRDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "0qnNDwAAQBAJ",
-          "title": "Middle East Christianity",
-          "authors": ["Stephan Stetter", "Mitra Moussa Nabo"],
-          "thumbnail": "http://books.google.com/books/content?id=0qnNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "xt7YAZOioLQC",
+          "title": "The Middle East and Globalization",
+          "authors": ["Stephan Stetter"],
+          "thumbnail": "http://books.google.com/books/content?id=xt7YAZOioLQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "pEz2DwAAQBAJ",
           "title": "Migration, Social Identities and Regionalism within the Caribbean Community",
@@ -358,16 +356,16 @@
           "title": "Political Culture in the Baltic States",
           "authors": ["Kjetil Duvold", "Sten Berglund", "Joakim Ekman"],
           "thumbnail": "http://books.google.com/books/content?id=Nka5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        }, {
-          "id": "QOCgDwAAQBAJ",
-          "title": "The Politics of Recognition and Engagement",
-          "authors": ["Ioannis Armakolas", "James Ker-Lindsay"],
-          "thumbnail": "http://books.google.com/books/content?id=QOCgDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        }, { 
+          "id": "TFFuDwAAQBAJ",
+          "title": "Constitutional Law and Regionalism",
+          "authors": ["Vito Breda"],
+          "thumbnail": "http://books.google.com/books/content?id=TFFuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
     }, {
       "name": "Sports",
-      "link": "sports",
+      "link": "/category/sports",
       "books": [
         {
           "id": "4cPw2qOk6J8C",
@@ -390,10 +388,10 @@
           "authors": ["Joseph Favorito"],
           "thumbnail": "http://books.google.com/books/content?id=igsyEoejUAQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "lVbmST8hFz4C",
-          "title": "The Best American Sports Writing 2012",
-          "authors": ["Michael Wilbon", "Glenn Stout"],
-          "thumbnail": "http://books.google.com/books/content?id=lVbmST8hFz4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "mPV5zQEACAAJ",
+          "title": "Racer",
+          "authors": ["John Andretti"],
+          "thumbnail": "http://books.google.com/books/content?id=mPV5zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }, {
           "id": "rnitmUDTgwMC",
           "title": "Team Psychology in Sports",
@@ -403,13 +401,13 @@
       ]
     }, {
       "name": "Finance",
-      "link": "finance",
+      "link": "/category/finance",
       "books": [
         {
-          "id": "yZnBDwAAQBAJ",
-          "title": "Blockchain Economics and Financial Market Innovation",
-          "authors": ["Umit Hacioglu"],
-          "thumbnail": "http://books.google.com/books/content?id=yZnBDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "9XgBAAAAQBAJ",
+          "title": "Financially Fearless",
+          "authors": ["Alexa Von Tobel"],
+          "thumbnail": "http://books.google.com/books/content?id=9XgBAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "QUmvDwAAQBAJ",
           "title": "Transfer Pricing in One Lesson",
@@ -442,12 +440,12 @@
   [
     {
       "name": "Housing",
-      "link": "housing",
+      "link": "/category/housing",
       "books": [
         {
           "id": "UYHCDwAAQBAJ",
           "title": "Neighborhood Defenders",
-          "authors": ["Katherine Levine Einstein", "David M. Glick", "Maxwell Palmer"],
+          "authors": ["Katherine Levine Einstein"],
           "thumbnail": "http://books.google.com/books/content?id=UYHCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "uWXRDwAAQBAJ",
@@ -478,7 +476,7 @@
       ]
     }, {
       "name": "Europe",
-      "link": "europe",
+      "link": "/category/europe",
       "books": [
         {
           "id": "vminDwAAQBAJ",
@@ -501,20 +499,20 @@
           "authors": ["Judith Pollmann"],
           "thumbnail": "http://books.google.com/books/content?id=UYstDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "0e1BDwAAQBAJ",
-          "title": "Trade Unions and Migrant Workers",
-          "authors": ["Stefania Marino", "Judith Roosblad", "Rinus Penninx"],
-          "thumbnail": "http://books.google.com/books/content?id=0e1BDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "CcfzAwAAQBAJ",
+          "title": "The Italians",
+          "authors": ["John Hopper"],
+          "thumbnail": "http://books.google.com/books/content?id=CcfzAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "2S42DwAAQBAJ",
-          "authors": ["Nikolay Koposov"],
           "title": "Memory Laws, Memory Wars",
+          "authors": ["Nikolay Koposov"],
           "thumbnail": "http://books.google.com/books/content?id=2S42DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }
       ]
     }, {
       "name": "Self-actualization",
-      "link": "self-actualization",
+      "link": "/category/self-actualization",
       "books": [
         {
           "id": "U3PIyAEACAAJ",
@@ -527,20 +525,20 @@
           "authors": ["John William Reich"],
           "thumbnail": "http://books.google.com/books/content?id=-oPYBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "PVo8BAAAQBAJ",
-          "title": "Music Therapy Handbook",
-          "authors": ["Barbara L. Wheeler"],
-          "thumbnail": "http://books.google.com/books/content?id=PVo8BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "juRnBgAAQBAJ",
+          "title": "Conscious Evolution1",
+          "authors": ["Barbara Marx Hubbard"],
+          "thumbnail": "http://books.google.com/books/content?id=juRnBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "tt3EBQAAQBAJ",
           "title": "If there are no limits...",
           "authors": ["Dianne Gaudet"],
           "thumbnail": "http://books.google.com/books/content?id=tt3EBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "OznGwQEACAAJ",
-          "title": "System of 9 for Self Actualization",
-          "authors": ["Sunjata Keita", "Eboni Davis"],
-          "thumbnail": "http://books.google.com/books/content?id=OznGwQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          "id": "ZY39tAEACAAJ",
+          "title": "The Result",
+          "authors": ["Dave Crenshaw"],
+          "thumbnail": "http://books.google.com/books/content?id=ZY39tAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         }, {
           "id": "M3dVBgAAQBAJ",
           "title": "The Humanist Society",
@@ -550,7 +548,7 @@
       ]
     }, {
       "name": "Bible",
-      "link": "bible",
+      "link": "/category/bible",
       "books": [
         {
           "id": "2T2lDwAAQBAJ",
@@ -586,23 +584,23 @@
       ]
     }, {
       "name": "Africa",
-      "link": "africa",
+      "link": "/category/africa",
       "books": [
         {
-          "id": "y3jCDwAAQBAJ",
-          "title": "Africa on the Move",
-          "authors": ["Hana Horáková", "Stephanie Rudwick", "Martin Schmiedl"],
-          "thumbnail": "http://books.google.com/books/content?id=y3jCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "rVvUhdDAvT4C",
+          "title": "Closer to Freedom",
+          "authors": ["Stephanie Camp"],
+          "thumbnail": "http://books.google.com/books/content?id=rVvUhdDAvT4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "eZygDwAAQBAJ",
           "title": "Heineken in Africa",
           "authors": ["Olivier van Beemen"],
           "thumbnail": "http://books.google.com/books/content?id=eZygDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
-          "id": "JgdZDwAAQBAJ",
-          "title": "Africapitalism",
-          "authors": ["Kenneth Amaeshi", "Adun Okupe", "Uwafiokun Idemudia"],
-          "thumbnail": "http://books.google.com/books/content?id=JgdZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "id": "gTSGDwAAQBAJ",
+          "title": "Communities of Resistance",
+          "authors": ["A Sivanandam"],
+          "thumbnail": "http://books.google.com/books/content?id=gTSGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         }, {
           "id": "ci3VDgAAQBAJ",
           "title": "Taken for a Ride",
@@ -622,7 +620,7 @@
       ]
     }, {
       "name": "Astrology",
-      "link": "astrology",
+      "link": "/category/astrology",
       "books": [
         {
           "id": "1O7P9GaSaoEC",
@@ -661,7 +659,7 @@
   [
     {
       "name": "Jews",
-      "link": "jews",
+      "link": "/category/jews",
       "books": [
         {
           "id": "mT8hCwAAQBAJ",
@@ -697,7 +695,7 @@
       ]
     }, {
       "name": "Anxiety",
-      "link": "anxiety",
+      "link": "/category/anxiety",
       "books": [
         {
           "id": "w7_nDwAAQBAJ",
@@ -733,7 +731,7 @@
       ]
     }, {
       "name": "Puzzles",
-      "link": "puzzles",
+      "link": "/category/puzzles",
       "books": [
         {
           "id": "Wb9wDwAAQBAJ",
@@ -769,7 +767,7 @@
       ]
     }, {
       "name": "Animism",
-      "link": "animism",
+      "link": "/category/animism",
       "books": [
         {
           "id": "4acwDwAAQBAJ",
@@ -805,7 +803,7 @@
       ]
     }, {
       "name": "Asia",
-      "link": "asia",
+      "link": "/category/asia",
       "books": [
         {
           "id": "3Ri7DQAAQBAJ",
@@ -841,7 +839,7 @@
       ]
     }, {
       "name": "Spirituality",
-      "link": "spirituality",
+      "link": "/category/spirituality",
       "books": [
         {
           "id": "4UvSAQAAQBAJ",
@@ -880,7 +878,7 @@
   [
     {
       "name": "Sports",
-      "link": "sports",
+      "link": "/category/sports",
       "books": [
         {
           "id": "aEWNDQAAQBAJ",
@@ -916,7 +914,7 @@
       ]
     }, {
       "name": "Kids & Teens",
-      "link": "kids-teens",
+      "link": "/category/kids-teens",
       "books": [
         {
           "id": "Cg3WzQEACAAJ",
@@ -952,7 +950,7 @@
       ]
     }, {
       "name": "Family",
-      "link": "family",
+      "link": "/category/family",
       "books": [
         {
           "id": "0n_IDwAAQBAJ",
@@ -988,7 +986,7 @@
       ]
     }, {
       "name": "Tools",
-      "link": "tools",
+      "link": "/category/tools",
       "books": [
         {
           "id": "ZGLazQEACAAJ",
@@ -1024,7 +1022,7 @@
       ]
     }, {
       "name": "Conduct of Life",
-      "link": "conduct-of-life",
+      "link": "/category/conduct-of-life",
       "books": [
         {
           "id": "I9PXDwAAQBAJ",
@@ -1060,7 +1058,7 @@
       ]
     }, {
       "name": "Regionalism",
-      "link": "regionalism",
+      "link": "/category/regionalism",
       "books": [
         {
           "id": "TFFuDwAAQBAJ",
@@ -1099,7 +1097,7 @@
   [
     {
       "name": "Philippines",
-      "link": "philippines",
+      "link": "/category/philippines",
       "books": [
          {
           "id": "ubSmDwAAQBAJ",
@@ -1135,7 +1133,7 @@
       ]
     }, {
       "name": "Animals",
-      "link": "animals",
+      "link": "/category/animals",
       "books": [
         {
           "id": "6EiJzQEACAAJ",
@@ -1171,7 +1169,7 @@
       ]
     }, {
       "name": "Design",
-      "link": "design",
+      "link": "/category/design",
       "books": [
         {
           "id": "qGd-DwAAQBAJ",
@@ -1207,7 +1205,7 @@
       ]
     }, {
       "name": "Adulthood",
-      "link": "adulthood",
+      "link": "/category/adulthood",
       "books": [
         {
           "id": "WcoCDQAAQBAJ",
@@ -1243,7 +1241,7 @@
       ]
     }, {
       "name": "Film",
-      "link": "film",
+      "link": "/category/film",
       "books": [
         {
           "id": "BebEAji_wH4C",
@@ -1279,7 +1277,7 @@
       ]
     }, {
       "name": "History",
-      "link": "history",
+      "link": "/category/history",
       "books": [
         {
           "id": "0dANBAAAQBAJ",
@@ -1318,7 +1316,7 @@
   [
     {
       "name": "Drama",
-      "link": "drama",
+      "link": "/category/drama",
       "books": [
         {
           "id": "5JUmCgAAQBAJ",
@@ -1354,7 +1352,7 @@
       ]
     }, {
       "name": "Racism",
-      "link": "racism",
+      "link": "/category/racism",
       "books": [
         {
           "id": "0ufWDwAAQBAJ",
@@ -1390,7 +1388,7 @@
       ]
     }, {
       "name": "Spirituality",
-      "link": "spirituality",
+      "link": "/category/spirituality",
       "books": [
         {
           "id": "qRouDwAAQBAJ",
@@ -1426,7 +1424,7 @@
       ]
     }, {
     "name": "Housing",
-    "link": "housing",
+    "link": "/category/housing",
     "books": [
       {
         "id": "Ft5dqVDGBmMC",
@@ -1462,7 +1460,7 @@
     ]
   }, {
     "name": "Animal",
-    "link": "animal",
+    "link": "/category/animal",
     "books": [
       {
         "id": "8TPQAQAAQBAJ",
@@ -1498,7 +1496,7 @@
     ]
   }, {
     "name": "Film",
-    "link": "film",
+    "link": "/category/film",
     "books": [
       {
         "id": "liuJRbLLZ34C",

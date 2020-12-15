@@ -11,7 +11,7 @@
 
 .footer-links span {
   letter-spacing: -0.025em;
-  font-size: 0.89em;
+  /* font-size: 0.89em; */
 }
 
 .footer-links .text-project {
@@ -54,27 +54,3 @@
 
 
 
-
-
-
-
-
-
-/* 
-<div className='content-center footer-links'>
-  <span className='text-project'>
-    A project for fun learning and creativity.
-  </span>
-
-  <div className="content-center footer-social-links">
-    <Link href={l.link} key={i}>
-      <a>
-        <span>
-          <img src={`/images/${l.name}.svg`} alt={`${l.name} icon`}/>
-        </span>
-      </a>
-    </Link>
-  </div>
-
-<span>© Aiman Adlawan 2020.</span>
-*/

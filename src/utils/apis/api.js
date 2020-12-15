@@ -97,6 +97,36 @@ export const APIRequest = (function(){
     }
   }
 
+  const _getBookById = async (id) => {
+    const data = await fetchData(id, 'volumes')
+    if(Object.keys(data).length != 0){
+      const recparams = getparams({
+        url: 'query',
+        name: data.volumeInfo.title
+      })
+      const rec = await fetchData(recparams, 1, 15)
+      return {
+        book: data,
+        recom: rec.items ? rec.items : false
+      }
+    } else {
+      return false
+    }
+  }
+
+  const _getAnyBook = async (str) => {
+    const params = `q="${str}"`
+    const data = await fetchData(params, 1, 25)
+    if(data.items) {
+      return({
+        books: data.items,
+        total: data.totalItems
+      })
+    } else {
+      return false
+    }
+  }
+
   return {
     getBooks(obj, page){
       return _getBooks(obj, page)
@@ -112,6 +142,12 @@ export const APIRequest = (function(){
     },
     getISBN(query) {
       return _getISBN(query)
+    },
+    getBookById(id) {
+      return _getBookById(id)
+    },
+    getAnyBook(str) {
+      return _getAnyBook(str)
     }
   }
 })()
@@ -121,23 +157,25 @@ const fetchData = async (params, page, limit) => {
   // api key needed for the external api
   // const API_Key = `&key=AIzaSyCX1kIt4dHXByRj7Zw3PlElWq2SZJvrg4A`
   // const API_Key = `&key=AIzaSyDJKC1rdk4cCMfEzR0PIao0ftFas__0zo4`
-  const API_Key = `&key=AIzaSyDJSQrDm_X_c-xiU49fKPrnY3Kn5bjqDBM`
+  const API_Key = `key=AIzaSyDJSQrDm_X_c-xiU49fKPrnY3Kn5bjqDBM`
   
   // google books api url
-  const googleapi = 'https://www.googleapis.com/books/v1/volumes?'
+  const googleapi = 'https://www.googleapis.com/books/v1/volumes'
   // additional parameters
   const addparams = `&maxResults=${limit}&orderBy=newest&prettyPrint=true`
 
   // combine the url 
   let url;
 
-  if(page) {
-    url = `${googleapi}${params}${addparams}&startIndex=${page}${API_Key}`
+  if(!isNaN(page)) {
+    url = `${googleapi}?${params}${addparams}&startIndex=${page}&${API_Key}`
+  } else if (page === 'volumes'){
+    url = `${googleapi}/${params}?${API_Key}`
   } else {
-    url = `${googleapi}${params}${API_Key}`
+    url = `${googleapi}?${params}&${API_Key}`
   }
   
-  
+
   // fetch data using the GET method
   const result = await fetch(url, {
     method: 'GET',

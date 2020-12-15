@@ -4,9 +4,10 @@ import ChevArrows from '../../ChevsArrows/ChevArrows'
 
 function BookoftheDay(props) {
   return (
+
     <>
       <div className="content-center indvl-ft-book-of-the-day-title text-1">
-        <span>{`${props.book} Books of the Day`}</span>
+        <span class='font-a3'>{`${props.book} Books of the Day`}</span>
       </div>
 
       <div className="indvl-ft-book-of-the-day text-1">

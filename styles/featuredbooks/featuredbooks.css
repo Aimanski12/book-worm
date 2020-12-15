@@ -13,7 +13,6 @@
 
 .today-featured-books span {
   letter-spacing: -0.025em;
-  font-size: 1.2em;
   font-weight: 600;
   color: #4B6C68;
   margin: 0 0 12px 40px;
@@ -28,7 +27,6 @@
 
 .collection-title {
   margin-left: 40px;
-  font-size: 1.2em;
   font-weight: 600;
   color: #4B6C68;
   letter-spacing:  -0.025em;
@@ -39,7 +37,6 @@
   color: #DBA621;
   font-weight: 500;
   text-decoration: none;
-  font-size: 1em;
   transition: all 0.15s ease-in;
 }
 
@@ -110,12 +107,10 @@
 .books-desc .book-title{
   color: #4B6C68;
   letter-spacing: -0.025em;
-  font-size: 0.93em;
 }
 
 .books-desc .book-author {
   letter-spacing: -0.025em;
-  font-size: .8em;
   color: #DBA621;
 }
 

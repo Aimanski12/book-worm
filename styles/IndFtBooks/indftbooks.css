@@ -11,8 +11,6 @@
   min-height: 500px;
   flex-direction: row;
   align-items: flex-start;
-
-  /* background: rgba(210,210,210,0.3); */
 }
 
 /* wrapper for the right side of the featured books */
@@ -20,8 +18,4 @@
   width: 77%;
   min-height: 500px;
   border-left: 1px solid #DADADA;
-
-  /* background: rgba(180,180,180,0.15); */
 }
-
-

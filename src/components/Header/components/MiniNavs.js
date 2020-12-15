@@ -10,7 +10,7 @@ function MiniNavs() {
       <Link key={i}
         href={`${list.link}/[slug]`} 
         as={`${list.link}/${list.name.toLowerCase()}`} >
-        <a className='text-1'>{list.name}</a>
+        <a className='text-1 font-a8'>{list.name}</a>
       </Link>
     )
   })

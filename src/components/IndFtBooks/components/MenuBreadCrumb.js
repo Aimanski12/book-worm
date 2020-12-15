@@ -5,8 +5,10 @@ import Svg from '../../Svg'
 function MenuBreadCrumb(props) {
   return (
     <div className="content-center menu-breadcrumb text-1">
-      <Link href='/'><a>Home</a></Link> <Svg svg={'chevright'} />
-      <Link href={`/${props.menu.toLowerCase()}`}><a>{props.menu}</a></Link>
+      <Link href='/'>
+        <a className='font-a8'>Home</a></Link> <Svg svg={'chevright'} />
+      <Link href={`/${props.menu.toLowerCase()}`}>
+        <a className='font-a8'>{props.menu}</a></Link>
     </div>
   )
 }

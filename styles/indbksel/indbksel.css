@@ -14,7 +14,6 @@
 
 .indvl-book-sel-header-wrapper .title {
   letter-spacing: -0.05em;
-  font-size: 1.2em;
   font-weight: 500;
   display: block;
   margin-bottom: 10px;
@@ -31,7 +30,6 @@
 
 .indvl-book-sel-desc p {
   letter-spacing: -0.05em;
-  font-size: 1em;
   font-weight:500;
   color: #F3BD36;
   font-style: italic;

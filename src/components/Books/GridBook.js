@@ -2,16 +2,13 @@ import React, {useContext} from 'react'
 import Link from 'next/link'
 import Svg from '../Svg'
 import Fade from 'react-reveal/Fade'
-import Authors from './Authors'
+import Authors from '../IndBkSel/components/Author'
 import {BookAppData} from '../../utils/contextapi/context'
 import {Helpers} from '../../utils/common/helpers'
 
 function GridBook(props) {
   const {setbookdata} = useContext(BookAppData)
 
-  const a = (b) => {
-    setbookdata(b)
-  }
 
   const books = props.books.map((book, i) => {
     const links = Helpers.selectedLink(book.volumeInfo.industryIdentifiers, 
@@ -34,7 +31,7 @@ function GridBook(props) {
           <Link href={links.href}
             as={links.as}>
               <a onClick={()=>setbookdata(book)}
-              className='title'>{Helpers.sliceText(book.volumeInfo.title, 17)}</a>
+              className='title font-b5'>{Helpers.sliceText(book.volumeInfo.title, 17)}</a>
             </Link>
             <div className="author">
               { book.volumeInfo.authors ?             
@@ -43,8 +40,8 @@ function GridBook(props) {
                   : 'No Author Given'}
             </div>
             <div className="content-center rating">
-              <span>Ratings</span>
-              <span className='content-center rate'>
+              <span className='font-b6'>Ratings</span>
+              <span className='content-center rate font-b6'>
                 {book.volumeInfo.averageRating ? 
                   book.volumeInfo.averageRating: 0 } <Svg svg='star'/></span>
             </div>

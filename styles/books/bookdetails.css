@@ -6,7 +6,6 @@
 }
   
 .book-details-title {
-  font-size: 1.2em;
   letter-spacing: -0.05em;
   font-weight: 500;
   color: #53736F;
@@ -31,7 +30,6 @@
 } 
 
 .book-title {
-  font-size: 1.45em;
   display: block;
   color: #53736F;
   letter-spacing: -0.035em;
@@ -43,7 +41,6 @@
 }
 
 .book-selected-details-authors span{
-  font-size: 0.95em;
   color: #7B7B7B;
   display: block;
   margin-bottom: 7px;
@@ -56,7 +53,6 @@
 
 .book-selected-details-authors li {
   padding-left: 15px;
-  font-size: 0.95em;
   margin-bottom: 5px;
   letter-spacing: -0.025em;
   color: #DBA621;
@@ -67,7 +63,6 @@
   flex-direction: row;
   margin-bottom: 7px;
   letter-spacing: -0.035em;
-  font-size: 0.95em;
 }
 
 .book-selected-ratings span:first-child, .book-total-page span:first-child,
@@ -94,7 +89,6 @@
 .book-selected-details-wrapper p {
   margin-bottom: 7px;
   letter-spacing: -0.035em;
-  font-size: 0.95em;
   color: #53736F;
   text-align: justify;
   line-height: 26px;

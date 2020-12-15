@@ -43,7 +43,6 @@
 .pagination li a {
   letter-spacing: -0.035em;
   color: #62A099;
-  font-size: 0.9em;
   font-weight: 600;
   transition: all 0.15s ease-in;
 }

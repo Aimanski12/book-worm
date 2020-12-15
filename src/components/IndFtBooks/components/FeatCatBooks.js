@@ -8,10 +8,10 @@ function FeatCatBooks(props) {
       <Fragment key={i}>
         <div className="featured-cat-books-wrapper">
           <div className="content-center featured-cat-book-header text-2">
-            <span>{book.name}</span>
+            <span className='font-a5'>{book.name}</span>
             <Link href={`/${props.book.toLowerCase()}/[slug]`}
-              as={`/${props.book.toLowerCase()}/${book.link}`}>
-              <a>View All</a>
+              as={`${book.link}`}>
+              <a className='font-a5'>View All</a>
             </Link>
           </div>
         </div>
@@ -29,7 +29,7 @@ function FeatCatBooks(props) {
   return (
     <div className="featured-cat-books">
       <div className="content-center featured-cat-books-title text-2">
-        <span>{`Featured ${props.book} Books of the day`}</span>
+        <span className='font-a3'>{`Featured ${props.book} Books of the day`}</span>
       </div>
      {books}
     </div>

@@ -9,7 +9,13 @@ export default function Discover() {
   // get book data
   // const books = JSON.getData('daily')
   const books = JSON.getAllBooks()
-  // console.log(a)
+  
+
+  books.map(b => {
+    
+    // console.log(b.name)
+  })
+
 
   return (
     <div className='content-center main-container'>

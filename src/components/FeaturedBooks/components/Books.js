@@ -8,9 +8,9 @@ function Books(props) {
   const books = (
     <>
       <div className="content-center featured-book-title">
-        <span className='collection-title'>{book.name}</span>
+        <span className='collection-title font-b3'>{book.name}</span>
         <Link href={book.link}>
-          <a className='view-all-btn'>
+          <a className='view-all-btn font-b3'>
             <span>View All</span>
           </a>
         </Link>

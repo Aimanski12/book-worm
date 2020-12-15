@@ -31,17 +31,17 @@ function RecommendedBook(props) {
             <Link href={links.href}
               as={links.as}>
               <a onClick={()=>setbookdata(book)}
-                className='title'>{Helpers.sliceText(book.volumeInfo.title, 17)}</a>
+                className='title font-b5'>{Helpers.sliceText(book.volumeInfo.title, 17)}</a>
               </Link>
-              <div className="author">
+              <div className="author font-b6">
                 { book.volumeInfo.authors ?             
                   <Authors 
                   authors={Helpers.sortAuthor(book.volumeInfo.authors, 19)}/>
                   : 'No Author Given'}
               </div>
               <div className="content-center rating">
-                <span>Ratings</span>
-                <span className='content-center rate'>
+                <span className='font-b6'>Ratings</span>
+                <span className='content-center rate font-b6'>
                   {book.volumeInfo.averageRating ? 
                     book.volumeInfo.averageRating: 0 } <Svg svg='star'/></span>
               </div>
@@ -53,7 +53,7 @@ function RecommendedBook(props) {
   
   return (
     <div className='recommended-books text-2'>
-      <span className='recommended-book-title'>{props.title}</span>
+      <span className='recommended-book-title font-b2'>{props.title}</span>
       <div className="recommended-books-wrapper">
         {books}
       </div>

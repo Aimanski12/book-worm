@@ -18,9 +18,9 @@ export default function NotFound() {
         <Header booksoftheday={false}/>
 
         <div className="content-center not-found-wrapper text-2">
-          <span>File not found</span>
+          <span className='font-b1'>File not found</span>
           <Link href='/'>
-            <a>Go back to Home</a>
+            <a className='font-b3'>Go back to Home</a>
           </Link>
         </div>
 

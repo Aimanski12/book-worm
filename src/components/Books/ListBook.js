@@ -29,30 +29,30 @@ function GridBook(props) {
             <Link href={links.href}
               as={links.as}>
               <a onClick={()=>setbookdata(book)}
-              className='title'>{Helpers.sliceText(book.volumeInfo.title, 45)}</a>
+              className='title font-b2'>{Helpers.sliceText(book.volumeInfo.title, 45)}</a>
             </Link>
-            <div className="author">
+            <div className="author font-b4">
               { book.volumeInfo.authors ?             
                 <Author 
                   authors={Helpers.sortAuthor(book.volumeInfo.authors, 19)} />
                   : 'No Author Given'}
             </div>
-            <div className="content-center rating">
+            <div className="content-center rating font-b4">
               <span>Ratings:</span>
-              <span className='content-center rate'>
+              <span className='content-center rate font-b4'>
                 {book.volumeInfo.averageRating ? 
                   book.volumeInfo.averageRating: 0 } <Svg svg='star'/></span>
             </div>
-            <p className="desc">
+            <p className="desc font-b4">
               { book.volumeInfo.description ?
                 Helpers.sliceText(book.volumeInfo.description, 170):
                   'No Description Provided'}</p>
-            <div className="released-date">
+            <div className="released-date font-b4">
               <span>Released Date:</span>
               <span>{book.volumeInfo.publishedDate ? 
                 book.volumeInfo.publishedDate : 'Not Provided'}</span>
             </div>
-            <div className="publisher">
+            <div className="publisher font-b4">
               <span>Publisher:</span>
               <span>{book.volumeInfo.publisher ? 
                 book.volumeInfo.publisher : 'No Publisher Given'}</span>

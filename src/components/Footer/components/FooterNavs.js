@@ -7,7 +7,7 @@ function FooterNavs(props) {
     return (
       <li key={i}>
         <Link href={list.link}>
-          <a className={list.head ? 'footer-head-list' : ''}>
+          <a className={`${list.head ? 'footer-head-list' : ''} font-a7`}>
             {list.name}</a>
         </Link>
       </li>    

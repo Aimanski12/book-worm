@@ -7,7 +7,7 @@ function ExploreMyBooks() {
     <div className="content-center navbar-right text-1">
       <Link href='/explore'>
         <a>
-          <div className='content-center'>
+          <div className='content-center font-a8'>
             <Svg svg='explore'/>
             <span>Explore Books</span>
           </div>

@@ -40,12 +40,10 @@
   color: #4B6C68;
   margin-bottom: 5px;
   letter-spacing: -0.025em;
-  font-size: 0.93em;
 }
 
 .indvl-book-list-desc .author{
   letter-spacing: -0.025em;
-  font-size: .8em;
 }
 
 .indvl-book-list-desc .author a {
@@ -62,7 +60,6 @@
 .indvl-book-list-desc .rating span {
   display: block;
   letter-spacing: -0.025em;
-  font-size: .8em;
   color: #4B6C68;
   
 }

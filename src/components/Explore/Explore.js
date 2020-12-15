@@ -9,7 +9,7 @@ function Explore(props) {
       className="explore-menu-wrapper text-1">
       <span>
         <Link href={`/${menu.name.toLowerCase()}`}>
-          <a>{menu.name}</a>
+          <a className='font-a5'>{menu.name}</a>
         </Link>
       </span>
       <ul>

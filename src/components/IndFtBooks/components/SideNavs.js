@@ -5,11 +5,11 @@ function SideNavs(props) {
 
   const lists = props.menus.map((l, i) => {
     return (
-      <li key={i}>
+      <li key={i} className='font-a8'>
         <Link 
           href={`/${props.title.toLowerCase()}/[slug]`}
           as={`/${props.title.toLowerCase()}/${l.link}`} >
-          <a>{l.name}</a>
+          <a className='font-a8' >{l.name}</a>
         </Link>
       </li>
     )
@@ -17,7 +17,7 @@ function SideNavs(props) {
 
   return (
     <div className="side-navs text-1">
-      <span>{props.title === 'Textbooks' ? props.title : 
+      <span className='font-a8'>{props.title === 'Textbooks' ? props.title : 
         `${props.title} Books`}</span>
       <ul>
         {lists}

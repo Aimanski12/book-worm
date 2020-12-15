@@ -32,7 +32,7 @@ export default function Author() {
     }
   })
 
-  // 
+  // function to get the next batch of book
   const addbooks = async (val) => {
     const n = val * 25 - 25 + 1;
     const data = await getdata(books.author, n)

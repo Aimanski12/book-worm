@@ -34,7 +34,6 @@
 .book-of-the-day-title span {
   color: #7C928F;
   font-weight: 600;
-  font-size: 1.2em;
   letter-spacing: -0.025em;
 }
 
@@ -121,7 +120,6 @@
 }
 
 .book-of-the-day-desc-wrapper h2 {
-  font-size: 2.1em;
   font-weight: 500;
   margin-bottom: 10px;
   letter-spacing: -0.022em;
@@ -132,7 +130,6 @@
 }
 
 .book-of-the-day-desc-wrapper .ratings span {
-  font-size: 0.92em;
   margin-right: 8px;
   font-weight: 500;
   letter-spacing: -0.015em;
@@ -145,7 +142,6 @@
   color: #FFCB11;
   margin-bottom: 14px;
   letter-spacing: -0.015em;
-  font-size: 0.92em;
 }
 
 .book-of-the-day-desc-wrapper p {
@@ -154,7 +150,6 @@
   margin-bottom: 24px;
   letter-spacing: -0.015em;
   min-height: 20px;
-  font-size: 0.92em;
   line-height: 1.85em;
 }
 
@@ -165,7 +160,6 @@
   border-radius: 6px;
   background: #F0C426;
   color: #6D6D6D;
-  font-size: 1em;
   letter-spacing: -0.025em;
   transition: all 0.2s ease-in;
 }

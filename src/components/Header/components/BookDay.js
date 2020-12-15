@@ -31,7 +31,7 @@ function BookDay(props) {
 
     <div className='book-of-the-day-wrapper'>
       <div className='content-center book-of-the-day-title'>
-        <span className='text-1'>Books of the day</span>
+        <span className='text-1 font-a3'>Books of the day</span>
       </div>
       <div className="book-of-the-day-container">
         <ChevArrows 

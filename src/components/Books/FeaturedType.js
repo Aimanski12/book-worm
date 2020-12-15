@@ -12,7 +12,7 @@ function FeaturedType(props) {
       return (
         <Link href='/books/search/author/[slug]'
           as={`/books/search/author/${a}`} key={i}>
-          <a className='book-author'>{list.str} </a>
+          <a className='book-author font-b6'>{list.str} </a>
         </Link>
       )
     })
@@ -23,16 +23,16 @@ function FeaturedType(props) {
       <Fade key={i}>
         <div 
           className="content-center featured-books-indiv" >
-          <Link href='/books/[title]/[slug]' 
-            as={`/books/${Helpers.setTextToUrl(list.title)}/${Helpers.setTextToUrl(list.authors[0])}`}>
-            <a>
+          <Link href='/books/search/id/[slug]' 
+            as={`/books/search/id/${list.id}`}>
+            <a className='font-b5'>
               <img src={list.thumbnail} alt={`${list.title} book cover`}/>
             </a>
           </Link>
           <div className="content-center books-desc">
-             <Link href='/books/search/title/[slug]'
-              as={`/books/search/title/${Helpers.setTextToUrl(list.title)}`}>
-              <a className='book-title'>
+             <Link href='/books/search/id/[slug]'
+              as={`/books/search/id/${list.id}`}>
+              <a className='book-title font-b5'>
                 {Helpers.sliceText(list.title, 18)}</a>
             </Link>
             <div className="book-author-wrapper">

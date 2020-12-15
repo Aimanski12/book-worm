@@ -18,13 +18,13 @@ function FooterLinks() {
 
   return (
     <div className='content-center footer-links'>
-      <span className='text-project'>
+      <span className='text-project font-a9'>
         A project for fun learning and creativity.
       </span>
       <div className="content-center footer-social-links">
         {socialIcons}
       </div>
-      <span className='text-copyright'>
+      <span className='text-copyright font-a9'>
         © Aiman Adlawan 2020.
       </span>
     </div>

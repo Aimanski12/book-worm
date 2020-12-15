@@ -8,7 +8,6 @@
 }
 
 .recommended-book-title {
-  font-size: 1.2em;
   letter-spacing: -0.05em;
   font-weight: 500;
   color: #53736F;
@@ -53,12 +52,10 @@
   color: #4B6C68;
   margin-bottom: 5px;
   letter-spacing: -0.025em;
-  font-size: 0.93em;
 }
 
 .recommended-book-desc .author {
   letter-spacing: -0.025em;
-  font-size: .8em;
 }
 
 .recommended-book-desc .author a {
@@ -75,7 +72,6 @@
 .recommended-book-desc .rating span {
   display: block;
   letter-spacing: -0.025em;
-  font-size: .8em;
   color: #4B6C68;
   
 }
@@ -98,13 +94,11 @@
 .empty-wrapper p, .empty-wrapper span {
   color: #4B6C68;
   letter-spacing: -0.035em;
-  font-size: 0.98em;
 }
 
 .empty-wrapper span {
   margin-top: 10px;
   color: #DBA621;
-  font-size: 1.2em;
 }
 
 
@@ -115,21 +109,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-.found-wrapper {
-  width: 180px;
-  min-height: 300px;
-  margin-right: 8px;
-  float: left;
-}
