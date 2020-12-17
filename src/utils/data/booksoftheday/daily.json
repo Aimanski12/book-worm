@@ -1,19 +1,19 @@
 [
   [
     {
-      "author": ["Alexis Henderson"],
-      "title": "The Year of the Witching",
-      "rating": 3.2,
-      "isbn": "9780593099605",
-      "image": "http://books.google.com/books/content?id=5_LsDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "desc": "A young woman living in a rigid, puritanical society discovers dark powers within herself in this stunning, feminist fantasy debut. In the lands of Bethel, where the Prophet's word is law, Immanuelle Moore's very existence is blasphemy. Her mother's union with an outsider of a different race cast her once-proud family into disgrace, so Immanuelle does her best to worship the Father, follow Holy Protocol, and lead a life of submission, devotion, and absolute conformity, like all the other women in the settlement. "
-    }, {
       "author": ["John Grisham"],
       "rating": 4,
       "title": "Camino Winds",
       "isbn": "9780385545945",
       "image": "http://books.google.com/books/content?id=6u6_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "desc": "Welcome back to Camino Island, where anything can happen—even a murder in the midst of a hurricane, which might prove to be the perfect crime... Just as Bruce Cable’s Bay Books is preparing for the return of bestselling author Mercer Mann, Hurricane Leo veers from its predicted course and heads straight for the island. Florida’s governor orders a mandatory evacuation, and most residents board up their houses and flee to the mainland, but Bruce decides to stay and ride out the storm."
+    }, {
+      "author": ["Alexis Henderson"],
+      "title": "The Year of the Witching",
+      "rating": 3.2,
+      "isbn": "9780593099605",
+      "image": "http://books.google.com/books/content?id=5_LsDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "desc": "A young woman living in a rigid, puritanical society discovers dark powers within herself in this stunning, feminist fantasy debut. In the lands of Bethel, where the Prophet's word is law, Immanuelle Moore's very existence is blasphemy. Her mother's union with an outsider of a different race cast her once-proud family into disgrace, so Immanuelle does her best to worship the Father, follow Holy Protocol, and lead a life of submission, devotion, and absolute conformity, like all the other women in the settlement. "
     },
     {
       "author": ["Nora Roberts"],
@@ -33,12 +33,12 @@
     }
   ], [
       {
-        "author": ["Alix E. Harrow"],
-        "rating": 4,
-        "title": "The Ten Thousand Doors of January",
-        "isbn": "9780316421980",
-        "image": "http://books.google.com/books/content?id=5sWCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-        "desc": "In the early 1900s, a young woman embarks on a fantastical journey of self-discovery after finding a mysterious book in this captivating and lyrical debut. In a sprawling mansion filled with peculiar treasures, January Scaller is a curiosity herself. As the ward of the wealthy Mr. Locke, she feels little different from the artifacts that decorate the halls: carefully maintained, largely ignored, and utterly out of place."
+        "author": ["Noah Hawley"],
+        "rating": 5,
+        "title": "The Punch",
+        "isbn": "9781538746554",
+        "image": "http://books.google.com/books/content?id=aLhLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "desc": "Now he is dead, and his wife and sons are coming together for one final journey to scatter his ashes. First, however, his loved ones have some things to work out. David, the older son, believes that any minute his life is going to fall apart and everyone he loves will leave him. His brother Scott can't shake the belief that at heart, people are inherently rotten. Doris, their mother, just doesn't believe in anything anymore."
       },
       {
         "author": ["Talia Carner"],
@@ -57,22 +57,14 @@
         "desc": "Determined to clear his name of the false embezzlement charges brought against him by his former employer, resort mogul Victor Montgomery, Adam crashes the latest Montgomery gala opening. What Adam is not prepared for is Victor’s dazzling daughter, Marnie, who appears at the gala on the arm of her wealthy fiancé, Kent Simms—Victor’s right-hand man. Adam suspects that Kent may have been involved in framing him, and the only way to get to Kent is through his fiancée."
       },
       {
-        "author": ["Noah Hawley"],
-        "rating": 5,
-        "title": "The Punch",
-        "isbn": "9781538746554",
-        "image": "http://books.google.com/books/content?id=aLhLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-        "desc": "Now he is dead, and his wife and sons are coming together for one final journey to scatter his ashes. First, however, his loved ones have some things to work out. David, the older son, believes that any minute his life is going to fall apart and everyone he loves will leave him. His brother Scott can't shake the belief that at heart, people are inherently rotten. Doris, their mother, just doesn't believe in anything anymore."
+        "author": ["Alix E. Harrow"],
+        "rating": 4,
+        "title": "The Ten Thousand Doors of January",
+        "isbn": "9780316421980",
+        "image": "http://books.google.com/books/content?id=5sWCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "desc": "In the early 1900s, a young woman embarks on a fantastical journey of self-discovery after finding a mysterious book in this captivating and lyrical debut. In a sprawling mansion filled with peculiar treasures, January Scaller is a curiosity herself. As the ward of the wealthy Mr. Locke, she feels little different from the artifacts that decorate the halls: carefully maintained, largely ignored, and utterly out of place."
       }
   ], [
-      {
-        "author": ["Christina Lauren"],
-        "rating": 3.5,
-        "title": "The Soulmate Equation",
-        "isbn": "1982123966",
-        "image": "http://books.google.com/books/content?id=LQHZzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "desc": "Single mom Jess Davis is a data and statistics wizard, but no amount of number crunching can convince her to step back into the dating world. Raised by her grandparents—who now help raise her seven-year-old daughter, Juno—Jess has been left behind too often to feel comfortable letting anyone in. After all, her father’s never been around, her hard-partying mother disappeared when she was six, and her ex decided he wasn’t “father material” before Juno was even born."
-      },
       {
         "author": ["Khaled Hosseini"],
         "rating": 4.5,
@@ -80,6 +72,15 @@
         "isbn": "9781526602701",
         "image": "http://books.google.com/books/content?id=YJFRDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
         "desc": "Sunday Times On a moonlit beach a father cradles his sleeping son as they wait for dawn to break and a boat to arrive. He speaks to his boy of the long summers of his childhood, recalling his grandfather's house in Syria, the stirring of olive trees in the breeze, the bleating of his grandmother's goat, the clanking of her cooking pots. And he remembers, too, the bustling city of Homs with its crowded lanes, its mosque and grand souk, in the days before the sky spat bombs and they had to flee."
+      },
+      {
+        "id": "ydpdDwAAQBAJ",
+        "author": ["Nora Roberts"],
+        "rating": 4,
+        "title": "Hidden Star",
+        "isbn": "9780369700742",
+        "image": "http://books.google.com/books/content?id=l-HbDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "desc": "Diamonds can be a girl’s best friend…or her worst enemy. Don’t miss the first thrilling story in the Stars of Mithra trilogy, from #1 New York Times bestselling author Nora Roberts! Bailey James can’t remember a thing. She doesn’t even know who she is, let alone why her bag is filled with cash, a gun, and a large blue diamond."
       },
       {
         "author": ["Olga Tokarczuk"],
@@ -90,13 +91,12 @@
         "desc": "Once upon a time there was a man who worked very hard and very quickly, and who had left his soul far behind him long ago. In fact his life was all right without his soul - he slept, ate, worked, drove a car and even played tennis. But sometimes he felt as if the world around him were flat, as if he were moving across a smooth page in a math book that was covered in evenly spaced squares... "
       },
       {
-        "id": "ydpdDwAAQBAJ",
-        "author": ["Nora Roberts"],
-        "rating": 4,
-        "title": "Hidden Star",
-        "isbn": "9780369700742",
-        "image": "http://books.google.com/books/content?id=l-HbDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-        "desc": "Diamonds can be a girl’s best friend…or her worst enemy. Don’t miss the first thrilling story in the Stars of Mithra trilogy, from #1 New York Times bestselling author Nora Roberts! Bailey James can’t remember a thing. She doesn’t even know who she is, let alone why her bag is filled with cash, a gun, and a large blue diamond."
+        "author": ["Christina Lauren"],
+        "rating": 3.5,
+        "title": "The Soulmate Equation",
+        "isbn": "1982123966",
+        "image": "http://books.google.com/books/content?id=LQHZzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "desc": "Single mom Jess Davis is a data and statistics wizard, but no amount of number crunching can convince her to step back into the dating world. Raised by her grandparents—who now help raise her seven-year-old daughter, Juno—Jess has been left behind too often to feel comfortable letting anyone in. After all, her father’s never been around, her hard-partying mother disappeared when she was six, and her ex decided he wasn’t “father material” before Juno was even born."
       }
   ], [
       {

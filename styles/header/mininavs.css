@@ -8,7 +8,7 @@
   overflow-y: hidden;
 }
 
-/* width */
+/* height */
 .mini-navs::-webkit-scrollbar {
   height: 4px;
 }
@@ -53,3 +53,35 @@
   transition: all 0.2s ease-in;
 }
 
+@media(max-width: 868px) {
+  .mini-navs {
+    height: 52px;
+  }
+  .mini-navs-wrapper {
+    height: 50px;
+  }
+}
+
+
+@media(max-width: 668px) {
+  .mini-navs {
+    height: 45px;
+  }
+  .mini-navs::-webkit-scrollbar {
+    height: 2px;
+  }
+  .mini-navs-wrapper {
+    height: 42px;
+  }
+}
+
+@media(max-width: 468px) {
+  .mini-navs {
+    height: 40px;
+  }
+  .mini-navs-wrapper {
+    height: 37px;
+    padding: 0 20px;
+    width: 900px;
+  }
+}

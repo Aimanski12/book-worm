@@ -7,7 +7,7 @@ function BookoftheDay(props) {
 
     <>
       <div className="content-center indvl-ft-book-of-the-day-title text-1">
-        <span class='font-a3'>{`${props.book} Books of the Day`}</span>
+        <span className='font-a3'>{`${props.book} Books of the Day`}</span>
       </div>
 
       <div className="indvl-ft-book-of-the-day text-1">

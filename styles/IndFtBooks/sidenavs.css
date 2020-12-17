@@ -8,7 +8,7 @@
   display: block;
   margin: 12px 0 6px 30px;
   letter-spacing: -0.03em;
-  color: #838383;
+  color: #F3BD36;
 }
 
 .side-navs ul {
@@ -31,4 +31,19 @@
 .side-navs ul li a:hover {
   color: #F3BD36;
   transition: all 0.15s ease-in;
+}
+
+@media (max-width: 768px) {
+  .side-navs span {
+    margin-left: 20px;
+  }
+  .side-navs ul {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 568px) {
+  .side-navs {
+    display: none;
+  }
 }

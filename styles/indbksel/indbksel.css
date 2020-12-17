@@ -66,5 +66,33 @@
 
 .btn-grid span:hover, .btn-list span:hover{
   cursor: pointer;
-  
 }
+
+
+@media (max-width: 1068px) {
+  .indvl-book-sel-header-wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .indvl-book-sel-header-wrapper {
+    width: 94%;
+  }
+}
+
+@media (max-width: 568px) {
+  .indvl-book-sel {
+    width: 100%;
+  }
+  .indvl-book-sel-header-wrapper {
+    width: calc(100% - 36px);
+  }
+  .grid-btn {
+    width: 100px;
+  }
+}
+
+
+
+

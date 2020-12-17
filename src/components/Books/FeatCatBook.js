@@ -41,7 +41,7 @@ function FeatCatBook(props) {
                   {Helpers.sliceText(list.title, 18)}</a>
               </Link>
               <div className="book-author-wrapper">
-                {authors(Helpers.sortAuthor(list.authors, 19))}
+                {authors(Helpers.sortAuthor(list.authors, 17))}
               </div>
             </div>
           </div>   

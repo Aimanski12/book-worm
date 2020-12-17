@@ -117,3 +117,58 @@
 .books-desc .book-author:hover, .books-desc .book-title:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 968px) {
+  .today-featured-books span {
+    margin: 0 0 12px 20px;
+  } 
+  .collection-title {
+    margin-left: 20px;
+  }
+  .view-all-btn {
+    margin-right: 20px;
+  }
+  .featured-books-wrapper {
+    padding: 0 20px;
+    width: 900px;
+  }
+  .featured-books-indiv img {
+    width: 120px;
+  }
+}
+
+@media (max-width: 868px) {
+  .featured-books-slider {
+    height: 290px;
+  }
+  .featured-books-indiv {
+    height: 245px;
+  }
+  .featured-books-indiv img {
+    width: 110px;
+  }
+}
+
+@media (max-width: 768px) {
+  .featured-books-slider {
+    height: 290px;
+  }
+  .featured-books-wrapper {
+    width: 800px;
+  }
+}
+
+@media (max-width: 668px) {
+  .featured-book-title {
+    height: 35px;
+  }
+  .featured-books-slider {
+    height: 290px;
+  }
+  .featured-books-wrapper {
+    width: 750px;
+  }
+  .featured-books-indiv img {
+    width: 105px;
+  }
+}

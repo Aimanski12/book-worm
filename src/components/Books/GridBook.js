@@ -31,7 +31,7 @@ function GridBook(props) {
           <Link href={links.href}
             as={links.as}>
               <a onClick={()=>setbookdata(book)}
-              className='title font-b5'>{Helpers.sliceText(book.volumeInfo.title, 17)}</a>
+              className='title font-b5'>{Helpers.sliceText(book.volumeInfo.title, 15)}</a>
             </Link>
             <div className="author">
               { book.volumeInfo.authors ?             

@@ -10,6 +10,19 @@ function Header(props) {
     <header>
       <div className="content-center navbar">
         <LogoInput />
+
+        <div className="burger-nav">
+          <div className="burger-btn">
+            <img src="/images/burger-btn.svg" alt=""/>
+          </div>
+          <div className="burger-menulist-wrapper">
+            sadf
+          </div>
+        </div>
+
+
+
+
         <ExploreMenu />
       </div>
       <Mininavs />

@@ -10,7 +10,7 @@ function MidMenu() {
       <Link  href={m.link} as={m.link}key={i}>
         <a className='content-center text-1'>
           <img src={`/images${m.link}.svg`} alt={`${m.name.toLowerCase()} icon`}/>
-          <span className='font-a3'>{m.name}</span>
+          <span>{m.name}</span>
         </a>
       </Link>
     )

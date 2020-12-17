@@ -77,6 +77,9 @@ header {
   outline: none;
 } 
 
+.burger-nav{
+  display: none;
+}
 
 /* navbar right */
 .navbar-right {
@@ -96,7 +99,7 @@ header {
   flex-direction: row;
   color: #F8F8F8;
   margin-left: 8px;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.02em;
 }
 
 .navbar-right div:active {
@@ -104,4 +107,113 @@ header {
   transition: all 0.2s ease-in;
 }
 
+@media (max-width: 968px) {
+  .navbar-left {
+    width: 450px;
+  }
+  .navbar-input input {
+    width: 200px;
+  }
+}
 
+@media (max-width: 868px) {
+  header {
+    min-height: 55px;
+  }
+  .navbar {
+    height: 55px;
+  }
+  .navbar-left {
+    width: 400px;
+  }
+  .logo {
+    height: 25px;
+  }
+  .logo img{
+    height: 25px;
+  }
+  .navbar-input input {
+    height: 28px;
+    width: 170px;
+  }
+  .navbar-input button {
+    height: 28px;
+    width: 32px;
+  }
+  .navbar-input button span, .navbar-input button span svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    min-height: 50px;
+  }
+  .navbar {
+    height: 50px;
+  }
+  .navbar-left {
+    width: 390px;
+  }
+  .logo {
+    margin-left: 20px;
+  }
+  .navbar-right {
+    width: 140px;
+  }
+}
+
+@media (max-width: 568px) {
+  .navbar-left {
+    width: 180px;
+  }
+
+  .navbar-input {
+    display: none;
+  }
+
+  .navbar-right {
+    display: none;
+  }
+
+  .burger-nav {
+    display: block;
+  }
+
+  .burger-btn {
+    position: relative;
+    overflow: hidden;
+    margin-right: 20px;
+    height: 19px;
+  }
+
+  .burger-btn img {
+    height: 19px;
+    transition: all 0.15s ease;
+  }
+
+  .burger-btn img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.15s ease;
+  }
+
+  .burger-btn img:active {
+    transform: scale(0.85);
+    transition: all 0.15s ease;
+  }
+
+
+  .burger-menulist-wrapper {
+    position: fixed;
+    width: 320px;
+    min-height: 100vh;
+    background: red;
+    z-index: 1000;
+    right: -325px;
+    /* right: 0; */
+    top: 0;
+    display: none;
+  }
+}
