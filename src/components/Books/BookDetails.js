@@ -37,7 +37,7 @@ function BookDetails(props) {
             <p className="book-desc font-b4">{bookdata.volumeInfo.description ? 
               bookdata.volumeInfo.description : 'No book description given.'}</p>
 
-          <div className="content-center book-total-page">
+          <div className="content-center book-total-page  font-b4">
             <span>Page Count: </span>
             <span>{bookdata.volumeInfo.pageCount ? 
               `${bookdata.volumeInfo.pageCount} p.` : 'Not provided.'} </span>

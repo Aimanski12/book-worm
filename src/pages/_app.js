@@ -10,6 +10,7 @@ import '../../styles/header/header.css'
 import '../../styles/header/mininavs.css'
 import '../../styles/header/bookoftheday.css'
 import '../../styles/header/midmenu.css'
+import '../../styles/header/burger-btn.css'
 
 // featured books css
 import '../../styles/featuredbooks/featuredbooks.css'

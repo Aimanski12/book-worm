@@ -22,7 +22,7 @@
 .indvl-book-list-desc-wrapper {
   align-items: flex-start;
   margin-left: 20px;
-  width: 450px;
+  max-width: 450px;
 }
 
 .indvl-book-list-desc-wrapper .title {
@@ -85,4 +85,22 @@
 .released-date span:nth-child(2), .publisher span:nth-child(2) {
   margin-left: 5px;
   color: #DBA621;
+}
+
+@media (max-width: 468px) {
+  .indvl-book-list img {
+    width: 115px;
+  }
+  .indvl-book-list-desc-wrapper {
+    margin-left: 10px;
+  }
+  .indvl-book-list-desc-wrapper .title, .indvl-book-list-desc-wrapper .author {
+    margin-bottom: 4px;
+  }
+  .indvl-book-list-desc-wrapper .rating {
+    margin-bottom: 4px;
+  }
+  .indvl-book-list-desc-wrapper p, .released-date, .publisher {
+    margin-bottom: 4px;
+  }
 }

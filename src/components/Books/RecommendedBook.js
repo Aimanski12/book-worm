@@ -31,12 +31,12 @@ function RecommendedBook(props) {
             <Link href={links.href}
               as={links.as}>
               <a onClick={()=>setbookdata(book)}
-                className='title font-b5'>{Helpers.sliceText(book.volumeInfo.title, 17)}</a>
+                className='title font-b5'>{Helpers.sliceText(book.volumeInfo.title, 15)}</a>
               </Link>
               <div className="author font-b6">
                 { book.volumeInfo.authors ?             
                   <Authors 
-                  authors={Helpers.sortAuthor(book.volumeInfo.authors, 19)}/>
+                  authors={Helpers.sortAuthor(book.volumeInfo.authors, 17)}/>
                   : 'No Author Given'}
               </div>
               <div className="content-center rating">

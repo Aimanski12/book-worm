@@ -53,12 +53,26 @@
   transition: all 0.2s ease-in;
 }
 
+
+@media(max-width: 1000px) {
+  .mini-navs {
+    margin-top: 60px;
+  }
+}
+
 @media(max-width: 868px) {
   .mini-navs {
+    margin-top: 55px;
     height: 52px;
   }
   .mini-navs-wrapper {
     height: 50px;
+  }
+}
+
+@media(max-width: 768px) {
+  .mini-navs {
+    margin-top: 50px;
   }
 }
 

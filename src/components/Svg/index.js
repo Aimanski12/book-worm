@@ -7,6 +7,7 @@ import ArrowRight from './svgs/ArrowRight'
 import ChevRight from './svgs/ChevRight'
 import Star from './svgs/Star'
 import Grid from './svgs/Grid'
+import Close from './svgs/Close'
 import List from './svgs/List'
 
 function index(props) {
@@ -18,6 +19,7 @@ function index(props) {
     props.svg === 'list' ? <List color={props.color}/> :
     props.svg === 'grid' ? <Grid color={props.color}/> :
     props.svg === 'arrowleft' ? <ArrowLeft /> :
+    props.svg === 'close' ? <Close /> :
     props.svg === 'arrowright' ? <ArrowRight /> 
     : <Mybooks />
     

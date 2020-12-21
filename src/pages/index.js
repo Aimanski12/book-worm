@@ -4,10 +4,12 @@ import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 import FeaturedBooks from '../components/FeaturedBooks/FeaturedBooks'
 import {JSON} from '../utils/data'
+import {SETFIREBASE} from '../utils/common/firebase'
 
 export default function Home() {
   // get book data
   const books = JSON.getData('daily')
+  SETFIREBASE.checkStorage('home')
 
   return (
     <div className='content-center main-container'>

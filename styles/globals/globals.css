@@ -36,3 +36,19 @@ body, .main-container {
   }
 }
 
+  /* ::-webkit-scrollbar {
+    width: 12px;
+    height: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #C4C4C4;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #CECECE;
+  } */
