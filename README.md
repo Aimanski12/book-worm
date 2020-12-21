@@ -43,7 +43,7 @@ After downloading the repo you can cd into the `proj-name` and then open up your
 $ npm install
 ```
 
-and then after installing all the modules, go to [Pexels API](https://www.pexels.com/api/) to sign up for api key. Then to `/src/utils/apis.js` and enter the `apikey`. Then go to your console and type
+and then after installing all the modules, go to [Google Books API](https://developers.google.com/books/docs/overview) to sign up for api key. Then to `/src/utils/api.js` and enter the `apikey`. Then go to your console and type
 
 ```bash
 $ npm run dev
