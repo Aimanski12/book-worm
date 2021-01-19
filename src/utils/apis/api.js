@@ -155,7 +155,9 @@ export const APIRequest = (function(){
 
 const fetchData = async (params, page, limit) => {
   // api key needed for the external api
-  const API_Key = 'Enter your API Key Here'
+  // const API_Key = `&key=AIzaSyCX1kIt4dHXByRj7Zw3PlElWq2SZJvrg4A`
+  // const API_Key = `&key=AIzaSyDJKC1rdk4cCMfEzR0PIao0ftFas__0zo4`
+  const API_Key = `key=AIzaSyDJSQrDm_X_c-xiU49fKPrnY3Kn5bjqDBM`
   
   // google books api url
   const googleapi = 'https://www.googleapis.com/books/v1/volumes'
